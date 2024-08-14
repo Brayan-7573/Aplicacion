@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.AmericadelSur"
+             BackgroundImageSource="https://elordenmundial.com/wp-content/uploads/2021/08/mapa-fisico-america-sur.png">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="América del Sur"
+                       TextColor="Black"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="América del Sur es un continente que abarca una diversidad geográfica impresionante, desde la selva amazónica hasta los Andes. Es conocido por su rica cultura, historia y biodiversidad."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen representativa -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/kKDCjVd/images.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="América del Sur incluye países como Brasil, Argentina, Colombia, Chile y Perú, cada uno con su propia cultura y belleza natural."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre América del Sur -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Aspectos Destacados de América del Sur:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Selva Amazónica: La selva tropical más grande del mundo, ubicada principalmente en Brasil, es vital para la biodiversidad global."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Andes: La cordillera de los Andes es la más larga del mundo y se extiende a lo largo de la costa occidental de América del Sur."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Cultura Rica: Desde el tango en Argentina hasta el carnaval en Brasil, América del Sur es un crisol de culturas vibrantes y variadas."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Historia Inca: Perú alberga Machu Picchu, una de las ruinas más famosas del mundo y un testimonio de la civilización inca."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Diversidad Étnica: El continente es hogar de una rica mezcla de pueblos indígenas, europeos, africanos y asiáticos."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional 1 -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/HYq1Lfq/images.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="La Catedral Metropolitana de São Paulo en Brasil es uno de los ejemplos arquitectónicos más impresionantes del continente."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Imagen adicional 2 -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/FmywZxz/images.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Machu Picchu en Perú es un símbolo de la avanzada ingeniería y cultura de la civilización inca."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

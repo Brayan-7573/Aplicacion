@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Mexico"
+             BackgroundImageSource="https://i.ibb.co/RzKRHMw/95fb635b5fb8d036c478aa101ff81d4d.png">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="México"
+                       TextColor="DarkRed"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="México es un país situado en América del Norte, conocido por su rica historia, cultura vibrante y diversidad geográfica. Con una mezcla única de influencias indígenas y coloniales, México ofrece una variedad de atracciones turísticas, desde sus playas y montañas hasta sus ciudades históricas y sitios arqueológicos."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen de México -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/86c6S2g/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="El Teotihuacán es uno de los sitios arqueológicos más importantes de México, conocido por sus impresionantes pirámides y su influencia en la cultura mesoamericana."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre México -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Aspectos Destacados de México:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Historia: México cuenta con una rica historia que incluye civilizaciones antiguas como los mayas y aztecas, así como el periodo colonial bajo el dominio español. El país tiene numerosos sitios arqueológicos y museos que preservan su legado histórico."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Cultura: La cultura mexicana es una mezcla vibrante de tradiciones indígenas y europeas. Los festivales, la música, la danza y la gastronomía, como los tacos, tamales y el mole, son parte integral de la identidad cultural de México."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Geografía: México es conocido por su diversidad geográfica que incluye playas tropicales, montañas, desiertos y selvas. Destinos como Cancún, la Riviera Maya, y la Ciudad de México son populares entre los turistas."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Economía: México tiene una economía emergente con sectores clave como la manufactura, el turismo y la agricultura. El país es el mayor productor de plata y uno de los principales exportadores de frutas y vegetales."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Biodiversidad: México es uno de los países con mayor biodiversidad del mundo, con una amplia gama de flora y fauna. Sus parques nacionales y reservas naturales protegen muchas especies en peligro de extinción."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/G3d0K6J/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="La gastronomía mexicana es conocida por su diversidad y sabor, con platos emblemáticos como los tacos, enchiladas y guacamole."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

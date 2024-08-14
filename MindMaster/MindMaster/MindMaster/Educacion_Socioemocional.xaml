@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Educacion_Socioemocional">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10" BackgroundColor="#f5f5f5">
+                <Label Text="Educación Socioemocional" 
+                       FontSize="35" 
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center" 
+                       TextColor="#2c3e50"
+                       Margin="0,20,0,20"/>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Empatía -->
+                    <Frame Grid.Row="0" Grid.Column="0" BorderColor="#3498db" CornerRadius="10" Padding="0" BackgroundColor="White" Margin="5">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnEmpatiaTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/V3QZrrH/download.jpg" Aspect="AspectFill" HeightRequest="150"/>
+                            <StackLayout Padding="10">
+                                <Label Text="Empatía" FontSize="Medium" FontAttributes="Bold" TextColor="#2c3e50"/>
+                                <Label Text="La capacidad de comprender y compartir los sentimientos de los demás, fundamental para relaciones saludables." FontSize="Small" TextColor="#7f8c8d"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Autoestima -->
+                    <Frame Grid.Row="0" Grid.Column="1" BorderColor="#e74c3c" CornerRadius="10" Padding="0" BackgroundColor="White" Margin="5">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnAutoestimaTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/Vg4xm7S/download.png" Aspect="AspectFill" HeightRequest="150"/>
+                            <StackLayout Padding="10">
+                                <Label Text="Autoestima" FontSize="Medium" FontAttributes="Bold" TextColor="#2c3e50"/>
+                                <Label Text="El valor y la confianza que una persona tiene en sí misma, esencial para el bienestar emocional y la salud mental." FontSize="Small" TextColor="#7f8c8d"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Resolución de Conflictos -->
+                    <Frame Grid.Row="1" Grid.Column="0" BorderColor="#1abc9c" CornerRadius="10" Padding="0" BackgroundColor="White" Margin="5">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnResolucionDeConflictosTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/1rTwrdb/download.jpg" Aspect="AspectFill" HeightRequest="150"/>
+                            <StackLayout Padding="10">
+                                <Label Text="Resolución de Conflictos" FontSize="Medium" FontAttributes="Bold" TextColor="#2c3e50"/>
+                                <Label Text="Habilidad para resolver desacuerdos de manera pacífica y efectiva, promoviendo relaciones armoniosas." FontSize="Small" TextColor="#7f8c8d"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Comunicación Efectiva -->
+                    <Frame Grid.Row="1" Grid.Column="1" BorderColor="#f39c12" CornerRadius="10" Padding="0" BackgroundColor="White" Margin="5">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnComunicacionEfectivaTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/kmF5dvS/images.jpg" Aspect="AspectFill" HeightRequest="150"/>
+                            <StackLayout Padding="10">
+                                <Label Text="Comunicación Efectiva" FontSize="Medium" FontAttributes="Bold" TextColor="#2c3e50"/>
+                                <Label Text="Capacidad de expresar ideas y sentimientos de manera clara y respetuosa, mejorando las relaciones interpersonales." FontSize="Small" TextColor="#7f8c8d"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Regulación Emocional -->
+                    <Frame Grid.Row="2" Grid.Column="0" BorderColor="#8e44ad" CornerRadius="10" Padding="0" BackgroundColor="White" Margin="5">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnRegulacionEmocionalTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/1bM32Fn/download.jpg" Aspect="AspectFill" HeightRequest="150"/>
+                            <StackLayout Padding="10">
+                                <Label Text="Regulación Emocional" FontSize="Medium" FontAttributes="Bold" TextColor="#2c3e50"/>
+                                <Label Text="La capacidad de manejar y controlar las propias emociones para mantener el equilibrio emocional y psicológico." FontSize="Small" TextColor="#7f8c8d"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Responsabilidad Social -->
+                    <Frame Grid.Row="2" Grid.Column="1" BorderColor="#e67e22" CornerRadius="10" Padding="0" BackgroundColor="White" Margin="5">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnResponsabilidadSocialTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/vjYFDKH/ilustracion-concepto-responsabilidad-social-corporativa-diseno-plano-23-2148919275.jpg" Aspect="AspectFill" HeightRequest="150"/>
+                            <StackLayout Padding="10">
+                                <Label Text="Responsabilidad Social" FontSize="Medium" FontAttributes="Bold" TextColor="#2c3e50"/>
+                                <Label Text="Conciencia y compromiso con el bienestar de la comunidad y el entorno, promoviendo un impacto positivo." FontSize="Small" TextColor="#7f8c8d"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

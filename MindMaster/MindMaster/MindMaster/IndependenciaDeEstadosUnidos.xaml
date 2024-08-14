@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.IndependenciaDeEstadosUnidos"
+            BackgroundImageSource="https://i.pinimg.com/originals/cd/54/44/cd5444e386ad4a0512ea704c04c6b230.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Independencia de los Estados Unidos"
+                       TextColor="White"
+                       FontSize="50"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="La Independencia de los Estados Unidos fue el proceso mediante el cual las Trece Colonias en América del Norte se separaron del Imperio Británico y formaron una nueva nación. Este evento crucial en la historia de Estados Unidos comenzó con el descontento de las colonias con las políticas británicas y culminó con la declaración formal de independencia en 1776."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen de la firma de la Declaración de Independencia -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/84x9gLD/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="La firma de la Declaración de Independencia en 1776 fue un acto decisivo en la creación de los Estados Unidos como nación independiente."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles Importantes -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" FontAttributes="Bold" Text="Detalles Importantes:"/>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="1. Inicio: La independencia de las colonias americanas comenzó con el descontento hacia las políticas británicas, como los impuestos sin representación, y culminó en la Declaración de Independencia el 4 de julio de 1776."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="2. Declaración de Independencia: Redactada por Thomas Jefferson, la Declaración proclamó la separación de las colonias de Gran Bretaña y estableció los principios fundamentales de igualdad y derechos inalienables."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="3. Guerra de Independencia: La Guerra de Independencia de los Estados Unidos, también conocida como la Guerra Revolucionaria, fue un conflicto bélico que duró desde 1775 hasta 1783 y terminó con la victoria de las colonias."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="4. Tratado de París: En 1783, el Tratado de París puso fin oficialmente a la guerra y reconoció la independencia de los Estados Unidos, estableciendo las fronteras del nuevo país."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="5. Legado: La independencia de los Estados Unidos no solo marcó el comienzo de una nueva nación, sino que también inspiró movimientos de independencia en otras partes del mundo y estableció un modelo para la democracia moderna."/>
+                            </StackLayout>
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/K5fkG2N/download.jpg" 
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"  
+                               Text="La rendición del general británico Cornwallis en Yorktown en 1781 fue el evento que marcó el final de la Guerra de Independencia de los Estados Unidos."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

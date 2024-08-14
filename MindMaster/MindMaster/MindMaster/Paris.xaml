@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Paris"
+             BackgroundImageSource="https://i.ibb.co/3m8ZKmT/photo-1528578862382-c6652b9bdb1c.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="París"
+                       TextColor="Black"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="París es la capital y ciudad más poblada de Francia. Conocida por su rica historia, arquitectura icónica y su influencia cultural, es una de las ciudades más visitadas del mundo. París es famosa por monumentos como la Torre Eiffel, el Museo del Louvre y la Catedral de Notre-Dame."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen representativa -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/BjtTVc2/e5e6287c1e2df793116768c910e4636a.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="La Torre Eiffel, uno de los monumentos más reconocibles del mundo, es un símbolo icónico de París y Francia. Construida para la Exposición Universal de 1889, sigue siendo un importante destino turístico."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre París -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Aspectos Destacados de París:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Monumentos Famosos: París es hogar de numerosos monumentos emblemáticos como la Torre Eiffel, el Arco de Triunfo y el Museo del Louvre, que alberga una de las colecciones de arte más importantes del mundo."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Cultura: La ciudad es conocida por su vibrante vida cultural, con una gran cantidad de teatros, museos y galerías. París ha sido un centro importante para las artes y la literatura durante siglos."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Gastronomía: La cocina francesa es famosa en todo el mundo, y París ofrece una amplia gama de restaurantes y cafés que sirven desde platos gourmet hasta deliciosos pasteles y panadería."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Historia: La ciudad tiene una rica historia que abarca desde la época romana hasta la Revolución Francesa y la ocupación durante la Segunda Guerra Mundial. Cada rincón de París tiene una historia que contar."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Vida Nocturna: París también es conocida por su animada vida nocturna, con una amplia variedad de bares, clubes y eventos culturales que atraen tanto a locales como a visitantes."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/VDWmKhv/c0d18e980767dbc58422ddff6a3933dd.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="La Sainte-Chapelle, ubicada en la Isla de la Cité, es una capilla gótica conocida por sus impresionantes vitrales que representan escenas bíblicas. Es una joya arquitectónica y uno de los lugares históricos más importantes de París."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

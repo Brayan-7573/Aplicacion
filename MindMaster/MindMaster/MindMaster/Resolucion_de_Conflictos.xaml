@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Resolucion_de_Conflictos"
+             BackgroundImageSource="https://img.freepik.com/fotos-premium/fondos-pantalla-colores-arco-iris-iphone-android-mejores-fondos-pantalla-alta-definicion-iphone-android-fondo-pantalla-colores-arco-iris-fondo-pantalla-arco-iris-fondo-pantalla-arco-iris-pared-arco-iris_900101-6946.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Resolución de Conflictos"
+                       TextColor="White"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción General -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.3" />
+                    <Label Text="La resolución de conflictos es un proceso para resolver disputas o desacuerdos de manera pacífica y efectiva. Es una habilidad esencial en la vida personal, escolar y profesional, que ayuda a mantener relaciones saludables y productivas."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen representativa -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/VpvyFKh/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="26"
+                               Text="El círculo de resolución de conflictos ayuda a visualizar las etapas del proceso."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Pasos para la Resolución de Conflictos -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Pasos para la Resolución de Conflictos:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Identificar el conflicto: Reconocer y definir claramente el problema."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Comprender los puntos de vista: Escuchar y comprender las perspectivas de las partes involucradas."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Generar soluciones: Proponer y considerar diferentes opciones para resolver el conflicto."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Acuerdo y acción: Llegar a un acuerdo mutuo y tomar medidas para implementar la solución."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Evaluar y seguir adelante: Revisar el resultado y aprender del proceso para evitar futuros conflictos similares."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/m5WWYSR/download.png"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="25"
+                               Text="La mediación es una herramienta efectiva para resolver conflictos de manera pacífica."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

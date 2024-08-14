@@ -1,0 +1,138 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.EducaciónFísica"
+             BackgroundImageSource="https://i.pinimg.com/736x/a8/ba/29/a8ba29a2be019ae6fd935e2c053c4aa9.jpg">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Opacity="0.8" Spacing="20">
+
+                <Label Text="Educación Física"
+                       FontSize="90"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       Margin="0,20,0,30" />
+             
+                <Grid HeightRequest="150" WidthRequest="360">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="btnCalentar" 
+                            Clicked="btnCalentar_Clicked"
+                            Text="Calentar" 
+                            TextColor="white"
+                            FontSize="20"
+                            CornerRadius="75"
+                            BackgroundColor="#FFC107" 
+                            Opacity="1.0"
+                            HeightRequest="150"
+                            WidthRequest="150"
+                            HorizontalOptions="Start"/>
+                    <Label Text="El calentamiento es fundamental antes de cualquier actividad física por varias razones 
+                           importantes que afectan tanto al rendimiento deportivo como a la salud general del cuerpo."
+                           FontSize="20"
+                           VerticalOptions="Center"
+                           Grid.Column="1"
+                           HorizontalOptions="Start"
+                           TextColor="White"/>
+                </Grid>
+
+                <Grid HeightRequest="150" WidthRequest="360">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="EjerciciosDeFuerza" 
+                            Text="Ejercicios de Fuerza" 
+                            Clicked="EjerciciosDeFuerza_Clicked"
+                            TextColor="White"
+                            FontSize="20"
+                            CornerRadius="75"
+                            BackgroundColor="#7A0C01" 
+                            Opacity="1.0"
+                            HeightRequest="150"
+                            WidthRequest="150"
+                            HorizontalOptions="Start"/>
+                    <Label Text="Ejercicios de Fuerza son ecenciales para tener un buen rendimiento y un buen fisico"
+                           FontSize="20"
+                           VerticalOptions="Center"
+                           Grid.Column="1"
+                           HorizontalOptions="Start"
+                           TextColor="White"/>
+                </Grid>
+
+                <Grid HeightRequest="150" WidthRequest="360">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="btnDeportesyJuegos"
+                            Text="Deportes y Juegos"
+                            Clicked="btnDeportesyJuegos_Clicked"
+                            TextColor="White"
+                            FontSize="20"
+                            CornerRadius="75"
+                            BackgroundColor="#FFC107" 
+                            Opacity="1.0"
+                            HeightRequest="150"
+                            WidthRequest="150"
+                            HorizontalOptions="Start"/>
+                    <Label Text="Educación Física"
+                           FontSize="20"
+                           VerticalOptions="Center"
+                           Grid.Column="1"
+                           HorizontalOptions="Start"
+                           TextColor="White"/>
+                </Grid>
+
+                <Grid HeightRequest="150" WidthRequest="360">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="btnSaludNutricion" 
+                            Text="Salud y Nutrición: "
+                            Clicked="btnSaludNutricion_Clicked"
+                            TextColor="White"
+                            FontSize="20"
+                            CornerRadius="75"
+                            BackgroundColor="#FF5722"
+                            Opacity="1.0"
+                            HeightRequest="150"
+                            WidthRequest="150"
+                            HorizontalOptions="Start"/>
+                    <Label Text="Salud y Nutrición: "
+                           FontSize="20"
+                           VerticalOptions="Center"
+                           Grid.Column="1"
+                           HorizontalOptions="Start"
+                           TextColor="White"/>
+                </Grid>
+
+                
+
+                <Grid HeightRequest="150" WidthRequest="360">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="btnHistoriaDeporte" 
+                        Text="Historia del Deporte"
+                        Clicked="btnHistoriaDeporte_Clicked"
+                        TextColor="White"
+                        FontSize="20"
+                        CornerRadius="75"
+                        BackgroundColor="#607D8B" 
+                        Opacity="1.0"
+                        HeightRequest="90"
+                        WidthRequest="500"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center" />
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
+
+

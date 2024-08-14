@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Lhotse"
+             BackgroundImageSource="https://www.infobae.com/new-resizer/LtNTxK9yqj1aaoIM3hTNO_EEEKE=/1200x2133/filters:format(webp):quality(85)/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/05/24090651/monte-everest-1920-1.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Lhotse"
+                       TextColor="Black"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.8" />
+                    <Label Text="Lhotse es la cuarta montaña más alta del mundo, con una altura de 8,516 metros (27,940 pies). Se encuentra en la frontera entre el Tíbet y Nepal, y está muy cerca del monte Everest, con el que comparte parte de su ruta de ascenso. Lhotse es conocida por su impresionante cara sur y su desafiante ascenso."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen representativa -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/1mq9wFT/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Vista de Lhotse y Everest desde el sur, mostrando la cercanía y magnificencia de estas montañas."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre Lhotse -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Aspectos Destacados de Lhotse:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Altitud: Es la cuarta montaña más alta del mundo, con 8,516 metros."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Ubicación: Situada en la frontera entre el Tíbet y Nepal, cerca del monte Everest."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Primer Ascenso: Fue escalada por primera vez el 18 de mayo de 1956 por una expedición suiza liderada por Ernst Reiss y Fritz Luchsinger."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Desafíos: Conocida por su cara sur empinada y las difíciles condiciones climáticas, Lhotse presenta un reto significativo para los escaladores."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Ruta de Ascenso: Comparte parte de su ruta de ascenso con el Everest, haciendo que el tránsito entre las dos montañas sea crucial para los escaladores."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional 1 -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/PtRBJ77/Himalaya-annotated.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Vista de Lhotse, mostrando su imponente cara sur que desafía a los escaladores."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+              
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

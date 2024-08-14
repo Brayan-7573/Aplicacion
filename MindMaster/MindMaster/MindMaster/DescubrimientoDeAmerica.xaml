@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.DescubrimientoDeAmerica"
+             BackgroundImageSource="https://w0.peakpx.com/wallpaper/949/976/HD-wallpaper-nubes-aesthetic-estrellas-fondo-de-pantalla-luna-noche-sky.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Descubrimiento de América"
+                       TextColor="White"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="El 12 de octubre de 1492, Cristóbal Colón, navegante genovés al servicio de los Reyes Católicos de España, llegó a lo que hoy conocemos como América. Este evento marcó el inicio de la era de exploración y colonización europea en el continente americano."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen del Descubrimiento -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/mbzgkyh/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Cristóbal Colón llegando a América. La llegada de Colón a las islas del Caribe fue un hito histórico que llevó al contacto prolongado entre Europa y América."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles Importantes -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" FontAttributes="Bold" Text="Detalles Importantes:"/>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="1. Fecha: El descubrimiento de América ocurrió el 12 de octubre de 1492."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="2. Navegante: Cristóbal Colón, al servicio de los Reyes Católicos de España, partió en una expedición con tres barcos: Santa María, Pinta y Niña."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="3. Destino: Aunque Colón creía que había llegado a Asia, en realidad había llegado a las islas del Caribe, concretamente a una isla que él llamó San Salvador."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="4. Consecuencias: El descubrimiento llevó al inicio de una era de exploración y colonización europea en el continente americano, con profundas implicaciones para las civilizaciones indígenas y la historia global."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="5. Legado: El 12 de octubre se celebra como el Día de la Raza o el Día de la Hispanidad en muchos países de América Latina y España, conmemorando el encuentro entre dos mundos."/>
+                            </StackLayout>
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/QcJJFTV/download.jpg" 
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"  
+                               Text="Representación artística del descubrimiento de América. La llegada de Colón abrió nuevas rutas para el comercio y la exploración."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

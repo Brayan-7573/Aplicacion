@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Clima"
+             BackgroundImageSource="https://e1.pxfuel.com/desktop-wallpaper/915/869/desktop-wallpaper-weather-cloudy-day.jpg">
+
+    <ContentPage.Content>
+        <ScrollView Padding="20">
+            <StackLayout Spacing="20" VerticalOptions="Start" HorizontalOptions="Center">
+
+                <Label Text="Tipos de Climas del Mundo"
+                       FontSize="48"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       Margin="0,20,0,30"
+                       TextColor="White"/>
+
+                <!-- Tarjetas de Climas -->
+                <StackLayout Spacing="15">
+                    <!-- Tarjeta 1 -->
+                    <Frame HasShadow="True"
+                           CornerRadius="15"
+                           Padding="10"
+                           Margin="0,0,0,10"
+                           BackgroundColor="White">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnTropicalTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/QDk6YBn/download.jpg"
+                                   Aspect="AspectFill"
+                                   HeightRequest="100"
+                                   WidthRequest="300"
+                                   HorizontalOptions="Center"/>
+                            <Label Text="Clima Tropical"
+                                   FontSize="20"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"
+                                   Padding="10"
+                                   TextColor="#FF5722"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Tarjeta 2 -->
+                    <Frame HasShadow="True"
+                           CornerRadius="15"
+                           Padding="10"
+                           Margin="0,0,0,10"
+                           BackgroundColor="White">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnAridTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/MD9jySp/download.jpg"
+                                   Aspect="AspectFill"
+                                   HeightRequest="100"
+                                   WidthRequest="300"
+                                   HorizontalOptions="Center"/>
+                            <Label Text="Clima Árido"
+                                   FontSize="20"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"
+                                   Padding="10"
+                                   TextColor="#FFC107"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Tarjeta 3 -->
+                    <Frame HasShadow="True"
+                           CornerRadius="15"
+                           Padding="10"
+                           Margin="0,0,0,10"
+                           BackgroundColor="White">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnTemperateTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/dcynLwM/download.jpg"
+                                   Aspect="AspectFill"
+                                   HeightRequest="100"
+                                   WidthRequest="300"
+                                   HorizontalOptions="Center"/>
+                            <Label Text="Clima Templado"
+                                   FontSize="20"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"
+                                   Padding="10"
+                                   TextColor="#4CAF50"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Tarjeta 4 -->
+                    <Frame HasShadow="True"
+                           CornerRadius="15"
+                           Padding="10"
+                           Margin="0,0,0,10"
+                           BackgroundColor="White">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnPolarTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/mhPGrfH/download.jpg"
+                                   Aspect="AspectFill"
+                                   HeightRequest="100"
+                                   WidthRequest="300"
+                                   HorizontalOptions="Center"/>
+                            <Label Text="Clima Polar"
+                                   FontSize="20"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"
+                                   Padding="10"
+                                   TextColor="#03A9F4"/>
+                        </StackLayout>
+                    </Frame>
+
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

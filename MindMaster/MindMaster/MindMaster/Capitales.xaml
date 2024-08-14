@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Capitales">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10" BackgroundColor="#f5f5f5">
+                <Label Text="Capitales del Mundo" 
+                       FontSize="30" 
+                       HorizontalOptions="Center" 
+                       TextColor="#2c3e50"
+                       Margin="0,20,0,20"/>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Paris -->
+                    <Frame Grid.Row="0" Grid.Column="0" BorderColor="#3498db" CornerRadius="10" Padding="0" BackgroundColor="White" Margin="5">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnParisFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/yN4514M/download.jpg" Aspect="AspectFill" HeightRequest="150"/>
+                            <StackLayout Padding="10">
+                                <Label Text="París" FontSize="Medium" FontAttributes="Bold" TextColor="#2c3e50"/>
+                                <Label Text="La capital de Francia, conocida por la Torre Eiffel y su rica historia cultural." FontSize="Small" TextColor="#7f8c8d"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Londres -->
+                    <Frame Grid.Row="0" Grid.Column="1" BorderColor="#e74c3c" CornerRadius="10" Padding="0" BackgroundColor="White" Margin="5">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnLondresFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/G9JcCKj/download.jpg" Aspect="AspectFill" HeightRequest="150"/>
+                            <StackLayout Padding="10">
+                                <Label Text="Londres" FontSize="Medium" FontAttributes="Bold" TextColor="#2c3e50"/>
+                                <Label Text="La capital del Reino Unido, famosa por el Big Ben y el Parlamento." FontSize="Small" TextColor="#7f8c8d"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Tokio -->
+                    <Frame Grid.Row="1" Grid.Column="0" BorderColor="#1abc9c" CornerRadius="10" Padding="0" BackgroundColor="White" Margin="5">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnTokioFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/0F94Vqj/download.jpg" Aspect="AspectFill" HeightRequest="150"/>
+                            <StackLayout Padding="10">
+                                <Label Text="Tokio" FontSize="Medium" FontAttributes="Bold" TextColor="#2c3e50"/>
+                                <Label Text="La capital de Japón, conocida por su mezcla de tecnología moderna y cultura tradicional." FontSize="Small" TextColor="#7f8c8d"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Nueva York -->
+                    <Frame Grid.Row="1" Grid.Column="1" BorderColor="#f39c12" CornerRadius="10" Padding="0" BackgroundColor="White" Margin="5">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnNuevaYorkFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/MScZcBC/download.jpg" Aspect="AspectFill" HeightRequest="150"/>
+                            <StackLayout Padding="10">
+                                <Label Text="Nueva York" FontSize="Medium" FontAttributes="Bold" TextColor="#2c3e50"/>
+                                <Label Text="La capital cultural y económica de Estados Unidos, famosa por Times Square y Central Park." FontSize="Small" TextColor="#7f8c8d"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Sydney -->
+                    <Frame Grid.Row="2" Grid.Column="0" BorderColor="#8e44ad" CornerRadius="10" Padding="0" BackgroundColor="White" Margin="5">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnSydneyFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/V9bCWQR/download.jpg" Aspect="AspectFill" HeightRequest="150"/>
+                            <StackLayout Padding="10">
+                                <Label Text="Sídney" FontSize="Medium" FontAttributes="Bold" TextColor="#2c3e50"/>
+                                <Label Text="La capital de Nueva Gales del Sur, conocida por la Ópera de Sídney y el puente del puerto." FontSize="Small" TextColor="#7f8c8d"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Buenos Aires -->
+                    <Frame Grid.Row="2" Grid.Column="1" BorderColor="#e67e22" CornerRadius="10" Padding="0" BackgroundColor="White" Margin="5">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnBuenosAiresFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/wcY0fPQ/download.jpg" Aspect="AspectFill" HeightRequest="150"/>
+                            <StackLayout Padding="10">
+                                <Label Text="Buenos Aires" FontSize="Medium" FontAttributes="Bold" TextColor="#2c3e50"/>
+                                <Label Text="La capital de Argentina, famosa por el tango y la arquitectura europea." FontSize="Small" TextColor="#7f8c8d"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

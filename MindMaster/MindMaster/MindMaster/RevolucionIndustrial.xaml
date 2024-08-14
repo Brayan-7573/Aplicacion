@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.RevolucionIndustrial"
+             BackgroundImageSource="https://i.pinimg.com/474x/9c/b4/f1/9cb4f199fe917ad7af37a166bdc53fbc.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Revolución Industrial"
+                       TextColor="White"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="La Revolución Industrial fue un período de grandes cambios en la tecnología, la economía y la sociedad que comenzó a finales del siglo XVIII en Gran Bretaña y se extendió por Europa y América del Norte. Se caracterizó por la transición de métodos de producción manual a maquinaria, y tuvo un impacto profundo en todos los aspectos de la vida cotidiana."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen de la Revolución Industrial -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/9Z6MZ4z/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="La Gran Exposición de 1851 en el Crystal Palace en Londres fue un evento significativo que mostró los avances tecnológicos y la innovación de la Revolución Industrial."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles Importantes -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" FontAttributes="Bold" Text="Detalles Importantes:"/>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="1. Innovaciones Tecnológicas: La Revolución Industrial trajo consigo una serie de innovaciones tecnológicas, como la máquina de vapor, el telar mecánico y el ferrocarril, que transformaron la producción y el transporte."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="2. Urbanización: La industrialización llevó a una rápida urbanización, con muchas personas trasladándose a las ciudades para trabajar en fábricas. Esto cambió la estructura social y creó nuevos desafíos en la vivienda y la infraestructura."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="3. Impacto Social: La Revolución Industrial tuvo un profundo impacto en la vida de las personas, incluyendo cambios en las condiciones laborales, la educación y la calidad de vida en general."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="4. Reformas: La explotación laboral y las malas condiciones de trabajo llevaron a movimientos de reforma que mejoraron las leyes laborales y la seguridad social."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="5. Legado: La Revolución Industrial sentó las bases para la economía moderna y la sociedad tecnológica, influyendo en el desarrollo de nuevas industrias y en el progreso económico global."/>
+                            </StackLayout>
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/qrHz553/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"  
+                               Text="Una representación de una fábrica de la era de la Revolución Industrial, mostrando la maquinaria y el entorno de trabajo en las fábricas."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

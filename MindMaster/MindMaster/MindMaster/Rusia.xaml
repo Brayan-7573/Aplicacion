@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Rusia"
+             BackgroundImageSource="https://fondosmil.co/fondo/89258.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Rusia"
+                       TextColor="White"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="Rusia es el país más grande del mundo, extendiéndose a través de Europa del Este y Asia del Norte. Con una rica historia y cultura, Rusia es conocida por sus contribuciones a la literatura, la música y el arte. Sus vastas tierras incluyen todo tipo de paisajes, desde tundras heladas hasta exuberantes bosques."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen representativa -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/rdCxYM0/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="La Plaza Roja en Moscú es uno de los sitios más emblemáticos de Rusia, conocido por su arquitectura histórica y su importancia cultural."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre Rusia -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Aspectos Destacados de Rusia:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Historia: Rusia tiene una historia rica y compleja, desde el Imperio Ruso hasta la Revolución Rusa y la era soviética. Cada período ha dejado una huella significativa en la cultura y la política del país."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Cultura: La cultura rusa incluye una rica tradición en literatura, ballet, y música clásica. Escritores como Tolstoy y Dostoevsky y compositores como Tchaikovsky han influido profundamente en la cultura mundial."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Geografía: Rusia abarca una amplia variedad de paisajes, desde la tundra ártica hasta las estepas y los bosques de coníferas. La diversidad geográfica contribuye a la rica biodiversidad del país."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Economía: Rusia es una economía rica en recursos naturales, especialmente en petróleo y gas. También tiene un sector industrial robusto y una creciente presencia en el mercado global."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Política: Rusia es una federación con una estructura política que combina elementos de un sistema presidencial y parlamentario. Su papel en la política internacional es significativo debido a su tamaño y recursos."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/vVfPp26/images.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="El Kremlin de Moscú es un complejo fortificado que ha servido como sede de poder en Rusia desde la Edad Media y sigue siendo un símbolo del gobierno ruso."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

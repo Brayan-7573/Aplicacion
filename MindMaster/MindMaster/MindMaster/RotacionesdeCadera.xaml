@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.RotacionesdeCadera"
+             Title="Calentamiento de Cadera">
+
+    <ScrollView>
+        <StackLayout Padding="10">
+            
+            <Label Text="Ejercicio 1: Rotaciones de Cadera Hacia la Derecha" 
+                   FontAttributes="Bold" 
+                   FontSize="Medium"
+                   Margin="0,10,0,0" />
+            <Label Text="1. Párate con los pies separados al ancho de los hombros."
+                   Margin="0,5,0,0" />
+            <Label Text="2. Coloca las manos en las caderas."
+                   Margin="0,5,0,0" />
+            <Label Text="3. Gira las caderas en un círculo grande hacia la derecha."
+                   Margin="0,5,0,0" />
+           
+            <Label Text="Repeticiones: Realiza 10 rotaciones completas hacia la derecha."
+                   Margin="0,5,0,10" />
+
+            
+            <Label Text="Ejercicio 2: Rotaciones de Cadera Hacia la Izquierda" 
+                   FontAttributes="Bold" 
+                   FontSize="Medium"
+                   Margin="0,10,0,0" />
+            <Label Text="1. Párate con los pies separados al ancho de los hombros."
+                   Margin="0,5,0,0" />
+            <Label Text="2. Coloca las manos en las caderas."
+                   Margin="0,5,0,0" />
+            <Label Text="3. Gira las caderas en un círculo grande hacia la izquierda."
+                   Margin="0,5,0,0" />
+            
+            <Label Text="Repeticiones: Realiza 10 rotaciones completas hacia la izquierda."
+                   Margin="0,5,0,10" />
+
+            
+            <Label Text="Ejercicio 3: Rotaciones Alternadas" 
+                   FontAttributes="Bold" 
+                   FontSize="Medium"
+                   Margin="0,10,0,0" />
+            <Label Text="1. Párate con los pies separados al ancho de los hombros."
+                   Margin="0,5,0,0" />
+            <Label Text="2. Coloca las manos en las caderas."
+                   Margin="0,5,0,0" />
+            <Label Text="3. Gira las caderas en un círculo grande, primero hacia la derecha y luego hacia la izquierda."
+                   Margin="0,5,0,0" />
+          
+            <Label Text="Repeticiones: Realiza 5 rotaciones completas hacia cada lado, alternando."
+                   Margin="0,5,0,10" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

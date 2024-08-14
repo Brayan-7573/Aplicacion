@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Pintura"
+             BackgroundImageSource="https://img.freepik.com/fotos-premium/lienzo-pintura-al-oleo-texturizada-encuentra-fondo-papel-tapiz-multicolor-vertical-mobile-wallpaper_896558-9927.jpg?w=360">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Grid>
+                    <Label Text="Pinturas Clasicas"
+                           TextColor="White"
+                           FontSize="70"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="La pintura es una forma de arte que utiliza pigmentos y otros medios para crear imágenes sobre una superficie. Hay varios tipos de pintura, incluyendo: óleo, acuarela, acrílica, tempera, entre otras."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="20"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <Grid>
+                    <Image Source="https://www.artmajeur.com/medias/standard/s/u/surikovand/artwork/14176010_monalisa.jpg"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="#003004" Opacity="0.5" IsVisible="True" />
+
+                        <Label FontSize="15"  
+                           Text="La Mona Lisa, también conocida como La Gioconda, es una de las 
+                                 pinturas más famosas del mundo. Fue creada por el renombrado artista del Renacimiento, 
+                                 Leonardo da Vinci, entre 1503 y 1506, aunque algunos expertos creen que pudo haber trabajado en 
+                                 ella hasta 1517. La obra es un retrato de Lisa Gherardini, esposa del comerciante florentino Francesco del Giocondo." 
+                           VerticalOptions="Center"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Start"
+                           Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+
+                <Grid>
+                    <BoxView Color="#012103" Opacity="0.5"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="15" FontAttributes="Bold" Text="La Mona Lisa Características de la Pintura:"/>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="1. Retrato: Es un retrato de una mujer, posiblemente Lisa Gherardini, la esposa de Francesco del Giocondo."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="2. Técnica: Está pintada al óleo sobre tabla de álamo, lo cual era típico de la época del Renacimiento."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="3. Tamaño: La pintura mide aproximadamente 77 cm de alto por 53 cm de ancho."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="4. Perspectiva y Realismo: Es conocida por su uso magistral de la perspectiva y el realismo, especialmente en la representación del rostro y las manos."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="5. Expresión enigmática: Una de las características más destacadas es la enigmática sonrisa de la mujer, que parece cambiar dependiendo del ángulo desde el cual se observa."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="6. Fondo paisajístico: Detrás de la figura hay un paisaje difuso que añade profundidad a la composición."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="7. Estado de conservación: La pintura ha sufrido restauraciones a lo largo de los años y actualmente se conserva en el Museo del Louvre en París, Francia, donde es una de las obras más famosas y visitadas."/>
+                            </StackLayout>
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+                <Grid>
+    
+                    <Grid Grid.Column="1">
+                        <Image Source="https://cdn.culturagenial.com/es/imagenes/la-joven-de-la-perla-cke.jpg"/>
+                    </Grid>
+
+                    <Grid Grid.Column="0" BackgroundColor="Transparent">
+                        <BoxView Color="#533501" Opacity="0.5" IsVisible="True" />
+                        <Label Text="La Mujer con el arete de perlas es una famosa pintura realizada por Johannes Vermeer alrededor del año 1665. " 
+                               VerticalOptions="Center"
+                               HorizontalOptions="Start"
+                               FontAttributes="Bold"
+                               FontSize="15"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <Grid>
+                    <BoxView Color="#533501" Opacity="0.5"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="15" FontAttributes="Bold" Text="Mujer con el arete de perlas Características de la Pintura:"/>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="1. Descripción física: La pintura retrata a una mujer joven con una expresión serena, vestida con un turbante amarillo dorado y una vestimenta azul-verde."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="2. Arete de perla: El elemento más destacado de la pintura es el arete de perla que la mujer lleva en su oreja izquierda. Este arete, con su brillo y detalle, captura la luz de manera brillante y es uno de los focos principales de la obra."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="3. Iluminación y ambiente: Vermeer era conocido por su habilidad en capturar la luz y crear una atmósfera íntima en sus obras. En esta pintura, la iluminación parece provenir de la izquierda, resaltando el rostro y el arete de la mujer, mientras que el fondo se mantiene en sombras suaves."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="4. Composición y perspectiva: La mujer está posicionada en un ángulo ligeramente de tres cuartos, mirando directamente hacia el espectador pero con una mirada enigmática y distante. La composición está cuidadosamente equilibrada, con detalles finos en la ropa y el entorno."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="5. Contexto y significado: Aunque el significado exacto de la pintura sigue siendo objeto de debate, se cree que Vermeer pudo haber representado a una mujer de clase media o alta en un momento de tranquilidad y contemplación. El arete de perla puede simbolizar la riqueza, la moda o incluso la virtud."/>
+                            </StackLayout>
+
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+
+                <Grid>
+                    <Image Source="https://artquid.twic.pics/art/1/20/70830.623277534.3.o203183933.jpg?twic=v1/cover=575/background=white"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="#727518" Opacity="0.5" IsVisible="True" />
+
+                        <Label FontSize="15"  
+                               Text="La pintura Terraza de Café por la Noche es una obra famosa creada por Vincent van Gogh en 1888. " 
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>     
+                    </Grid>
+                </Grid>
+
+
+                <Grid>
+                    <BoxView Color="#727518" Opacity="0.5"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="15" FontAttributes="Bold" Text="La Mona Lisa Características de la Pintura:"/>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="Estilo y Tema: Pertenece al estilo postimpresionista. Representa una terraza de café en Arlés, Francia, durante la noche."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="2. Colores: Utiliza colores intensos y contrastantes característicos del estilo de van Gogh, como azules profundos, amarillos brillantes y tonos cálidos de naranja."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="3. Composición: La composición muestra mesas y sillas dispuestas en la terraza del café, con figuras humanas y un cielo estrellado al fondo."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="4. Pinceladas: Van Gogh aplicó pinceladas gruesas y visibles que dan textura a la superficie de la pintura, creando un efecto vibrante y dinámico."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="5. Atmósfera: Aunque es nocturna, la obra transmite una sensación de calidez y vida, típica de las escenas urbanas que le gustaba representar al artista."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="6. Significado: Se interpreta como una expresión de la vida social y el ambiente nocturno de la época, así como una exploración del color y la luz en la pintura."/>
+                            </StackLayout>
+                            
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+                <Grid>
+
+                    <Grid Grid.Column="1">
+                        <Image Source="https://www.algomasquearte.es/163/reproducciones-cuadros-beso-klimt.jpg"/>
+                    </Grid>
+
+                    <Grid Grid.Column="0" BackgroundColor="Transparent">
+                        <BoxView Color="#533501" Opacity="0.5" IsVisible="True" />
+                        <Label Text="La Mujer con el arete de perlas es una famosa pintura realizada por Johannes Vermeer alrededor del año 1665. " 
+               VerticalOptions="Center"
+               HorizontalOptions="Start"
+               FontAttributes="Bold"
+               FontSize="15"
+               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <Grid>
+                    <BoxView Color="#533501" Opacity="0.5"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="15" FontAttributes="Bold" Text="Mujer con el arete de perlas Características de la Pintura:"/>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="1. Descripción física: La pintura retrata a una mujer joven con una expresión serena, vestida con un turbante amarillo dorado y una vestimenta azul-verde."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="2. Arete de perla: El elemento más destacado de la pintura es el arete de perla que la mujer lleva en su oreja izquierda. Este arete, con su brillo y detalle, captura la luz de manera brillante y es uno de los focos principales de la obra."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="3. Iluminación y ambiente: Vermeer era conocido por su habilidad en capturar la luz y crear una atmósfera íntima en sus obras. En esta pintura, la iluminación parece provenir de la izquierda, resaltando el rostro y el arete de la mujer, mientras que el fondo se mantiene en sombras suaves."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="4. Composición y perspectiva: La mujer está posicionada en un ángulo ligeramente de tres cuartos, mirando directamente hacia el espectador pero con una mirada enigmática y distante. La composición está cuidadosamente equilibrada, con detalles finos en la ropa y el entorno."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="5. Contexto y significado: Aunque el significado exacto de la pintura sigue siendo objeto de debate, se cree que Vermeer pudo haber representado a una mujer de clase media o alta en un momento de tranquilidad y contemplación. El arete de perla puede simbolizar la riqueza, la moda o incluso la virtud."/>
+                            </StackLayout>
+
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+ <Grid>
+                    <Image Source="https://i.pinimg.com/564x/08/2c/e9/082ce99d52d03ba1cd8f50516838f29a.jpg"/>
+     <Grid Grid.Column="1" BackgroundColor="Transparent">
+         <BoxView Color="#727518" Opacity="0.5" IsVisible="True" />
+
+         <Label FontSize="15"  
+                Text="La pintura Terraza de Café por la Noche es una obra famosa creada por Vincent van Gogh en 1888. " 
+                VerticalOptions="Center"
+                FontAttributes="Bold"
+                HorizontalOptions="Start"
+                Margin="10,0,0,0"/>     
+     </Grid>
+ </Grid>
+
+
+ <Grid>
+     <BoxView Color="#727518" Opacity="0.5"/>
+     <ScrollView>
+         <StackLayout Margin="10">
+             <Label FontSize="15" FontAttributes="Bold" Text="La Mona Lisa Características de la Pintura:"/>
+
+             <StackLayout Margin="10">
+                 <Label FontSize="15" Text="Estilo y Tema: Pertenece al estilo postimpresionista. Representa una terraza de café en Arlés, Francia, durante la noche."/>
+             </StackLayout>
+
+             <StackLayout Margin="10">
+                 <Label FontSize="15" Text="2. Colores: Utiliza colores intensos y contrastantes característicos del estilo de van Gogh, como azules profundos, amarillos brillantes y tonos cálidos de naranja."/>
+             </StackLayout>
+
+             <StackLayout Margin="10">
+                 <Label FontSize="15" Text="3. Composición: La composición muestra mesas y sillas dispuestas en la terraza del café, con figuras humanas y un cielo estrellado al fondo."/>
+             </StackLayout>
+
+             <StackLayout Margin="10">
+                 <Label FontSize="15" Text="4. Pinceladas: Van Gogh aplicó pinceladas gruesas y visibles que dan textura a la superficie de la pintura, creando un efecto vibrante y dinámico."/>
+             </StackLayout>
+
+             <StackLayout Margin="10">
+                 <Label FontSize="15" Text="5. Atmósfera: Aunque es nocturna, la obra transmite una sensación de calidez y vida, típica de las escenas urbanas que le gustaba representar al artista."/>
+             </StackLayout>
+
+             <StackLayout Margin="10">
+                 <Label FontSize="15" Text="6. Significado: Se interpreta como una expresión de la vida social y el ambiente nocturno de la época, así como una exploración del color y la luz en la pintura."/>
+             </StackLayout>
+             
+         </StackLayout>
+     </ScrollView>
+ </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

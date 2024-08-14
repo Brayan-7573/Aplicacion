@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Makalu"
+             BackgroundImageSource="https://www.infobae.com/new-resizer/LtNTxK9yqj1aaoIM3hTNO_EEEKE=/1200x2133/filters:format(webp):quality(85)/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/05/24090651/monte-everest-1920-1.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Makalu"
+                       TextColor="Black"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.8" />
+                    <Label Text="Makalu es la quinta montaña más alta del mundo, con una altura de 8,485 metros (27,838 pies). Está situada en la cordillera del Himalaya, en la frontera entre Nepal y China (Tíbet). Es famosa por su forma de pirámide, lo que la convierte en una de las montañas más difíciles de escalar."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen representativa -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/MNG3Xbm/gettyimages-155280565-612x612.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Vista de Makalu, mostrando su distintiva forma piramidal, una de las características que la hace única y desafiante."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre Makalu -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Aspectos Destacados de Makalu:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Altitud: Es la quinta montaña más alta del mundo, con 8,485 metros."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Ubicación: Se encuentra en la frontera entre Nepal y China, en la región del Himalaya."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Primer Ascenso: Fue escalada por primera vez el 15 de mayo de 1955 por Lionel Terray y Jean Couzy, miembros de una expedición francesa."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Dificultad: Makalu es conocida por ser una de las montañas más técnicas y difíciles de escalar, debido a su forma piramidal y sus empinadas aristas."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Biodiversidad: La región alrededor de Makalu es rica en flora y fauna, con muchas especies endémicas debido a su remoto aislamiento."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional 1 -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/d5ThW55/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Makalu visto desde Gokyo, ofreciendo una perspectiva impresionante de la quinta montaña más alta del mundo."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Imagen adicional 2 -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/hm2gt5c/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Vista aérea de Makalu junto a Lhotse, mostrando la majestuosa grandeza de estas montañas del Himalaya."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Cine"
+             Title="Cine"
+             BackgroundImageSource="https://i.pinimg.com/originals/aa/c9/5a/aac95a0735c38e454db16c5483ffc222.png">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20" >
+
+                <!-- Sección: Cine -->
+                <StackLayout Margin="0,0,0,20">
+                    <Frame BackgroundColor="#404040" Opacity="0.9"
+                           CornerRadius="10"
+                           Padding="10"
+                           HasShadow="False">
+                        <Label Text="Cine" Opacity="0.9"
+                               FontSize="Large"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center"
+                               Margin="0,10"
+                               TextColor="White"/>
+                    </Frame>
+
+                    <Image Source="https://difusoribero.com/wp-content/uploads/2021/07/salacine.jpg"
+                           Aspect="AspectFill"
+                           HeightRequest="200"
+                           Margin="0,10"/>
+
+                    <Frame BackgroundColor="#404040" Opacity="0.9"
+                           CornerRadius="10"
+                           Padding="10"
+                           HasShadow="False">
+                        <Label Text="El cine es el arte de contar historias a través de la pantalla, combinando imagen y sonido."
+                               FontSize="Large"
+                               HorizontalOptions="Center"
+                               Margin="0,10"
+                               TextColor="White"/>
+                    </Frame>
+                </StackLayout>
+
+                <!-- Sección: Drama -->
+                <StackLayout Margin="0,0,0,20">
+                    <Frame BackgroundColor="#404040" Opacity="0.9"
+                           CornerRadius="10"
+                           Padding="10"
+                           HasShadow="False">
+                        <Label Text="Drama"
+                               FontSize="Large"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center"
+                               Margin="0,10"
+                               TextColor="White"/>
+                    </Frame>
+
+                    <Image Source="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2017/11/20-mejores-peliculas-drama-historia-cine_19.jpg?tf=3840x"
+                           Aspect="AspectFill"
+                           HeightRequest="200"
+                           Margin="0,10"/>
+
+                    <Frame BackgroundColor="#404040" Opacity="0.9"
+                           CornerRadius="10"
+                           Padding="10"
+                           HasShadow="False">
+                        <Label Text="El drama cinematográfico profundiza en las emociones humanas y las complejidades de las relaciones humanas."
+                               FontSize="Large"
+                               HorizontalOptions="Center"
+                               Margin="0,10"
+                               TextColor="White"/>
+                    </Frame>
+                </StackLayout>
+
+                <!-- Sección: Comedia -->
+                <StackLayout Margin="0,0,0,20">
+                    <Frame BackgroundColor="#404040" Opacity="0.9"
+                           CornerRadius="10"
+                           Padding="10"
+                           HasShadow="False">
+                        <Label Text="Comedia"
+                               FontSize="Large"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center"
+                               Margin="0,10"
+                               TextColor="White"/>
+                    </Frame>
+
+                    <Image Source="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2019/04/scary-movie.jpg?tf=3840x"
+                           Aspect="AspectFill"
+                           HeightRequest="200"
+                           Margin="0,10"/>
+
+                    <Frame BackgroundColor="#404040" Opacity="0.9"
+                           CornerRadius="10"
+                           Padding="10"
+                           HasShadow="False">
+                        <Label Text="La comedia cinematográfica busca entretener y hacer reír al espectador con situaciones cómicas y humorísticas."
+                               FontSize="Large"
+                               HorizontalOptions="Center"
+                               Margin="0,10"
+                               TextColor="White"/>
+                    </Frame>
+                </StackLayout>
+
+                <!-- Sección: Acción -->
+                <StackLayout Margin="0,0,0,20">
+                    <Frame BackgroundColor="#404040" Opacity="0.9"
+                           CornerRadius="10"
+                           Padding="10"
+                           HasShadow="False">
+                        <Label Text="Acción"
+                               FontSize="Large"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center"
+                               Margin="0,10"
+                               TextColor="White"/>
+                    </Frame>
+
+                    <Image Source="https://i.blogs.es/4755f7/accion/1366_2000.jpeg"
+                           Aspect="AspectFill"
+                           HeightRequest="200"
+                           Margin="0,10"/>
+
+                    <Frame BackgroundColor="#404040" Opacity="0.9"
+                           CornerRadius="10"
+                           Padding="10"
+                           HasShadow="False">
+                        <Label Text="El cine de acción está lleno de adrenalina, combates emocionantes y heroísmo, capturando la atención con su ritmo frenético."
+                               FontSize="Large"
+                               HorizontalOptions="Center"
+                               Margin="0,10"
+                               TextColor="White"/>
+                    </Frame>
+                </StackLayout>
+
+                <!-- Sección: Ciencia Ficción -->
+                <StackLayout Margin="0,0,0,20">
+                    <Frame BackgroundColor="#404040" Opacity="0.9"
+                           CornerRadius="10"
+                           Padding="10"
+                           HasShadow="False">
+                        <Label Text="Ciencia Ficción"
+                               FontSize="Large"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center"
+                               Margin="0,10"
+                               TextColor="White"/>
+                    </Frame>
+
+                    <Image Source="https://i.blogs.es/56d0cd/diseno-sin-titulo-4-/1366_2000.jpeg"
+                           Aspect="AspectFill"
+                           HeightRequest="200"
+                           Margin="0,10"/>
+
+                    <Frame BackgroundColor="#404040" Opacity="0.9"
+                           CornerRadius="10"
+                           Padding="10"
+                           HasShadow="False">
+                        <Label Text="La ciencia ficción cinematográfica explora mundos imaginarios, tecnología avanzada y futuros alternativos, desafiando la realidad conocida."
+                               FontSize="Large"
+                               HorizontalOptions="Center"
+                               Margin="0,10"
+                               TextColor="White"/>
+                    </Frame>
+                </StackLayout>
+
+                <!-- Sección: Terror -->
+                <StackLayout Margin="0,0,0,20">
+                    <Frame BackgroundColor="#404040" Opacity="0.9"
+                           CornerRadius="10"
+                           Padding="10"
+                           HasShadow="False">
+                        <Label Text="Terror"
+                               FontSize="Large"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center"
+                               Margin="0,10"
+                               TextColor="White"/>
+                    </Frame>
+
+                    <Image Source="https://elordenmundial.com/wp-content/uploads/2023/10/cine-peliculas-terror-politica-estados-unidos-historia-1-1.jpg"
+                           Aspect="AspectFill"
+                           HeightRequest="200"
+                           Margin="0,10"/>
+
+                    <Frame BackgroundColor="#404040" Opacity="0.9"
+                           CornerRadius="10"
+                           Padding="10"
+                           HasShadow="False">
+                        <Label Text="El cine de terror provoca miedo y suspense, explorando lo desconocido y lo sobrenatural para mantener al espectador al borde del asiento."
+                               FontSize="Large"
+                               HorizontalOptions="Center"
+                               Margin="0,10"
+                               TextColor="White"/>
+                    </Frame>
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>
+
+

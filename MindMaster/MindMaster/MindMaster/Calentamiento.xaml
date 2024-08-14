@@ -1,0 +1,49 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Calentamiento"
+             Title="Ejercicios de Calentamiento"
+             BackgroundImageSource="https://i.pinimg.com/originals/6b/09/2c/6b092c7bf6c862362879c613b68ba014.jpg">
+
+    <ScrollView>
+        <StackLayout Padding="10">
+            <Label Text="Ejercicios de Calentamiento" 
+                   FontSize="50" 
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   Margin="0,20,0,10" />
+
+            <Label Text="El calentamiento es esencial para preparar el cuerpo para el ejercicio y reducir el riesgo de lesiones. Aquí hay algunos ejercicios de calentamiento básicos:" 
+                   FontSize="20"
+                   Margin="0,0,0,20" />
+
+            <Image Source="https://www.hola.com/imagenes/estar-bien/20191014151557/ejercicios-fortalecer-cuello-dolores-cervicales/0-732-785/ejercicios-cuello9-a.jpg" 
+                   HeightRequest="150"
+                   HorizontalOptions="Center"
+                   Margin="0,0,0,20" />
+
+            <Button Text="Rotaciones de Cuello" x:Name="RotacionesdeCuello" Clicked="RotacionesdeCuello_Clicked"
+                    />
+
+            <Image Source="https://www.shutterstock.com/image-vector/close-woman-doing-exercise-arm-600nw-2092585558.jpg" 
+                   HeightRequest="150"
+                   HorizontalOptions="Center"
+                   Margin="20,20,0,20" />
+            <Button Text="Círculos de Brazos" x:Name="CírculosdeBrazos" Clicked="CírculosdeBrazos_Clicked"
+                    />
+
+            <Image Source="https://st.depositphotos.com/4293685/57249/v/950/depositphotos_572495110-stock-illustration-sportswomen-hip-circles-exercise-right.jpg" 
+                   HeightRequest="150"
+                   HorizontalOptions="Center"
+                   Margin="0,20,0,20" />
+            <Button Text="Rotaciones de Cadera" x:Name="RotacionesdeCadera" Clicked="RotacionesdeCadera_Clicked"
+                   />
+
+            <Image Source="https://png.pngtree.com/png-clipart/20221030/original/pngtree-cartoon-male-and-female-runners-running-a-race-png-image_8743852.png" 
+                   HeightRequest="150"
+                   HorizontalOptions="Center"
+                   Margin="0,20,0,20" />
+            <Button Text="Trote Ligero"  x:Name="TroteLigero" Clicked="TroteLigero_Clicked"
+                    />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

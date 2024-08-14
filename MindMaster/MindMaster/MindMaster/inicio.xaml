@@ -1,0 +1,101 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.inicio"
+             BackgroundImageSource="https://img2.wallspic.com/previews/1/5/0/6/7/176051/176051-ios-smartphone-morado-violeta-arte-360x640.jpg">
+
+    <ContentPage.Content>
+        <Grid VerticalOptions="Center" HorizontalOptions="Center" Opacity="0.7">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10" />
+                <RowDefinition Height="150" />
+                <RowDefinition Height="150" />
+                <RowDefinition Height="150" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="190" />
+                <ColumnDefinition Width="190" />
+            </Grid.ColumnDefinitions>
+           
+
+            <!-- Botones y sus eventos -->
+            <Button x:Name="btnArtes" 
+                    Text="Artes" 
+                    FontAttributes="Bold"
+                    TextColor="White"
+                    FontSize="20"
+                    Clicked="btnArtes_Clicked"
+                    Grid.Row="1"
+                    Grid.Column="0" 
+                    CornerRadius="30"
+                    BackgroundColor="#2196F3" 
+                    Opacity="1.0"
+                    Margin="10" />
+
+            <Button x:Name="btnCiencias" 
+                    Text="Ciencias Naturales" 
+                    FontAttributes="Bold"
+                    TextColor="White"
+                    FontSize="20"
+                    Clicked="btnCiencias_Clicked"
+                    Grid.Row="1" 
+                    Grid.Column="1" 
+                    CornerRadius="30"
+                    BackgroundColor="#4CAF50" 
+                    Opacity="1.0"
+                    Margin="10" />
+
+            <Button x:Name="btnEducaciónFísica"
+                    FontAttributes="Bold"
+                    Text="Educación Física"
+                    TextColor="White"
+                    FontSize="20"
+                    Clicked="btnEducaciónFísica_Clicked"
+                    Grid.Row="2" 
+                    Grid.Column="0" 
+                    CornerRadius="30"
+                    BackgroundColor="#FFC107" 
+                    Opacity="1.0"
+                    Margin="10" />
+
+            <Button x:Name="btnGeografía" 
+                    FontAttributes="Bold"
+                    Text="Geografía"
+                    TextColor="White"
+                    FontSize="20"
+                    Clicked="btnGeografía_Clicked"
+                    Grid.Row="2"
+                    Grid.Column="1" 
+                    CornerRadius="30"
+                    BackgroundColor="#FF5722"
+                    Opacity="1.0"
+                    Margin="10" />
+
+            <Button x:Name="btnHistoria" 
+                    FontAttributes="Bold"
+                    Text="Historia"
+                    TextColor="White"
+                    FontSize="20"
+                    Clicked="btnHistoria_Clicked"
+                    Grid.Row="3" 
+                    Grid.Column="0" 
+                    CornerRadius="30"
+                    BackgroundColor="#9C27B0"
+                    Opacity="1.0"
+                    Margin="10" />
+
+            <Button x:Name="btnEducaciónSe" 
+                    FontAttributes="Bold"
+                    Text="Educación Socioemocional"
+                    FontSize="20"
+                    TextColor="White" 
+                    Clicked="btnEducaciónSe_Clicked"
+                    Grid.Row="3" 
+                    Grid.Column="1" 
+                    CornerRadius="30"
+                    BackgroundColor="#E91E63" 
+                    Opacity="1.0"
+                    Margin="10" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

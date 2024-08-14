@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Misisipi"
+             BackgroundImageSource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Mississippi_River_mod.png/220px-Mississippi_River_mod.png">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="El Río Misisipi"
+                       TextColor="Black"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="El río Misisipi es uno de los ríos más largos de América del Norte, con una longitud de aproximadamente 3,766 kilómetros. Fluye desde el lago Itasca en Minnesota hasta el Golfo de México, atravesando el centro de los Estados Unidos."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen del Río Misisipi -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/Rhh6GLc/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Vista del río Misisipi en el sur de los Estados Unidos, mostrando su amplio cauce."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre el Río Misisipi -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Importancia del Río Misisipi:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Comercio y Transporte: El río Misisipi es una vía fluvial clave para el transporte de mercancías y el comercio en los Estados Unidos. Su curso conecta el centro del país con el Golfo de México, facilitando el movimiento de productos agrícolas e industriales."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Agricultura: El valle del Misisipi es una de las regiones agrícolas más fértiles del país. El río proporciona agua esencial para el cultivo de soja, maíz y otros productos importantes."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Historia y Cultura: El Misisipi ha sido un importante recurso cultural y histórico en Estados Unidos. Ha influido en la literatura, la música y el desarrollo de las comunidades que se encuentran a lo largo de su curso."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Ecología: El río Misisipi y sus alrededores albergan una rica biodiversidad. Es hogar de una variedad de especies de peces, aves y otros animales, así como de importantes ecosistemas acuáticos y terrestres."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Desafíos Ambientales: El río Misisipi enfrenta desafíos como la contaminación, la erosión y las inundaciones. Las iniciativas para conservar y proteger el río son cruciales para mantener su salud ecológica y funcionalidad económica."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/sbvbhz7/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Otra vista del río Misisipi, mostrando su impacto en el paisaje y la vida de las comunidades circundantes."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

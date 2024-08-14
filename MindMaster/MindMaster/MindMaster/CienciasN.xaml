@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.CienciasN"
+             BackgroundImageSource="https://i.pinimg.com/236x/25/24/bb/2524bb501149b5a5da08ca8508d76e4c.jpg">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+                
+
+                <Frame HasShadow="True" CornerRadius="10" Padding="0" Margin="10">
+                    <Grid>
+                        <ImageButton x:Name="Biología" Source="https://sydweb.neocities.org/biologia/1.jpg"
+                                     Aspect="AspectFill"
+                                     VerticalOptions="FillAndExpand"
+                                     HorizontalOptions="FillAndExpand"
+                                     Clicked="Biología_Clicked"/>
+                        <Label Text="Biología"
+                               FontSize="20"
+                               TextColor="White"
+                               BackgroundColor="#4CAF50"
+                               Opacity="0.8"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center"
+                               Padding="5" />
+                    </Grid>
+                </Frame>
+
+                <Frame HasShadow="True" CornerRadius="10" Padding="0" Margin="10">
+                    <Grid>
+                        <ImageButton x:Name="Química" Source="https://humanidades.com/wp-content/uploads/2017/07/quimica-organica-1-e1570662208256.jpg"
+                                     Aspect="AspectFill"
+                                     VerticalOptions="FillAndExpand"
+                                     HorizontalOptions="FillAndExpand"
+                                     Clicked="Química_Clicked"/>
+                        <Label Text="Química"
+                               FontSize="20"
+                               TextColor="White"
+                               BackgroundColor="#2196F3"
+                               Opacity="0.8"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center"
+                               Padding="5" />
+                    </Grid>
+                </Frame>
+
+                <Frame HasShadow="True" CornerRadius="10" Padding="0" Margin="10">
+                    <Grid>
+                        <ImageButton x:Name="Física" Source="https://concepto.de/wp-content/uploads/2018/08/f%C3%ADsica-e1534938838719.jpg"
+                                     Aspect="AspectFill"
+                                     VerticalOptions="FillAndExpand"
+                                     HorizontalOptions="FillAndExpand"
+                                     Clicked="Física_Clicked"/>
+                        <Label Text="Física"
+                               FontSize="20"
+                               TextColor="Black"
+                               BackgroundColor="#FFFFFF"
+                               Opacity="0.8"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center"
+                               Padding="5" />
+                    </Grid>
+                </Frame>
+
+                <Frame HasShadow="True" CornerRadius="10" Padding="0" Margin="10">
+                    <Grid>
+                        <ImageButton x:Name="Astronomía" Source="https://elseptimocielo.fundaciondescubre.es/files/2020/07/AdobeStock_298507528-756x442.jpeg"
+                                     Aspect="AspectFill"
+                                     VerticalOptions="FillAndExpand"
+                                     HorizontalOptions="FillAndExpand"
+                                     Clicked="Astronomía_Clicked"/>
+                        <Label Text="Astronomía"
+                               FontSize="20"
+                               TextColor="White"
+                               BackgroundColor="#F44336"
+                               Opacity="0.8"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center"
+                               Padding="5" />
+                    </Grid>
+                </Frame>
+
+                <Frame HasShadow="True" CornerRadius="10" Padding="0" Margin="10">
+                    <Grid>
+                        <ImageButton x:Name="Geología"  Source="https://ingeoexpert.com/wp-content/uploads/2020/10/Geolog%C3%ADa.jpg"
+                                     Aspect="AspectFill"
+                                     VerticalOptions="FillAndExpand"
+                                     HorizontalOptions="FillAndExpand"
+                                     Clicked="Geología_Clicked"/>
+                        <Label Text="Geología"
+                               FontSize="20"
+                               TextColor="White"
+                               BackgroundColor="#663803"
+                               Opacity="0.8"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center"
+                               Padding="5" />
+                    </Grid>
+                </Frame>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

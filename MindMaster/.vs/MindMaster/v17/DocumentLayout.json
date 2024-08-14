@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Brayan\\OneDrive\\Escritorio\\MindMaster\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D31E311A-750B-453A-B8EA-EF01107DE435}|MindMaster\\MindMaster\\MindMaster.csproj|c:\\users\\brayan\\onedrive\\escritorio\\mindmaster\\mindmaster\\mindmaster\\educacion_socioemocional.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D31E311A-750B-453A-B8EA-EF01107DE435}|MindMaster\\MindMaster\\MindMaster.csproj|solutionrelative:mindmaster\\mindmaster\\educacion_socioemocional.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31E311A-750B-453A-B8EA-EF01107DE435}|MindMaster\\MindMaster\\MindMaster.csproj|c:\\users\\brayan\\onedrive\\escritorio\\mindmaster\\mindmaster\\mindmaster\\regulacion_emocional.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D31E311A-750B-453A-B8EA-EF01107DE435}|MindMaster\\MindMaster\\MindMaster.csproj|solutionrelative:mindmaster\\mindmaster\\regulacion_emocional.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31E311A-750B-453A-B8EA-EF01107DE435}|MindMaster\\MindMaster\\MindMaster.csproj|c:\\users\\brayan\\onedrive\\escritorio\\mindmaster\\mindmaster\\mindmaster\\comunicacion_efectiva.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D31E311A-750B-453A-B8EA-EF01107DE435}|MindMaster\\MindMaster\\MindMaster.csproj|solutionrelative:mindmaster\\mindmaster\\comunicacion_efectiva.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31E311A-750B-453A-B8EA-EF01107DE435}|MindMaster\\MindMaster\\MindMaster.csproj|c:\\users\\brayan\\onedrive\\escritorio\\mindmaster\\mindmaster\\mindmaster\\empatia.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D31E311A-750B-453A-B8EA-EF01107DE435}|MindMaster\\MindMaster\\MindMaster.csproj|solutionrelative:mindmaster\\mindmaster\\empatia.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31E311A-750B-453A-B8EA-EF01107DE435}|MindMaster\\MindMaster\\MindMaster.csproj|c:\\users\\brayan\\onedrive\\escritorio\\mindmaster\\mindmaster\\mindmaster\\resolucion_de_conflictos.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D31E311A-750B-453A-B8EA-EF01107DE435}|MindMaster\\MindMaster\\MindMaster.csproj|solutionrelative:mindmaster\\mindmaster\\resolucion_de_conflictos.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D31E311A-750B-453A-B8EA-EF01107DE435}|MindMaster\\MindMaster\\MindMaster.csproj|c:\\users\\brayan\\onedrive\\escritorio\\mindmaster\\mindmaster\\mindmaster\\autoestima.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D31E311A-750B-453A-B8EA-EF01107DE435}|MindMaster\\MindMaster\\MindMaster.csproj|solutionrelative:mindmaster\\mindmaster\\autoestima.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Educacion_Socioemocional.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Brayan\\OneDrive\\Escritorio\\MindMaster\\MindMaster\\MindMaster\\Educacion_Socioemocional.xaml.cs",
+              "RelativeDocumentMoniker": "MindMaster\\MindMaster\\Educacion_Socioemocional.xaml.cs",
+              "ToolTip": "C:\\Users\\Brayan\\OneDrive\\Escritorio\\MindMaster\\MindMaster\\MindMaster\\Educacion_Socioemocional.xaml.cs",
+              "RelativeToolTip": "MindMaster\\MindMaster\\Educacion_Socioemocional.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T05:32:46.135Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Regulacion_Emocional.xaml",
+              "DocumentMoniker": "C:\\Users\\Brayan\\OneDrive\\Escritorio\\MindMaster\\MindMaster\\MindMaster\\Regulacion_Emocional.xaml",
+              "RelativeDocumentMoniker": "MindMaster\\MindMaster\\Regulacion_Emocional.xaml",
+              "ToolTip": "C:\\Users\\Brayan\\OneDrive\\Escritorio\\MindMaster\\MindMaster\\MindMaster\\Regulacion_Emocional.xaml",
+              "RelativeToolTip": "MindMaster\\MindMaster\\Regulacion_Emocional.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-12T05:37:23.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Comunicacion_Efectiva.xaml",
+              "DocumentMoniker": "C:\\Users\\Brayan\\OneDrive\\Escritorio\\MindMaster\\MindMaster\\MindMaster\\Comunicacion_Efectiva.xaml",
+              "RelativeDocumentMoniker": "MindMaster\\MindMaster\\Comunicacion_Efectiva.xaml",
+              "ToolTip": "C:\\Users\\Brayan\\OneDrive\\Escritorio\\MindMaster\\MindMaster\\MindMaster\\Comunicacion_Efectiva.xaml",
+              "RelativeToolTip": "MindMaster\\MindMaster\\Comunicacion_Efectiva.xaml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAE8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-12T05:36:54.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Resolucion_de_Conflictos.xaml",
+              "DocumentMoniker": "C:\\Users\\Brayan\\OneDrive\\Escritorio\\MindMaster\\MindMaster\\MindMaster\\Resolucion_de_Conflictos.xaml",
+              "RelativeDocumentMoniker": "MindMaster\\MindMaster\\Resolucion_de_Conflictos.xaml",
+              "ToolTip": "C:\\Users\\Brayan\\OneDrive\\Escritorio\\MindMaster\\MindMaster\\MindMaster\\Resolucion_de_Conflictos.xaml",
+              "RelativeToolTip": "MindMaster\\MindMaster\\Resolucion_de_Conflictos.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEsAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-12T05:35:48.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Autoestima.xaml",
+              "DocumentMoniker": "C:\\Users\\Brayan\\OneDrive\\Escritorio\\MindMaster\\MindMaster\\MindMaster\\Autoestima.xaml",
+              "RelativeDocumentMoniker": "MindMaster\\MindMaster\\Autoestima.xaml",
+              "ToolTip": "C:\\Users\\Brayan\\OneDrive\\Escritorio\\MindMaster\\MindMaster\\MindMaster\\Autoestima.xaml",
+              "RelativeToolTip": "MindMaster\\MindMaster\\Autoestima.xaml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-12T05:34:30.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Empatia.xaml",
+              "DocumentMoniker": "C:\\Users\\Brayan\\OneDrive\\Escritorio\\MindMaster\\MindMaster\\MindMaster\\Empatia.xaml",
+              "RelativeDocumentMoniker": "MindMaster\\MindMaster\\Empatia.xaml",
+              "ToolTip": "C:\\Users\\Brayan\\OneDrive\\Escritorio\\MindMaster\\MindMaster\\MindMaster\\Empatia.xaml",
+              "RelativeToolTip": "MindMaster\\MindMaster\\Empatia.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-12T05:34:03.752Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

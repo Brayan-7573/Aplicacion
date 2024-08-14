@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Regulacion_Emocional"
+             BackgroundImageSource="https://i.pinimg.com/564x/e9/40/8e/e9408ef7022285d38d4f3565cd325083.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Regulación Emocional"
+                       TextColor="White"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción General -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.3" />
+                    <Label Text="La regulación emocional es la capacidad de gestionar y responder a las emociones de manera saludable. Implica reconocer, comprender y expresar las emociones adecuadamente, lo cual es crucial para el bienestar emocional y las relaciones interpersonales."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen representativa -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/N6p4ssC/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="25"
+                               Text="La habilidad de regular las emociones es clave para mantener el equilibrio emocional en la vida diaria."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Estrategias para la Regulación Emocional -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Estrategias para una Regulación Emocional Saludable:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Identificación emocional: Reconoce y etiqueta tus emociones con precisión."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Respiración profunda: Utiliza técnicas de respiración para calmarte en momentos de estrés."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Reestructuración cognitiva: Cambia pensamientos negativos por enfoques más positivos y realistas."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Expresión emocional: Comunica tus emociones de manera asertiva y respetuosa."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Búsqueda de apoyo: Habla con alguien de confianza sobre lo que sientes para obtener perspectiva."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/pRqFj9q/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="25"
+                               Text="El manejo adecuado de las emociones promueve la salud mental y el bienestar general."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

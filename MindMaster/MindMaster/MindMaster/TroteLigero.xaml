@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.TroteLigero"
+             Title="Calentamiento de Trote Ligero">
+
+    <ScrollView>
+        <StackLayout Padding="10">
+           
+            <Label Text="Ejercicio 1: Trote en el Lugar" 
+                   FontAttributes="Bold" 
+                   FontSize="Medium"
+                   Margin="0,10,0,0" />
+            <Label Text="1. Párate con los pies juntos y los brazos relajados a los lados."
+                   Margin="0,5,0,0" />
+            
+            <Label Text="2. Comienza a trotar suavemente en el lugar, levantando ligeramente las rodillas."
+                   Margin="0,5,0,0" />
+            <Label Text="Duración: Trota en el lugar durante 1-2 minutos."
+                   Margin="0,5,0,10" />
+
+           
+            <Label Text="Ejercicio 2: Trote con Elevación de Rodillas" 
+                   FontAttributes="Bold" 
+                   FontSize="Medium"
+                   Margin="0,10,0,0" />
+            <Label Text="1. Párate con los pies juntos y los brazos relajados a los lados."
+                   Margin="0,5,0,0" />
+            
+            <Label Text="2. Comienza a trotar en el lugar, levantando las rodillas hacia el pecho."
+                   Margin="0,5,0,0" />
+            <Label Text="Duración: Trota con elevación de rodillas durante 1 minuto."
+                   Margin="0,5,0,10" />
+
+           
+            <Label Text="Ejercicio 3: Trote con Talones al Glúteo" 
+                   FontAttributes="Bold" 
+                   FontSize="Medium"
+                   Margin="0,10,0,0" />
+            <Label Text="1. Párate con los pies juntos y los brazos relajados a los lados."
+                   Margin="0,5,0,0" />
+          
+            <Label Text="2. Comienza a trotar en el lugar, llevando los talones hacia los glúteos."
+                   Margin="0,5,0,0" />
+            <Label Text="Duración: Trota con talones al glúteo durante 1 minuto."
+                   Margin="0,5,0,10" />
+
+           
+            <Label Text="Ejercicio 4: Trote Adelante y Atrás" 
+                   FontAttributes="Bold" 
+                   FontSize="Medium"
+                   Margin="0,10,0,0" />
+            <Label Text="1. Párate con los pies juntos y los brazos relajados a los lados."
+                   Margin="0,5,0,0" />
+            
+            <Label Text="2. Comienza a trotar suavemente hacia adelante y hacia atrás en un espacio pequeño."
+                   Margin="0,5,0,0" />
+            <Label Text="Duración: Trota adelante y atrás durante 1-2 minutos."
+                   Margin="0,5,0,10" />
+
+           
+            <Label Text="Ejercicio 5: Trote en Círculos" 
+                   FontAttributes="Bold" 
+                   FontSize="Medium"
+                   Margin="0,10,0,0" />
+            <Label Text="1. Párate con los pies juntos y los brazos relajados a los lados."
+                   Margin="0,5,0,0" />
+            <Label Text="2. Comienza a trotar en pequeños círculos, alternando la dirección cada 30 segundos."
+                   Margin="0,5,0,0" />
+            <Label Text="Duración: Trota en círculos durante 2 minutos."
+                   Margin="0,5,0,10" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

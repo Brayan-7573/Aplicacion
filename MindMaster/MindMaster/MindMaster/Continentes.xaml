@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Continentes"
+             BackgroundColor="#423f3f">
+
+    <ContentPage.Content>
+        <ScrollView Padding="10">
+            <StackLayout Spacing="20" VerticalOptions="Start">
+             
+                <Label Text="Principales Ríos del Mundo" TextColor="White"
+                       FontSize="35"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       Margin="0,20,0,30" />
+
+                <!-- Contenedor para cada río -->
+                <StackLayout Spacing="10">
+                    <!-- Elemento 1 -->
+                    <Frame HasShadow="True"
+                           CornerRadius="15"
+                           Padding="0"
+                           Margin="0,0,0,10"
+                           BackgroundColor="Black">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnAmazonasFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/qY5g7x5/download.jpg"
+                                   Aspect="AspectFill"
+                                   HeightRequest="200"
+                                   WidthRequest="300"/>
+                            <Label Text="Amazonas"
+                                   FontSize="22"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"
+                                   Padding="10"
+                                   BackgroundColor="Black"
+                                   TextColor="White"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Elemento 2 -->
+                    <Frame HasShadow="True"
+                           CornerRadius="15"
+                           Padding="0"
+                           Margin="0,0,0,10"
+                           BackgroundColor="Black">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnNiloFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/jTZ2TM5/download.jpg"
+                                   Aspect="AspectFill"
+                                   HeightRequest="200"
+                                   WidthRequest="300"/>
+                            <Label Text="Nilo"
+                                   FontSize="22"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"
+                                   Padding="10"
+                                   BackgroundColor="Black"
+                                   TextColor="White"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Elemento 3 -->
+                    <Frame HasShadow="True"
+                           CornerRadius="15"
+                           Padding="0"
+                           Margin="0,0,0,10"
+                           BackgroundColor="Black">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnYangtzeFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/NmTXdQf/download.jpg"
+                                   Aspect="AspectFill"
+                                   HeightRequest="200"
+                                   WidthRequest="300"/>
+                            <Label Text="Yangtze"
+                                   FontSize="22"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"
+                                   Padding="10"
+                                   BackgroundColor="Black"
+                                   TextColor="White"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Elemento 4 -->
+                    <Frame HasShadow="True"
+                           CornerRadius="15"
+                           Padding="0"
+                           Margin="0,0,0,10"
+                           BackgroundColor="Black">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnMisisipiFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/LtDT5X7/download.jpg"
+                                   Aspect="AspectFill"
+                                   HeightRequest="200"
+                                   WidthRequest="300"/>
+                            <Label Text="Misisipi"
+                                   FontSize="22"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"
+                                   Padding="10"
+                                   BackgroundColor="Black"
+                                   TextColor="White"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Elemento 5 -->
+                    <Frame HasShadow="True"
+                           CornerRadius="15"
+                           Padding="0"
+                           Margin="0,0,0,10"
+                           BackgroundColor="Black">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnGangesFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/BG5HRJR/download.jpg"
+                                   Aspect="AspectFill"
+                                   HeightRequest="200"
+                                   WidthRequest="300"/>
+                            <Label Text="Ganges"
+                                   FontSize="22"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"
+                                   Padding="10"
+                                   BackgroundColor="Black"
+                                   TextColor="White"/>
+                        </StackLayout>
+                    </Frame>
+
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

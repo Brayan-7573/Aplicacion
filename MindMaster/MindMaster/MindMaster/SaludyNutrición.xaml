@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.SaludyNutrición"
+             Title="Salud y Nutrición" 
+             BackgroundImageSource="https://i.pinimg.com/236x/00/f6/c1/00f6c1044fcc0795059c0c79a152d5de.jpg">
+    
+    <ScrollView>
+        <StackLayout Padding="10">
+            <Label Text="Tema 1: Alimentación Balanceada" 
+                   FontAttributes="Bold" 
+                   FontSize="25"
+                   TextColor="white"
+                   Margin="0,10,0,0" />
+            <StackLayout BackgroundColor="#80FFFFFF" Padding="10" Margin="0,0,0,10">
+                <Label Text="1. Consume una variedad de alimentos para obtener todos los nutrientes necesarios."
+                       FontAttributes="Bold" 
+                       FontSize="Large"
+                       TextColor="Black" />
+            </StackLayout>
+            <Image Source="https://www.genfar.com/_nuxt/img/main-picture.b823fdf.jpg" Aspect="AspectFit" HeightRequest="150"/>
+            <StackLayout BackgroundColor="#80FFFFFF" Padding="10" Margin="0,10,0,0">
+                <Label Text="2. Incluye frutas, verduras, proteínas, y granos enteros en tu dieta diaria."
+                       FontAttributes="Bold" 
+                       FontSize="Large"
+                       TextColor="Black" />
+                <Label Text="Beneficio: Mejora tu salud general y previene enfermedades."
+                       FontAttributes="Bold" 
+                       FontSize="Large"
+                       TextColor="Black" />
+            </StackLayout>
+
+            <!-- Tema 2: Hidratación -->
+            <Label Text="Tema 2: Hidratación" 
+                   FontAttributes="Bold" 
+                    FontSize="25"
+                    TextColor="white"
+                   Margin="0,20,0,0" />
+            <StackLayout BackgroundColor="#80FFFFFF" Padding="10" Margin="0,0,0,10">
+                <Label Text="1. Bebe al menos 8 vasos de agua al día para mantenerte hidratado."
+                       FontAttributes="Bold" 
+                       FontSize="Large"
+                       TextColor="Black" />
+            </StackLayout>
+            <Image Source="https://libbys.es/wordpress/wp-content/uploads/2020/04/hidratacion-y-salud.jpg" Aspect="AspectFit" HeightRequest="150"/>
+            <StackLayout BackgroundColor="#80FFFFFF" Padding="10" Margin="0,10,0,0">
+                <Label Text="2. Evita las bebidas azucaradas y prefiere agua o infusiones sin azúcar."
+                       FontAttributes="Bold" 
+                       FontSize="Large"
+                       TextColor="Black" />
+                <Label Text="Beneficio: Mantiene tu cuerpo funcionando correctamente y mejora la concentración."
+                       FontAttributes="Bold" 
+                       FontSize="Large"
+                       TextColor="Black" />
+            </StackLayout>
+
+            <!-- Tema 3: Ejercicio Regular -->
+            <Label Text="Tema 3: Ejercicio Regular" 
+                   FontAttributes="Bold" 
+                    FontSize="25"
+ TextColor="white"
+                   Margin="0,20,0,0" />
+            <StackLayout BackgroundColor="#80FFFFFF" Padding="10" Margin="0,0,0,10">
+                <Label Text="1. Realiza al menos 30 minutos de actividad física al día."
+                       FontAttributes="Bold" 
+                       FontSize="Large"
+                       TextColor="Black" />
+            </StackLayout>
+            <Image Source="https://www.infobae.com/new-resizer/JsHVFfLnIPDbyI3rOVdT0s9vpMc=/arc-anglerfish-arc2-prod-infobae/public/XF2TUJLNPJF35J5QH6G6CJTPRI.jpg" Aspect="AspectFit" HeightRequest="150"/>
+            <StackLayout BackgroundColor="#80FFFFFF" Padding="10" Margin="0,10,0,0">
+                <Label Text="2. Incluye ejercicios de fuerza, flexibilidad y cardio en tu rutina semanal."
+                       FontAttributes="Bold" 
+                       FontSize="Large"
+                       TextColor="Black" />
+                <Label Text="Beneficio: Mejora tu estado físico, mental y emocional."
+                       FontAttributes="Bold" 
+                       FontSize="Large"
+                       TextColor="Black" />
+            </StackLayout>
+
+            <!-- Tema 4: Sueño Adecuado -->
+            <Label Text="Tema 4: Sueño Adecuado" 
+                   FontAttributes="Bold" 
+                    FontSize="25"
+ TextColor="white"
+                   Margin="0,20,0,0" />
+            <StackLayout BackgroundColor="#80FFFFFF" Padding="10" Margin="0,0,0,10">
+                <Label Text="1. Duerme entre 7 y 9 horas cada noche para una salud óptima."
+                       FontAttributes="Bold" 
+                       FontSize="Large"
+                       TextColor="Black" />
+            </StackLayout>
+            <Image Source="https://sognare.com.mx/notas/wp-content/uploads/2020/12/shutterstock_1756229882-1200x675.jpg" Aspect="AspectFit" HeightRequest="150"/>
+            <StackLayout BackgroundColor="#80FFFFFF" Padding="10" Margin="0,10,0,0">
+                <Label Text="2. Mantén un horario regular de sueño y crea un ambiente propicio para dormir."
+                       FontAttributes="Bold" 
+                       FontSize="Large"
+                       TextColor="Black" />
+                <Label Text="Beneficio: Mejora tu energía, estado de ánimo y rendimiento diario."
+                       FontAttributes="Bold" 
+                       FontSize="Large"
+                       TextColor="Black" />
+            </StackLayout>
+
+            <!-- Tema 5: Estrés y Relajación -->
+            <Label Text="Tema 5: Estrés y Relajación" 
+                   FontAttributes="Bold" 
+                   FontSize="25"
+ TextColor="white"
+                   Margin="0,20,0,0" />
+            <StackLayout BackgroundColor="#80FFFFFF" Padding="10" Margin="0,0,0,10">
+                <Label Text="1. Practica técnicas de relajación como meditación, yoga o respiración profunda."
+                       FontAttributes="Bold" 
+                       FontSize="Large"
+                       TextColor="Black" />
+            </StackLayout>
+            <Image Source="https://www.webconsultas.com/sites/default/files/styles/wch_image_schema/public/temas/mindfulness_p.jpg" Aspect="AspectFit" HeightRequest="150"/>
+            <StackLayout BackgroundColor="#80FFFFFF" Padding="10" Margin="0,10,0,0">
+                <Label Text="2. Dedica tiempo a actividades que disfrutes y que te ayuden a desconectar."
+                       FontAttributes="Bold" 
+                       FontSize="Large"
+                       TextColor="Black" />
+                <Label Text="Beneficio: Reduce el estrés, mejora la salud mental y aumenta la felicidad."
+                       FontAttributes="Bold" 
+                       FontSize="Large"
+                       TextColor="Black" />
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
+
+

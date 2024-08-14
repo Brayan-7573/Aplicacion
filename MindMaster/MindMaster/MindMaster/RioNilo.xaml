@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.RioNilo"
+             BackgroundImageSource="https://i.ibb.co/1L2NJcN/c9ba149058fd9e632a00f31abcd8e576.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Río Nilo"
+                       TextColor="White"    
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="El río Nilo es uno de los ríos más largos del mundo, con una longitud de aproximadamente 6,650 kilómetros. Fluye desde el noreste de África, atravesando varios países, incluyendo Uganda, Sudán y Egipto, antes de desembocar en el mar Mediterráneo."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen del Río Nilo -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/cYGt6Tf/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="El río Nilo visto desde un punto elevado, mostrando su inmenso recorrido a través del continente africano."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre el Río Nilo -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Importancia del Río Nilo:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Historia y Cultura: El Nilo ha sido esencial para las civilizaciones que han florecido a lo largo de sus orillas, incluyendo el antiguo Egipto. Los egipcios dependían del río para la agricultura, el transporte y la vida cotidiana."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Agricultura: El río proporciona agua esencial para la agricultura en una región que de otro modo sería desértica. Sus inundaciones anuales enriquecen el suelo con sedimentos fértiles."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Vida Silvestre: El Nilo es hogar de una rica variedad de vida silvestre, incluyendo cocodrilos, hipopótamos y numerosas especies de aves. Los ecosistemas a lo largo del río son vitales para muchas especies."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Recursos Hídricos: Es una fuente crucial de agua para millones de personas en África. Sin el Nilo, muchas áreas de Egipto, Sudán y otros países no podrían sustentar a sus poblaciones."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Retos: El río enfrenta desafíos debido a la construcción de represas, el cambio climático y la gestión de los recursos hídricos. Estos factores afectan la disponibilidad de agua y el medio ambiente a lo largo del Nilo."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/fQT1kML/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Una vista del río Nilo en El Cairo, mostrando la importancia del río en la vida urbana moderna."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

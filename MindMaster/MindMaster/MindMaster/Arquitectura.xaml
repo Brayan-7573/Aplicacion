@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Arquitectura"
+             BackgroundImageSource="https://img1.wallspic.com/previews/4/8/5/6/7/176584/176584-el_instituto_de_arte_de_chicago-treinta_y_cinco_e_wacker-torre_de_seattle-333_norte_de_michigan-edificio_de_la_junta_de_comercio_de_chicago-x750.jpg">
+    
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Grid>
+                    <Label Text="Arquitectura"
+                           TextColor="White"
+                           FontSize="70"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <Grid>
+                    <BoxView Color="#D3CCCC" Opacity="0.1" />
+                    <Label Text="La arquitectura es el arte y la ciencia de diseñar y construir edificaciones y estructuras físicas que cumplen con funciones prácticas y estéticas."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="25"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+               
+                <Grid>
+                    <Label Text="Antiguas Maravillas"
+                           TextColor="White"
+                           FontSize="70"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <Grid>
+                    <Image Source="https://www.ngenespanol.com/wp-content/uploads/2022/11/piramides-de-giza-podrian-desaparecer-770x513.jpg"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="#533501" Opacity="0.5" IsVisible="True" />
+
+                        <Label FontSize="20"  
+                           Text="Venus de Milo - Una antigua estatua griega de la diosa Afrodita (Venus en la mitología romana),
+                               conocida por su falta de brazos. Se encuentra en el Museo del Louvre en París." 
+                           VerticalOptions="Center"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Start"
+                           Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+
+                <Grid>
+                    <BoxView Color="#533501" Opacity="0.5"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="25" FontAttributes="Bold" Text="Pirámides de Giza (Egipto) Características de la Arquitectura:"/>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="1. Ubicación: Las Pirámides de Giza se encuentran en la meseta de Giza, cerca de El Cairo, Egipto."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="2. Constructores: Fueron construidas por los antiguos egipcios durante la Cuarta Dinastía del Imperio Antiguo, alrededor del siglo XXVI a.C."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="3. Faraónes: Estas pirámides fueron construidas como tumbas para los faraones Khufu, Khafre y Menkaure."/>
+                            </StackLayout>
+
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+                <Grid>
+
+                    <Grid Grid.Column="1">
+                        <Image Source="https://www.costacruceros.com/content/dam/costa/costa-magazine/article-images/parthenon-of-athens/Partenone_Homepage_Desktop.jpg.image.648.487.high.jpg"/>
+                    </Grid>
+
+                    <Grid Grid.Column="0" BackgroundColor="Transparent">
+                        <BoxView Color="#285DBB" Opacity="0.5" IsVisible="True" />
+                        <Label Text="Templo de Partenón (Atenas, Grecia) - Un templo dedicado a la diosa Atenea." 
+                               VerticalOptions="Center"
+                               HorizontalOptions="Start"
+                               FontAttributes="Bold"
+                               FontSize="20"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <Grid>
+                    <BoxView Color="#285DBB" Opacity="0.5"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="25" FontAttributes="Bold" Text="David de Miguel Ángel Características de la Escultura:"/>
+                            
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="1. Ubicación: El Templo de Partenón está ubicado en la Acrópolis de Atenas, Grecia."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="2. Constructores: Fue construido bajo la supervisión del arquitecto Ictinos y el escultor Fidias, entre los años 447 y 438 a.C., durante el apogeo de la civilización griega."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="3. Dedicación: El templo estaba dedicado a Atenea Parthenos, la diosa virgen protectora de Atenas."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="4. Estilo arquitectónico: Representa el clásico estilo dórico griego, conocido por sus columnas robustas y sin bases, así como por su friso decorativo."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="5. Medidas: El Partenón tiene unas dimensiones de aproximadamente 69.5 metros de largo por 30.9 metros de ancho."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="6. Arquitectura y decoración: Estaba construido en mármol pentélico y originalmente contaba con un techo de tejas de mármol y un friso de mármol con escenas mitológicas y ceremoniales."/>
+                            </StackLayout>
+
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+                <Grid>
+                    <Label Text="Edad Media"
+                           TextColor="White"
+                           FontSize="70"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <Grid>
+                    <Image Source="https://cdn.culturagenial.com/es/imagenes/a-catedral-fachada-bella-cke.jpg"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="#685721" Opacity="0.5" IsVisible="True" />
+
+                        <Label FontSize="23"  
+                               Text="Catedral de Notre Dame (París, Francia) - Una catedral gótica famosa por su arquitectura y sus vitrales. " 
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+
+                <Grid>
+                    <BoxView Color="#685721" Opacity="0.5"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="25" FontAttributes="Bold" Text="El Discóbolo Características de la Escultura:"/>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="1. Ubicación: La Catedral de Notre Dame está ubicada en la Île de la Cité en París, Francia."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="2. Estilo arquitectónico: Es un ejemplo destacado de la arquitectura gótica, conocida por sus altas bóvedas, arcos apuntados y ventanales con vitrales."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="3. Constructores: La construcción comenzó en 1163 bajo la dirección del obispo Maurice de Sully y continuó durante casi dos siglos."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="4. Elementos arquitectónicos: La catedral presenta una fachada decorada con esculturas religiosas y gárgolas, dos torres frontales y un rosetón central."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="5. Vínculos históricos: Notre Dame ha sido testigo de importantes eventos históricos, incluyendo la coronación de Napoleón Bonaparte como emperador en 1804."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="6. Vitrales: Es famosa por sus vitrales medievales, que ilustran escenas bíblicas y santos, así como por el rosetón sur, uno de los más grandes de Europa."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="7. Incendio de 2019: En abril de 2019, un incendio devastó parte de la estructura y el tejado de Notre Dame, desatando esfuerzos mundiales para su restauración."/>
+                            </StackLayout>
+
+
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+                <Grid>
+
+                    <Grid Grid.Column="0">
+                        <Image Source="https://hablacultura.com/wp-content/uploads/2017/08/alhambra.jpg"/>
+                    </Grid>
+
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="#533501" Opacity="0.5" IsVisible="True" />
+                        <Label Text="Alhambra (Granada, España) - Un palacio y fortaleza árabe con una impresionante arquitectura islámica." 
+                               VerticalOptions="Center"
+                               HorizontalOptions="Start"
+                               FontAttributes="Bold"
+                               FontSize="23"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <Grid>
+                    <BoxView Color="#533501" Opacity="0.5"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="25" FontAttributes="Bold" Text="Alhambra  Características de la Arquitectura:"/>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="1. Ubicación: La Alhambra se encuentra en Granada, España, en la colina de la Sabika, con vistas a la ciudad."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="2. Constructores: Fue construida principalmente durante el siglo XIII por los gobernantes nazaríes del Reino de Granada."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="3. Estilo arquitectónico: Es un ejemplo destacado de la arquitectura islámica, combinando elementos de la arquitectura islámica hispanomusulmana con influencias moriscas."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="4. Función: La Alhambra servía como residencia real de los gobernantes nazaríes, así como una fortaleza defensiva."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="5. Estructura: La Alhambra incluye palacios, fortificaciones, jardines y una ciudadela, todos ellos decorados con intrincados detalles arquitectónicos y ornamentales."/>
+                            </StackLayout>
+
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+                <Grid>
+                    <Label Text="Renacimiento y Barroco"
+                           TextColor="White"
+                           FontSize="70"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <Grid>
+                    <Image Source="https://www.romando.org/wp-content/uploads/sites/14/2018/06/basilica-de-san-pedro.jpeg"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="#024A57" Opacity="0.5" IsVisible="True" />
+
+                        <Label FontSize="23"  
+                               Text="Basílica de San Pedro (Ciudad del Vaticano) - Una basílica renacentista en la Ciudad del Vaticano." 
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+
+                <Grid>
+                    <BoxView Color="#024A57" Opacity="0.5"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="25" FontAttributes="Bold" Text="Basílica de San Pedro Características de la Arquitecura:"/>
+                            
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="1. Ubicación: La Basílica de San Pedro se encuentra en la Ciudad del Vaticano, en la Plaza de San Pedro."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="2. Estilo arquitectónico: Es un ejemplo destacado de la arquitectura renacentista y barroca, diseñada por varios arquitectos prominentes a lo largo de los siglos."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="3. Constructores: La construcción de la basílica comenzó en 1506 bajo el Papa Julio II y continuó durante varios papados, incluyendo a Miguel Ángel, Carlo Maderno y Gian Lorenzo Bernini."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="4. Función: Es la iglesia principal del catolicismo y uno de los lugares de peregrinación más importantes del mundo."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="5. Dimensiones: La basílica tiene una longitud interior de aproximadamente 186 metros y una altura en la cúpula de aproximadamente 136 metros."/>
+                            </StackLayout>
+
+
+
+
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Everest"
+             BackgroundImageSource="https://www.infobae.com/new-resizer/LtNTxK9yqj1aaoIM3hTNO_EEEKE=/1200x2133/filters:format(webp):quality(85)/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/05/24090651/monte-everest-1920-1.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Monte Everest"
+                       TextColor="Black"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.8" />
+                    <Label Text="El Monte Everest es la montaña más alta del mundo, situada en la cordillera del Himalaya en Asia. Con una altitud de 8,848.86 metros (29,031.7 pies), es un destino emblemático para escaladores y aventureros de todo el mundo."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen representativa -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/g3PKVks/665a930c83667.png"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="El Monte Everest es conocido por sus condiciones extremas, que incluyen temperaturas bajo cero y vientos fuertes, lo que hace que escalarlo sea un desafío monumental."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre el Monte Everest -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Aspectos Destacados del Monte Everest:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Altitud Extrema: Con sus 8,848.86 metros, el Everest es la montaña más alta del mundo, atrayendo a escaladores de élite y turistas por igual."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Escaladas Históricas: En 1953, Sir Edmund Hillary y Tenzing Norgay se convirtieron en las primeras personas en llegar a la cima del Everest, marcando un hito en la historia de la exploración humana."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Condiciones Climatológicas: El Everest presenta condiciones extremas, incluyendo temperaturas bajo cero y vientos huracanados, que desafían a incluso los escaladores más experimentados."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Impacto Ambiental: El aumento del turismo y las expediciones han planteado desafíos ambientales en la región, incluyendo la gestión de residuos y la preservación del ecosistema frágil."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Cultura Sherpa: Los Sherpas, una etnia local, son fundamentales para las expediciones al Everest, actuando como guías y portadores, y tienen un profundo respeto por la montaña sagrada."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional 1 -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/QcWHBZY/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="La vista aérea del Monte Everest muestra su majestuosa y desafiante cima, atrayendo a aventureros de todo el mundo."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Imagen adicional 2 -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/rfhBFz8/Everest-kalapatthar.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Escaladores ascendiendo el Monte Everest, enfrentándose a las condiciones extremas para alcanzar la cima del mundo."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Americadelnorte"
+             BackgroundImageSource="https://i.pinimg.com/originals/af/f1/f1/aff1f1f8d69045a7a93b2b80b9283b7f.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="América del Norte"
+                       TextColor="DarkBlue"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="América del Norte es un continente que abarca una vasta área geográfica, desde las regiones árticas en el norte hasta las cálidas playas del Caribe en el sur. Es un continente de contrastes, con una rica mezcla de culturas, paisajes y climas."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen representativa -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/M5Q7n9W/images.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="América del Norte es un continente diverso que incluye los países de Canadá, Estados Unidos y México, cada uno con su propia identidad cultural y natural."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre América del Norte -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Aspectos Destacados de América del Norte:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Diversidad Natural: Desde las montañas Rocosas hasta el Gran Cañón, América del Norte es hogar de algunos de los paisajes más espectaculares del mundo."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Cultura y Economía: Estados Unidos y Canadá son conocidos por su influencia cultural y económica a nivel global, mientras que México es famoso por su rica historia y vibrante cultura."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Historia: América del Norte tiene una rica historia que abarca desde las antiguas civilizaciones indígenas hasta las modernas naciones desarrolladas."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Biodiversidad: La región es hogar de una diversa gama de flora y fauna, incluyendo especies icónicas como el oso pardo y el bisonte."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Influencia Global: América del Norte es un centro de innovación tecnológica y tiene un papel significativo en la política y economía mundial."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional 1 -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/m5HXmvr/images.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="El Gran Cañón, ubicado en Arizona, Estados Unidos, es uno de los accidentes geográficos más impresionantes del mundo."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Imagen adicional 2 -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/YbgZ87G/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="El Castillo de Chapultepec en la Ciudad de México es un símbolo de la rica historia y patrimonio cultural de México."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

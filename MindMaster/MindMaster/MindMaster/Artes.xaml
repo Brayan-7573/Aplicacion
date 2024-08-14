@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Artes"
+             Title="Artes"
+             BackgroundImageSource="https://img.freepik.com/fotos-premium/estilo-pintura-noche-estrellada-van-gogh_984314-974.jpg">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20" VerticalOptions="Center" HorizontalOptions="Center" Opacity="0.8" Spacing="15">
+
+                <!-- Row 1 -->
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Button x:Name="Pintura" 
+                            Text="Pintura"
+                            Clicked="Pintura_Clicked"
+                            TextColor="White"
+                            FontSize="20"
+                            CornerRadius="75"
+                            BackgroundColor="#FFC107" 
+                            Opacity="1.0"
+                            HeightRequest="150"
+                            WidthRequest="150"
+                            Margin="5"/>
+                    <Button x:Name="Escultura" 
+                            Text="Escultura"
+                            Clicked="Escultura_Clicked"
+                            TextColor="White"
+                            FontSize="20"
+                            CornerRadius="75"
+                            BackgroundColor="#7A0C01" 
+                            Opacity="1.0"
+                            HeightRequest="150"
+                            WidthRequest="150"
+                            Margin="5"/>
+                    <Button x:Name="Arquitectura" 
+                            Text="Arquitectura"
+                            Clicked="Arquitectura_Clicked"
+                            TextColor="White"
+                            FontSize="20"
+                            CornerRadius="75"
+                            BackgroundColor="#FFC107" 
+                            Opacity="1.0"
+                            HeightRequest="150"
+                            WidthRequest="150"
+                            Margin="5"/>
+                </StackLayout>
+
+                <!-- Row 2 -->
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Button x:Name="Danza" 
+                            Text="Danza"
+                            Clicked="Danza_Clicked"
+                            TextColor="White"
+                            FontSize="20"
+                            CornerRadius="75"
+                            BackgroundColor="#FF5722" 
+                            Opacity="1.0"
+                            HeightRequest="150"
+                            WidthRequest="150"
+                            Margin="5"/>
+                    <Button x:Name="Poesia" 
+                            Text="Poesía"
+                            Clicked="Poesia_Clicked"
+                            TextColor="White"
+                            FontSize="20"
+                            CornerRadius="75"
+                            BackgroundColor="#9C27B0" 
+                            Opacity="1.0"
+                            HeightRequest="150"
+                            WidthRequest="150"
+                            Margin="5"/>
+                    <Button x:Name="Literatura" 
+                            Text="Literatura"
+                            Clicked="Literatura_Clicked"
+                            TextColor="White"
+                            FontSize="20"
+                            CornerRadius="75"
+                            BackgroundColor="#673AB7" 
+                            Opacity="1.0"
+                            HeightRequest="150"
+                            WidthRequest="150"
+                            Margin="5"/>
+                </StackLayout>
+
+                <!-- Row 3 -->
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Button x:Name="Teatro" 
+                            Text="Teatro"
+                            Clicked="Teatro_Clicked"
+                            TextColor="White"
+                            FontSize="20"
+                            CornerRadius="75"
+                            BackgroundColor="#FFC107" 
+                            Opacity="1.0"
+                            HeightRequest="150"
+                            WidthRequest="150"
+                            Margin="5"/>
+                    <Button x:Name="Cine" 
+                            Text="Cine"
+                            Clicked="Cine_Clicked"
+                            TextColor="White"
+                            FontSize="20"
+                            CornerRadius="75"
+                            BackgroundColor="#FF5722" 
+                            Opacity="1.0"
+                            HeightRequest="150"
+                            WidthRequest="150"
+                            Margin="5"/>
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
+
+

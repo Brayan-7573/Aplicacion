@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.HistoriaDeporte"
+             Title="Historia del Deporte" 
+             BackgroundImageSource="https://cdn.pixabay.com/photo/2016/11/21/17/17/architecture-1845987_960_720.jpg">
+    <ScrollView>
+        <StackLayout Padding="20">
+            <!-- Título -->
+            <Label Text="Historia del Deporte" 
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   HorizontalOptions="Center"
+                   Margin="0,20,0,20" />
+
+            <!-- Introducción -->
+            <Label Text="El deporte ha sido una parte integral de la historia humana, desde las civilizaciones antiguas hasta la era moderna. Aquí exploramos algunos hitos importantes en su evolución." 
+                   FontSize="Large"
+                   TextColor="Black"
+                   Margin="0,0,0,20" />
+
+            <!-- Antigua Grecia -->
+            <Label Text="Antigua Grecia" 
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   TextColor="Black"
+                   Margin="0,10,0,10" />
+            <Label Text="En la antigua Grecia, el deporte tenía una importancia significativa. Los Juegos Olímpicos, que se celebraron por primera vez en Olimpia en el año 776 a.C., marcaron el inicio de una tradición que perduraría durante siglos." 
+                   FontSize="Large"
+                   TextColor="Black"
+                   Margin="0,0,0,20" />
+
+            <!-- Edad Media -->
+            <Label Text="Edad Media" 
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   TextColor="Black"
+                   Margin="0,10,0,10" />
+            <Label Text="Durante la Edad Media, el interés por el deporte disminuyó en gran medida en Europa, aunque algunos juegos locales y formas primitivas de deportes continuaron existiendo en diferentes culturas." 
+                   FontSize="Large"
+                   TextColor="Black"
+                   Margin="0,0,0,20" />
+
+            <!-- Renacimiento y Modernidad -->
+            <Label Text="Renacimiento y Modernidad" 
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   TextColor="Black"
+                   Margin="0,10,0,10" />
+            <Label Text="Con el Renacimiento y la Edad Moderna, hubo un resurgimiento del interés por el cuerpo y el movimiento. Esto llevó al desarrollo de reglas más formales para varios deportes y al surgimiento de competiciones organizadas." 
+                   FontSize="Large"
+                   TextColor="Black"
+                   Margin="0,0,0,20" />
+
+            <!-- Siglo XX -->
+            <Label Text="Siglo XX" 
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   TextColor="Black"
+                   Margin="0,10,0,10" />
+            <Label Text="El siglo XX fue testigo de un crecimiento explosivo en la popularidad y la diversidad de deportes en todo el mundo. Los avances tecnológicos y los medios de comunicación jugaron un papel crucial en la globalización y la comercialización de muchos deportes." 
+                   FontSize="Large"
+                   TextColor="Black"
+                   Margin="0,0,0,20" />
+
+            <!-- Actualidad -->
+            <Label Text="Actualidad" 
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   TextColor="Black"
+                   Margin="0,10,0,10" />
+            <Label Text="Hoy en día, el deporte no solo es una forma de entretenimiento y competición, sino también una herramienta importante para promover la salud, la inclusión social y los valores culturales en todo el mundo." 
+                   FontSize="Large"
+                   TextColor="Black"
+                   Margin="0,0,0,20" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

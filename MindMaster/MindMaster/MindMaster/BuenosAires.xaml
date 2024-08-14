@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.BuenosAires"
+             BackgroundImageSource="https://i.pinimg.com/originals/56/b6/e0/56b6e02dc4ebda2e8ffce5570f5b7ad4.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Buenos Aires"
+                       TextColor="White"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="Buenos Aires, la vibrante capital de Argentina, es conocida por su rica historia, arquitectura impresionante y su animada vida cultural. La ciudad combina el encanto europeo con la calidez latinoamericana."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen representativa -->
+                <Grid>
+                    <Image Source="https://e0.pxfuel.com/wallpapers/895/483/desktop-wallpaper-buenos-aires-sunset-oc-city-cities-buildings-graphy-sunset-city-city-aesthetic-argentina-travel-buenos-aires-street.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="El Obelisco de Buenos Aires es uno de los monumentos más icónicos de la ciudad, ubicado en la Avenida 9 de Julio, una de las más anchas del mundo."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre Buenos Aires -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Aspectos Destacados de Buenos Aires:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. La Casa Rosada: La sede del gobierno argentino, famosa por su fachada rosa y su importancia histórica."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. El Teatro Colón: Uno de los teatros de ópera más importantes del mundo, conocido por su acústica y arquitectura impresionantes."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. El Barrio de La Boca: Un barrio colorido y vibrante conocido por su arte callejero y su famoso estadio de fútbol, La Bombonera."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. La Avenida 9 de Julio: Una de las avenidas más anchas del mundo, que alberga el Obelisco y es un importante centro cultural y comercial."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Palermo: Un barrio conocido por sus parques, vida nocturna y su oferta gastronómica diversa."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/3RdSD8N/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="El barrio de La Boca es famoso por su vibrante arte callejero y las coloridas casas que adornan sus calles, además de su cultura futbolística."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

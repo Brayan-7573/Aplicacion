@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Teatro"
+             Title="Teatro"
+             BackgroundImageSource="https://i.pinimg.com/originals/8c/c7/7c/8cc77cde62a190d7873e5807e81a9d52.jpg">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20" >
+
+                <!-- Sección: Teatro -->
+                <StackLayout Margin="0,0,0,20">
+                    <Label Text="Teatro"
+                           FontSize="Large"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           Margin="0,10"/>
+
+                    <Image Source="https://www.bbva.com/wp-content/uploads/2022/10/Teatro-DIALOGOS-BBVA-2022-768x512.jpg?theia_smart_thumbnails_file_version=2"
+                           Aspect="AspectFill"
+                           HeightRequest="200"
+                           Margin="0,10"/>
+
+                    <Label Text="El teatro es el arte que da vida a las historias a través de la actuación y la escena."
+                           FontSize="Large"
+                           HorizontalOptions="Center"
+                           Margin="0,10"/>
+                </StackLayout>
+
+                <!-- Información adicional sobre el teatro -->
+                <Label Text="Descubre el mundo del teatro a través de sus géneros, técnicas y grandes obras que han dejado huella en la historia."
+                       FontSize="Large"
+                       HorizontalOptions="Center"
+                       Margin="0,10"/>
+
+                <!-- Botones de navegación a géneros teatrales (opcional) -->
+                <!-- Puedes añadir aquí botones para navegar a diferentes géneros teatrales -->
+
+                <!-- Sección: Tragedia -->
+                <StackLayout Margin="0,0,0,20">
+                    <Label Text="Tragedia"
+                           FontSize="Large"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           Margin="0,10"/>
+
+                    <Image Source="https://rialta.org/wp-content/uploads/2019/11/Ph%C3%A8dre-Alexandre-Cabanel-1880.jpg"
+                           Aspect="AspectFill"
+                           HeightRequest="200"
+                           Margin="0,10"/>
+
+                    <Label Text="La tragedia explora las profundidades del sufrimiento humano y las complejidades del destino."
+                           FontSize="Large"
+                           HorizontalOptions="Center"
+                           Margin="0,10"/>
+                </StackLayout>
+
+                <!-- Sección: Comedia -->
+                <StackLayout Margin="0,0,0,20">
+                    <Label Text="Comedia"
+                           FontSize="Large"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           Margin="0,10"/>
+
+                    <Image Source="https://sc.jalisco.gob.mx/sites/sc.jalisco.gob.mx/files/12_7.jpg"
+                           Aspect="AspectFill"
+                           HeightRequest="200"
+                           Margin="0,10"/>
+
+                    <Label Text="La comedia ilumina la vida con humor y nos enseña a reír frente a las adversidades."
+                           FontSize="Large"
+                           HorizontalOptions="Center"
+                           Margin="0,10"/>
+                </StackLayout>
+
+                <!-- Sección: Drama -->
+                <StackLayout Margin="0,0,0,20">
+                    <Label Text="Drama"
+                           FontSize="Large"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           Margin="0,10"/>
+
+                    <Image Source="https://i0.wp.com/www.teatroromea.es/Imagenes/Noticias/tyll5nzj2s1MH-Rey-Leonor-1-med.jpg"
+                           Aspect="AspectFill"
+                           HeightRequest="200"
+                           Margin="0,10"/>
+
+                    <Label Text="El drama profundiza en las emociones humanas y las relaciones, ofreciendo una mirada intensa y reflexiva."
+                           FontSize="Large"
+                           HorizontalOptions="Center"
+                           Margin="0,10"/>
+                </StackLayout>
+
+                <!-- Sección: Teatro Musical -->
+                <StackLayout Margin="0,0,0,20">
+                    <Label Text="Teatro Musical"
+                           FontSize="Large"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           Margin="0,10"/>
+
+                    <Image Source="https://www.stage.es/sites/default/files/inline-images/5_Planesmadrid_16-9_2.jpg"
+                           Aspect="AspectFill"
+                           HeightRequest="200"
+                           Margin="0,10"/>
+
+                    <Label Text="El teatro musical combina música, actuación y danza para contar historias de una manera emocionante y dinámica."
+                           FontSize="Large"
+                           HorizontalOptions="Center"
+                           Margin="0,10"/>
+                </StackLayout>
+
+                <!-- Sección: Teatro Experimental -->
+                <StackLayout Margin="0,0,0,20">
+                    <Label Text="Teatro Experimental"
+                           FontSize="Large"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           Margin="0,10"/>
+
+                    <Image Source="https://www.elheraldodechihuahua.com.mx/gossip/t68h5s-teatro.jpg/ALTERNATES/LANDSCAPE_400/teatro.jpg"
+                           Aspect="AspectFill"
+                           HeightRequest="200"
+                           Margin="0,10"/>
+
+                    <Label Text="El teatro experimental desafía las convenciones tradicionales y busca nuevas formas de expresión artística y social."
+                           FontSize="Large"
+                           HorizontalOptions="Center"
+                           Margin="0,10"/>
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>
+

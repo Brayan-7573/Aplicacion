@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.K2"
+             BackgroundImageSource="https://i.ibb.co/pfBd1Y0/images.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="K2"
+                       TextColor="Black"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.8" />
+                    <Label Text="El K2, también conocido como Monte Godwin-Austen, es la segunda montaña más alta del mundo, con una altitud de 8,611 metros (28,251 pies). Situado en la cordillera del Karakórum, en la frontera entre Pakistán y China, es famoso por ser uno de los picos más peligrosos y desafiantes para los escaladores."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen representativa -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/4dHrHrW/k2-also-known-as-mount-godwin-austen-chogori-or-dapsang-8609-metres-HM78-XR.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="El K2 es conocido como la 'Montaña Salvaje' debido a su dureza extrema y su alta tasa de mortalidad entre los escaladores."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre el K2 -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Aspectos Destacados del K2:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Altitud: Con 8,611 metros, es el segundo pico más alto del mundo, después del Monte Everest."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Dificultad Técnica: Considerado más difícil de escalar que el Everest debido a sus rutas empinadas y las condiciones climáticas impredecibles."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Primer Ascenso: Fue escalado por primera vez en 1954 por una expedición italiana dirigida por Ardito Desio, con Lino Lacedelli y Achille Compagnoni alcanzando la cima."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Tasa de Mortalidad: El K2 tiene una de las tasas de mortalidad más altas entre las principales montañas, con aproximadamente una de cada cuatro personas que intentan llegar a la cima no sobreviviendo."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Apodo: Conocido como la 'Montaña Salvaje' por su dificultad extrema y el desafío que presenta incluso para los escaladores más experimentados."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional 1 -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/G9YFp4d/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Vista desde el campamento base del K2, mostrando su imponente y desafiante cara norte."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Imagen adicional 2 -->
+                <Grid>
+                    <Image Source="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/K2_s%C3%BCdseite.jpg/1024px-K2_s%C3%BCdseite.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="El K2 visto desde el lado sur, una de las rutas más difíciles de la montaña."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

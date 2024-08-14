@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Rios"
+             BackgroundImageSource="https://i.ibb.co/RvBZ6JJ/download.jpg">
+
+    <ContentPage.Content>
+        <ScrollView Padding="10">
+            <StackLayout Spacing="20" VerticalOptions="Start">
+
+                <Grid Margin="0,20">
+                    <BoxView Color="black" Opacity="0.5" />
+                    <Label Text="Principales Continentes del mundo"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="CenterAndExpand"
+                            TextColor="White"
+                            FontSize="30"
+                            Margin="0,20,0,10"
+                            HorizontalTextAlignment="Center"
+                            LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Contenedor para cada continente -->
+                <StackLayout Spacing="10">
+                    <!-- Elemento 1 -->
+                    <Frame HasShadow="True"
+                           CornerRadius="15"
+                           Padding="0"
+                           Margin="0,0,0,10"
+                           BackgroundColor="Black">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnAsiaFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/Wc9WmWK/images.jpg"
+                                   Aspect="AspectFill"
+                                   HeightRequest="200"
+                                   WidthRequest="300"/>
+                            <Label Text="Asia"
+                                   FontSize="22"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"
+                                   Padding="10"
+                                   BackgroundColor="Black"
+                                   TextColor="White"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Elemento 2 -->
+                    <Frame HasShadow="True"
+                           CornerRadius="15"
+                           Padding="0"
+                           Margin="0,0,0,10"
+                           BackgroundColor="Black">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnAfricaFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/R34CrFH/230207-Aca1-des-f1-Africa-entre-la-abundancia-de-recursos-y-pobreza.jpg"
+                                   Aspect="AspectFill"
+                                   HeightRequest="200"
+                                   WidthRequest="300"/>
+                            <Label Text="África"
+                                   FontSize="22"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"
+                                   Padding="10"
+                                   BackgroundColor="Black"
+                                   TextColor="White"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Elemento 3 -->
+                    <Frame HasShadow="True"
+                           CornerRadius="15"
+                           Padding="0"
+                           Margin="0,0,0,10"
+                           BackgroundColor="Black">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnNorthAmericaFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/8cr370P/depositphotos-95723568-stock-illustration-animals-world-map-north-america.jpg"
+                                   Aspect="AspectFill"
+                                   HeightRequest="200"
+                                   WidthRequest="300"/>
+                            <Label Text="América del Norte"
+                                   FontSize="22"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"
+                                   Padding="10"
+                                   BackgroundColor="Black"
+                                   TextColor="White"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Elemento 4 -->
+                    <Frame HasShadow="True"
+                           CornerRadius="15"
+                           Padding="0"
+                           Margin="0,0,0,10"
+                           BackgroundColor="Black">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnSouthAmericaFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/cLj3wGY/maxresdefault.jpg"
+                                   Aspect="AspectFill"
+                                   HeightRequest="200"
+                                   WidthRequest="300"/>
+                            <Label Text="América del Sur"
+                                   FontSize="22"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"
+                                   Padding="10"
+                                   BackgroundColor="Black"
+                                   TextColor="White"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Elemento 5 -->
+                    <Frame HasShadow="True"
+                           CornerRadius="15"
+                           Padding="0"
+                           Margin="0,0,0,10"
+                           BackgroundColor="Black">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnOceaniaFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/J7C56P9/download.jpg"
+                                   Aspect="AspectFill"
+                                   HeightRequest="200"
+                                   WidthRequest="300"/>
+                            <Label Text="Oceanía"
+                                   FontSize="22"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"
+                                   Padding="10"
+                                   BackgroundColor="Black"
+                                   TextColor="White"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Elemento 6 -->
+                    <Frame HasShadow="True"
+                           CornerRadius="15"
+                           Padding="0"
+                           Margin="0,0,0,10"
+                           BackgroundColor="Black">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnAntarcticaFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/W0jj9m8/download.jpg"
+                                   Aspect="AspectFill"
+                                   HeightRequest="200"
+                                   WidthRequest="300"/>
+                            <Label Text="Antártida"
+                                   FontSize="22"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"
+                                   Padding="10"
+                                   BackgroundColor="Black"
+                                   TextColor="White"/>
+                        </StackLayout>
+                    </Frame>
+
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

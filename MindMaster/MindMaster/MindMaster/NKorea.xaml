@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.NKorea"
+             BackgroundColor="#383838">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Corea del Norte"
+                       TextColor="white"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="Corea del Norte es un país en el este de Asia, situado en la parte norte de la península de Corea. Es conocido por su régimen político cerrado y por ser uno de los países más aislados del mundo. Su capital es Pyongyang, que es también el centro político y cultural del país."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen representativa -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/PFdSH79/download.png"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Pyongyang, la capital de Corea del Norte, es conocida por su arquitectura monumental y sus amplias avenidas. La ciudad es el corazón del país en términos de política y cultura."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre Corea del Norte -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Aspectos Destacados de Corea del Norte:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Régimen Político: Corea del Norte es un estado comunista con un régimen autoritario bajo el liderazgo de la familia Kim desde su fundación. El país es conocido por su control estricto sobre la vida de sus ciudadanos."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Aislamiento Internacional: Corea del Norte mantiene una política de aislamiento con respecto a la comunidad internacional. Sus relaciones exteriores son limitadas y el país es sujeto a numerosas sanciones internacionales."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Economía: La economía norcoreana está en gran medida controlada por el estado y enfrenta desafíos significativos debido a las sanciones y el aislamiento. La agricultura y la industria pesada son sectores clave."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Cultura: La cultura en Corea del Norte está fuertemente influenciada por la ideología del régimen. El país promueve una forma de nacionalismo llamada Juche, que enfatiza la autosuficiencia y la independencia."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Turismo: El turismo en Corea del Norte está muy restringido y los visitantes deben seguir un itinerario preestablecido y estar acompañados por guías oficiales durante su estancia."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/nCXVyhR/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="El festival Arirang en Pyongyang es uno de los eventos más grandes y espectaculares de Corea del Norte. Es conocido por su inmenso espectáculo de coreografías masivas y coloridas representaciones culturales."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

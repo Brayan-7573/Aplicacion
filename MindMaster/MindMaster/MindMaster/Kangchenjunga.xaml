@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Kangchenjunga"
+             BackgroundImageSource="https://www.infobae.com/new-resizer/LtNTxK9yqj1aaoIM3hTNO_EEEKE=/1200x2133/filters:format(webp):quality(85)/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/05/24090651/monte-everest-1920-1.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Kangchenjunga"
+                       TextColor="Black"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.8" />
+                    <Label Text="Kangchenjunga, con 8,586 metros (28,169 pies), es la tercera montaña más alta del mundo. Está situada en la frontera entre Nepal y el estado indio de Sikkim, y es considerada una de las montañas más sagradas para los habitantes locales."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen representativa -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/PzxKgdn/pxl-20230601-000104920.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="El impresionante glaciar de Kangchenjunga, una vista que refleja la majestuosidad y el desafío de la montaña."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre Kangchenjunga -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Aspectos Destacados de Kangchenjunga:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Altitud: Es la tercera montaña más alta del mundo, con 8,586 metros."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Ubicación: Se encuentra en la frontera entre Nepal y Sikkim, India, y es una montaña de gran importancia cultural y religiosa para los pueblos de la región."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Primer Ascenso: Fue escalada por primera vez el 25 de mayo de 1955 por Joe Brown y George Band, miembros de una expedición británica."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Cultura y Religión: La montaña es considerada sagrada por los habitantes locales, quienes creen que su cumbre no debe ser pisada. Los primeros escaladores detuvieron su ascenso unos pocos metros antes de la cima para respetar esta creencia."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Diversidad de Flora y Fauna: La región de Kangchenjunga es rica en biodiversidad, albergando muchas especies raras y endémicas."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional 1 -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/Rg6Xzbt/images.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Vista desde Tiger Hill, Darjeeling, mostrando la magnífica presencia de Kangchenjunga al amanecer."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Imagen adicional 2 -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/WtjZn8y/image-750x500-64f2326df1889.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Kangchenjunga al atardecer, una de las vistas más espectaculares del Himalaya."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

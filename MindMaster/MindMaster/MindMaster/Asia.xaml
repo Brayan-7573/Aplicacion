@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Asia"
+             BackgroundImageSource="https://c.wallhere.com/photos/90/23/Asia_iPhone_Walleria_metalanguage_landscape_Arcadian_Landscape-2239826.jpg!s1">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Asia"
+                       TextColor="DarkBlue"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="Asia es el continente más grande y poblado del mundo, abarcando una vasta diversidad de culturas, idiomas, paisajes y tradiciones. Desde las montañas del Himalaya hasta las islas tropicales del sudeste asiático, Asia ofrece una riqueza inigualable de experiencias."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen representativa -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/X7hvZDx/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Asia alberga algunas de las civilizaciones más antiguas del mundo, y su influencia cultural y económica es global. Es un continente de contrastes, donde la tradición se mezcla con la modernidad."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre Asia -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Aspectos Destacados de Asia:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Diversidad Cultural: Con miles de idiomas y dialectos, y una multitud de tradiciones y festivales, Asia es un mosaico cultural único."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Patrimonio Histórico: Lugares como la Gran Muralla China, el Taj Mahal en India y los templos de Angkor Wat en Camboya son testigos de la rica historia del continente."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Paisajes Naturales: Desde las playas de Tailandia hasta las montañas del Himalaya, Asia ofrece una amplia gama de maravillas naturales."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Gastronomía: La cocina asiática es conocida por su diversidad y sabores únicos, incluyendo platos como el sushi japonés, el curry indio y el pad thai tailandés."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Desarrollo Económico: Ciudades como Tokio, Singapur y Seúl son centros económicos y tecnológicos de relevancia mundial."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional 1 -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/JkTVCpq/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="La Gran Muralla China es una de las maravillas arquitectónicas del mundo, extendiéndose a lo largo de miles de kilómetros y simbolizando la rica historia de China."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Imagen adicional 2 -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/1Kmy4DV/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="El Taj Mahal en India es una obra maestra de la arquitectura mogol y un símbolo del amor eterno."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

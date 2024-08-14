@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Física"
+             BackgroundImageSource="https://img1.wallspic.com/previews/7/8/9/3/6/163987/163987-amoled-oled-electricidad-agua-triangulo-500x.jpg"
+             BackgroundColor="#B3E5FC">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20" VerticalOptions="Center" HorizontalOptions="Center">
+
+                <!-- Título -->
+                <Label Text="Física"
+                       FontSize="48"
+                       FontAttributes="Bold"
+                       TextColor="#FF5722"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       BackgroundColor="Transparent"
+                       Margin="0,0,0,20"
+                       Padding="10"
+                       />
+
+                <!-- Descripción general -->
+                <Label Text="Explora los conceptos fundamentales de la Física, desde la mecánica hasta la termodinámica."
+                       FontSize="18"
+                       TextColor="#FFFFFF"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       BackgroundColor="Transparent"
+                       Margin="0,0,0,30"
+                       Padding="10"
+                       />
+
+                <!-- Sección 1: Mecánica -->
+                <StackLayout Padding="10">
+                    <Label Text="Mecánica"
+                           FontSize="24"
+                           FontAttributes="Bold"
+                           TextColor="#FF9800"
+                           BackgroundColor="Transparent"
+                           Margin="0,0,0,10"
+                           />
+                    <Image Source="https://img.freepik.com/vector-premium/maquinas-simples-fisica-sistemas-ciencia-formulas-mecanicas-maquinas-traccion-conjunto-isometrico-vector-chillon-ingenieria-fisica-ciencia-ilustracion-potencia-cuna-polea_80590-11765.jpg"
+                           Aspect="AspectFit"
+                           HeightRequest="300"
+                           WidthRequest="2000"
+                           HorizontalOptions="Center"
+                           />
+                    <Label Text="La mecánica estudia el movimiento y las fuerzas que afectan a los cuerpos. Incluye temas como la cinemática, dinámica, y las leyes de Newton."
+                           FontSize="16"
+                           TextColor="#FFFFFF"
+                           BackgroundColor="Transparent"
+                           Margin="0,10,0,10"
+                           Padding="10"
+                           />
+                </StackLayout>
+
+                <!-- Sección 2: Termodinámica -->
+                <StackLayout Padding="10">
+                    <Label Text="Termodinámica"
+                           FontSize="24"
+                           FontAttributes="Bold"
+                           TextColor="#3F51B5"
+                           BackgroundColor="Transparent"
+                           Margin="0,0,0,10"
+                           />
+                    <Image Source="https://i.ibb.co/9h9mG18/IMG4.webp"
+                           Aspect="AspectFit"
+                           HeightRequest="200"
+                           WidthRequest="2000"
+                           HorizontalOptions="Center"
+                           />
+                    <Label Text="La termodinámica estudia las relaciones entre el calor, el trabajo, y la energía. Aborda conceptos como la ley de conservación de la energía y la entropía."
+                           FontSize="16"
+                           TextColor="#FFFFFF"
+                           BackgroundColor="Transparent"
+                           Margin="0,10,0,10"
+                           Padding="10"
+                           />
+                </StackLayout>
+
+                <!-- Sección 3: Electromagnetismo -->
+                <StackLayout Padding="10">
+                    <Label Text="Electromagnetismo"
+                           FontSize="24"
+                           FontAttributes="Bold"
+                           TextColor="#4CAF50"
+                           BackgroundColor="Transparent"
+                           Margin="0,0,0,10"
+                           />
+                    <Image Source="https://i.ibb.co/6tC73Q5/IMG5.webp"
+                           Aspect="AspectFit"
+                           HeightRequest="200"
+                           WidthRequest="2000"
+                           HorizontalOptions="Center"
+                           />
+                    <Label Text="El electromagnetismo trata de las interacciones entre campos eléctricos y magnéticos. Incluye el estudio de la electricidad, el magnetismo y las ondas electromagnéticas."
+                           FontSize="16"
+                           TextColor="#FFFFFF"
+                           BackgroundColor="Transparent"
+                           Margin="0,10,0,10"
+                           Padding="10"
+                           />
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
+
+
+

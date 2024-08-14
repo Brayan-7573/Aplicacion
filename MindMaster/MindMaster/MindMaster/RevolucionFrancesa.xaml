@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.RevolucionFrancesa"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Revolución Francesa"
+                       TextColor="White"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="La Revolución Francesa fue un periodo de radical cambio social y político en Francia que duró desde 1789 hasta 1799. Este evento marcó el fin del absolutismo monárquico y el surgimiento de un sistema republicano, así como el comienzo de una serie de transformaciones sociales y políticas que influirían en el resto del mundo."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen del inicio de la Revolución -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/Dbr1R32/download.jpgg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="La toma de la Bastilla el 14 de julio de 1789 es considerada uno de los eventos clave que marcó el inicio de la Revolución Francesa."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles Importantes -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" FontAttributes="Bold" Text="Detalles Importantes:"/>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="1. Inicio: La Revolución comenzó en 1789 con la convocatoria de los Estados Generales y la posterior toma de la Bastilla."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="2. Causas: Las causas incluyeron la crisis económica, la desigualdad social, y el descontento con el régimen absolutista del rey Luis XVI."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="3. Eventos clave: Entre los eventos más significativos se encuentran la Declaración de los Derechos del Hombre y del Ciudadano, y el establecimiento de la Primera República Francesa en 1792."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="4. Fin: La Revolución terminó con el ascenso de Napoleón Bonaparte y la proclamación del Primer Imperio Francés en 1804."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="5. Legado: La Revolución Francesa influyó en la historia moderna al promover ideas de igualdad, libertad y fraternidad, y al inspirar movimientos revolucionarios en otras partes del mundo."/>
+                            </StackLayout>
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/nsgBVWX/download.jpg" 
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"  
+                               Text="El Juramento del Juego de Pelota, pintado por Jacques-Louis David, es una imagen icónica de la Revolución Francesa que representa el momento en que los representantes del Tercer Estado juraron no separarse hasta que se estableciera una nueva constitución."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

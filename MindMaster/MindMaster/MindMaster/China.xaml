@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.China"
+             BackgroundImageSource="https://png.pngtree.com/thumb_back/fw800/background/20230927/pngtree-chinese-city-image_13302827.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="China"
+                       TextColor="DarkRed"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="China es el país más poblado del mundo y uno de los más antiguos en términos de civilización continua. Con una rica historia que se remonta a miles de años, China ha desempeñado un papel crucial en la historia global. Su capital es Pekín, y es conocida por su influencia en la cultura, la economía y la política mundial."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="Wheat"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen representativa -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/WtyVxbh/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="La Ciudad Prohibida en Pekín es uno de los palacios imperiales más grandes y mejor conservados del mundo, representando la historia imperial de China."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre China -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" TextColor="Wheat" Text="Aspectos Destacados de China:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Historia: China tiene una de las historias más antiguas del mundo, con una civilización que se remonta a más de 3000 años. Ha sido testigo de dinastías poderosas, como la Dinastía Han y la Dinastía Ming."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Cultura: La cultura china es rica en tradiciones y costumbres, incluyendo la medicina tradicional china, el arte del té y festivales como el Año Nuevo Chino y el Festival del Medio Otoño."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Geografía: China es conocida por su vasta extensión territorial, que incluye montañas como el Himalaya, el desierto de Gobi y una larga costa en el Pacífico. La Gran Muralla China es una de las maravillas más famosas del país."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Economía: China es una de las economías más grandes del mundo y un importante centro de manufactura y comercio. Ha experimentado un rápido crecimiento económico en las últimas décadas."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Política: China es una república socialista bajo el liderazgo del Partido Comunista Chino. Su estructura política incluye un sistema único con un fuerte control centralizado."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/ZcyyRdk/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="La Gran Muralla China es una de las estructuras más grandes del mundo y un símbolo importante de la historia y la cultura de China."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

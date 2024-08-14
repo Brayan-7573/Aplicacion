@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Escultura"
+             BackgroundImageSource="https://wallpapers-clan.com/wp-content/uploads/2023/10/modern-sculpture-david-statue-art-wallpaper-scaled.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Grid>
+                    <Label Text="Esculturas"
+                           TextColor="White"
+                           FontSize="70"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="La escultura es una forma de arte que implica la creación de figuras tridimensionales a través del modelado, tallado o ensamblaje de diversos materiales. "
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="25"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <Grid>
+                    <Image Source="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilvFY7TlFx_qcv4U_B2IH11XZSHwnoa-uT15yiVVLWy9ONq5fFMi89Gg9A_qf_pActnrmrDk9_m-wBR7ibaRXGcImpLpJ1CTjvd9eg9cj_JJUxPmJQHrUezprJ8e_o4jmD9dlWc_O6dtRjsmoLr49yEbiVYKa45LlqpYahFdtk3BUu8zPp3Q-oC5Qp/s16000-rw/venus-de-milo-mileto-historia-descubrimiento-isla-milos-museo-del-louvre-paris-495.jpg"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="#533501" Opacity="0.5" IsVisible="True" />
+
+                        <Label FontSize="20"  
+                           Text="Venus de Milo - Una antigua estatua griega de la diosa Afrodita (Venus en la mitología romana),
+                               conocida por su falta de brazos. Se encuentra en el Museo del Louvre en París." 
+                           VerticalOptions="Center"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Start"
+                           Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+
+                <Grid>
+                    <BoxView Color="#533501" Opacity="0.5"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="25" FontAttributes="Bold" Text="Venus de Milo Características de la Escultura:"/>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="1. Origen: Se cree que fue creada entre 130 y 100 a.C. durante el período helenístico."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="2. Material: Está esculpida en mármol."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="3. Altura: Mide aproximadamente 203 cm de alto."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="4. Posición: La estatua presenta una postura erguida y elegante, con un ligero giro en la cadera, que le da una apariencia dinámica y natural."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="5. Falta de brazos: Uno de los aspectos más distintivos de la Venus de Milo es que le faltan ambos brazos, lo que ha llevado a muchas especulaciones sobre la postura original de la diosa y qué podría haber estado sosteniendo."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="6. Vestimenta: Lleva una vestimenta drapeada, que cae de su cadera hasta los pies, dejando el torso al descubierto, lo que resalta la belleza de la figura femenina."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="7. Expresión: Su rostro presenta una expresión serena y majestuosa."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="8. Ubicación: Actualmente se encuentra expuesta en el Museo del Louvre en París, Francia."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="9. Descubrimiento: Fue descubierta en 1820 en la isla de Milo (Melos), en el mar Egeo."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="10. Significado: La Venus de Milo es un símbolo de la belleza clásica y la perfección artística de la antigua Grecia."/>
+                            </StackLayout>
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+                <Grid>
+
+                    <Grid Grid.Column="0">
+                        <Image Source="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2023/03/25/16797660347216.jpg"/>
+                    </Grid>
+
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="#585857" Opacity="0.5" IsVisible="True" />
+                        <Label Text="David de Miguel Ángel - Una escultura renacentista del artista italiano Miguel Ángel, representando al héroe bíblico David. Está en la Galería de la Academia en Florencia. " 
+                               VerticalOptions="Center"
+                               HorizontalOptions="Start"
+                               FontAttributes="Bold"
+                               FontSize="20"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <Grid>
+                    <BoxView Color="#585857" Opacity="0.5"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="25" FontAttributes="Bold" Text="David de Miguel Ángel Características de la Escultura:"/>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="1. Autor: Miguel Ángel Buonarroti, uno de los artistas más renombrados del Renacimiento italiano."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="2. Fecha de creación: La escultura fue realizada entre 1501 y 1504."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="3. Material: Está esculpida en mármol blanco de Carrara."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="4. Altura: La estatua mide aproximadamente 5.17 metros de altura, incluyendo su base."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="5. Tema: Representa al héroe bíblico David, famoso por derrotar al gigante Goliat."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="6. Postura: David está representado en una postura de pie, antes de la batalla con Goliat. La figura muestra una contrapposto clásica, con el peso del cuerpo apoyado en una pierna, lo que crea una ligera curva en la pose y una apariencia naturalista."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="7. Expresión: El rostro de David muestra una expresión de concentración y determinación, capturando el momento tenso antes de la batalla."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="8. Detalles anatómicos: Miguel Ángel puso gran énfasis en la anatomía detallada y precisa del cuerpo humano. Los músculos, las venas y la estructura ósea están esculpidos con gran realismo, mostrando el conocimiento profundo del artista sobre la anatomía."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="9. Proporciones: Aunque la escultura está idealizada, David tiene proporciones humanas muy precisas. Sin embargo, algunos detalles, como las manos y la cabeza, están ligeramente sobredimensionados, lo que puede interpretarse como una técnica para resaltar su juventud y poder."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="10. Simbolismo: El David de Miguel Ángel simboliza la defensa de las libertades civiles encarnadas en la República de Florencia, una ciudad-estado independiente amenazada por fuerzas más poderosas durante la época del Renacimiento."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="11. Ubicación original y actual: Originalmente, la escultura estaba destinada a ser colocada en una de las tribunas de la catedral de Florencia, pero finalmente se ubicó en la Piazza della Signoria, frente al Palazzo Vecchio, como símbolo de la República Florentina. En 1873, fue trasladada a la Galería de la Academia en Florencia para su conservación, y una réplica se colocó en su lugar en la plaza."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="12. Impacto artístico: El David de Miguel Ángel es considerado un hito en la historia del arte, destacando tanto por su técnica excepcional como por su profundo impacto cultural y simbólico."/>
+                            </StackLayout>
+
+
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+
+                <Grid>
+                    <Image Source="https://cdn.culturagenial.com/es/imagenes/statue-3425357-cke.jpg"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="#685721" Opacity="0.5" IsVisible="True" />
+
+                        <Label FontSize="23"  
+                               Text="El Discóbolo - Una famosa escultura griega que representa a un atleta lanzando un disco, atribuida a Mirón. Se encuentran varias copias en museos de todo el mundo. " 
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+
+                <Grid>
+                    <BoxView Color="#685721" Opacity="0.5"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="25" FontAttributes="Bold" Text="El Discóbolo Características de la Escultura:"/>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="1. Autor: Atribuida al escultor griego Mirón, uno de los artistas más destacados de la antigua Grecia."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="2. Fecha de creación: La escultura original se cree que fue creada alrededor del 450 a.C. durante el período clásico de la Grecia antigua."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="3. Material original: La escultura original fue realizada en bronce, aunque muchas de las copias que han sobrevivido hasta hoy son de mármol."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="4. Tema: Representa a un atleta en el momento de lanzar un disco, capturando una escena de acción en plena competición deportiva."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="5. Postura: La figura está en una posición dinámica, con el cuerpo inclinado y girado, mostrando un alto grado de tensión y equilibrio mientras se prepara para lanzar el disco."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="6. Expresión: El rostro del atleta es sereno y concentrado, reflejando la calma y el control mental en medio del esfuerzo físico."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="7. Detalles anatómicos: La escultura destaca por su precisión anatómica, mostrando los músculos en tensión y el movimiento natural del cuerpo humano en acción."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="8. Proporciones: El Discóbolo presenta proporciones ideales y armoniosas, características del arte clásico griego que busca la perfección y el equilibrio en la forma humana."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="9. Copias: Aunque el original en bronce no ha sobrevivido, existen varias copias romanas en mármol que se encuentran en museos de todo el mundo, incluyendo el Museo Nacional Romano y el Museo Británico."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="10. Simbolismo: La escultura simboliza la excelencia física y la habilidad técnica del atleta, así como los ideales de belleza y proporción de la cultura griega clásica."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="11. Impacto artístico: El Discóbolo ha tenido un impacto duradero en el arte y la cultura, siendo una referencia importante en la representación del cuerpo humano en movimiento y en la historia de la escultura."/>
+                            </StackLayout>
+
+
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+                <Grid>
+
+                    <Grid Grid.Column="0">
+                        <Image Source="https://cdn.culturagenial.com/es/imagenes/michelangelo-s-pieta-5450-cut-out-black-cke.jpg"/>
+                    </Grid>
+
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="#533501" Opacity="0.5" IsVisible="True" />
+                        <Label Text="La Piedad - Otra obra de Miguel Ángel, que muestra a la Virgen María sosteniendo el cuerpo de Jesús después de la crucifixión. Está en la Basílica de San Pedro en el Vaticano." 
+                               VerticalOptions="Center"
+                               HorizontalOptions="Start"
+                               FontAttributes="Bold"
+                               FontSize="20"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <Grid>
+                    <BoxView Color="#533501" Opacity="0.5"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="25" FontAttributes="Bold" Text="Mujer con el arete de perlas Características de la Pintura:"/>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="1. Autor: Miguel Ángel Buonarroti, uno de los artistas más destacados del Renacimiento italiano."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="2. Fecha de creación: La escultura fue realizada entre 1498 y 1499."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="3. Material: Está esculpida en mármol de Carrara, conocido por su alta calidad y blancura."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="4. Dimensiones: La escultura mide aproximadamente 174 cm de alto por 195 cm de ancho."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="5. Tema: Representa a la Virgen María sosteniendo el cuerpo sin vida de Jesús después de la crucifixión, una escena conmovedora y de profundo dolor."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="6. Composición: La Virgen María está representada con una expresión de serenidad y aceptación, mientras sostiene cuidadosamente el cuerpo de su hijo Jesús, que descansa en su regazo."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="7. Detalles anatómicos: Miguel Ángel mostró una gran habilidad en la representación detallada de las formas humanas, capturando tanto la juventud y belleza de María como la figura caída de Jesús con gran realismo y emotividad."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="8. Proporciones: A pesar de la diferencia de tamaño realista entre los cuerpos de María y Jesús, la composición está equilibrada de manera armoniosa y natural."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="9. Simbolismo: La escultura simboliza la maternidad, el sacrificio y la redención, encapsulando los profundos valores religiosos y emocionales del cristianismo."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="10. Ubicación: La Piedad se encuentra en la Basílica de San Pedro en el Vaticano, en Roma, donde está protegida por un vidrio a prueba de balas después de un ataque vandálico en 1972."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="11. Impacto artístico: La Piedad es considerada una obra maestra de la escultura renacentista y ha influido profundamente en la historia del arte, siendo admirada por su perfección técnica y su capacidad de evocar una profunda respuesta emocional."/>
+                            </StackLayout>
+
+
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+                <Grid>
+                    <Image Source="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMDPHgDadI-4wOuJ3PnsSs7h8yUle1fYJGNxIJsPuGOsg91t2zpMmqN2NBFnemp1edrfdlQMAUbJmCURrP3NAhNRrIoaPbIhZy5rk8f30yC29Y4sEtEJrIQrbkwtf5mPA44Vzk11U5CxA/w1200-h630-p-k-no-nu/el-pensador-auguste-rodin.jpg"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="#727518" Opacity="0.5" IsVisible="True" />
+
+                        <Label FontSize="23"  
+                               Text="El Pensador - Una escultura de bronce creada por Auguste Rodin que muestra a un hombre en profunda reflexión. Existen varias copias, pero la más famosa está en el Museo Rodin en París. " 
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+
+                <Grid>
+                    <BoxView Color="#727518" Opacity="0.5"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="25" FontAttributes="Bold" Text="El Pensador Características de la Escultura:"/>
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="1. Autor: Auguste Rodin, uno de los escultores más importantes de finales del siglo XIX y principios del XX."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="2. Fecha de creación: La escultura fue modelada en 1880, pero la versión en bronce fue terminada en 1904."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="3. Material: Está realizada en bronce."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="4. Dimensiones: La escultura mide aproximadamente 188 cm de alto."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="5. Tema: Representa a un hombre en profunda reflexión, comúnmente interpretado como un símbolo del pensamiento y la contemplación."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="6. Postura: La figura está sentada, con el torso inclinado hacia adelante, el codo apoyado en la rodilla y la mano sostenida contra el mentón, mostrando una postura de intensa concentración."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="7. Expresión: El rostro del hombre muestra una profunda concentración y preocupación, capturando el proceso mental de la reflexión intensa."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="8. Detalles anatómicos: Rodin destacó la musculatura y la tensión del cuerpo, mostrando una representación realista y detallada de la figura humana en un estado de introspección."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="9. Simbolismo: La escultura simboliza la profunda reflexión filosófica y el poder del intelecto humano. Originalmente se concibió como parte de un proyecto más grande llamado 'La Puerta del Infierno', inspirado en la 'Divina Comedia' de Dante Alighieri."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="10. Ubicación: Aunque existen varias copias de 'El Pensador' en todo el mundo, la más famosa está en el Museo Rodin en París, Francia."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="11. Impacto artístico: 'El Pensador' es una de las esculturas más reconocidas de Rodin y ha tenido un impacto duradero en la cultura y el arte, siendo un icono de la meditación y la introspección humana."/>
+                            </StackLayout>
+
+
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

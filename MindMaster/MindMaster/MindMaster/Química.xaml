@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Química"
+             Title="Química"
+             BackgroundImageSource="https://i.pinimg.com/736x/73/d0/45/73d045059d6c76ed073a34e67887664e.jpg">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+
+                <!-- Sección: Química -->
+                <StackLayout Margin="0,0,0,20">
+                    <Frame BackgroundColor="#404040"
+                           CornerRadius="10"
+                           Padding="10"
+                           HasShadow="False">
+                        <Label Text="Química"
+                               FontSize="Large"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center"
+                               Margin="0,10"
+                               TextColor="White"/>
+                    </Frame>
+
+                    <Image Source="https://clickmica.fundaciondescubre.es/files/2017/01/quimica-3.jpg"
+                           Aspect="AspectFill"
+                           HeightRequest="200"
+                           Margin="0,10"/>
+
+                    <Frame BackgroundColor="#404040"
+                           CornerRadius="10"
+                           Padding="10"
+                           HasShadow="False">
+                        <Label Text="La química es la ciencia que estudia la estructura, las propiedades, la composición y las transformaciones de la materia."
+                               FontSize="Large"
+                               HorizontalOptions="Center"
+                               Margin="0,10"
+                               TextColor="White"/>
+                    </Frame>
+                </StackLayout>
+
+                <!-- Sección: Áreas de la Química -->
+                <StackLayout Margin="0,0,0,20">
+                    <Frame BackgroundColor="#404040"
+                           CornerRadius="10"
+                           Padding="10"
+                           HasShadow="False">
+                        <Label Text="Áreas de la Química"
+                               FontSize="Large"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center"
+                               Margin="0,10"
+                               TextColor="White"/>
+                    </Frame>
+
+                    <Image Source="https://0901.static.prezi.com/preview/v2/ipr6n4ilgaqxkuog6cnc6m7lid6jc3sachvcdoaizecfr3dnitcq_3_0.png"
+                           Aspect="AspectFill"
+                           HeightRequest="200"
+                           Margin="0,10"/>
+
+                    <Frame BackgroundColor="#404040"
+                           CornerRadius="10"
+                           Padding="10"
+                           HasShadow="False">
+                        <Label Text="La química se divide en diversas áreas como la química orgánica, inorgánica, analítica, física y bioquímica."
+                               FontSize="Large"
+                               HorizontalOptions="Center"
+                               Margin="0,10"
+                               TextColor="White"/>
+                    </Frame>
+                </StackLayout>
+
+                <!-- Sección: Aplicaciones de la Química -->
+                <StackLayout Margin="0,0,0,20">
+                    <Frame BackgroundColor="#404040"
+                           CornerRadius="10"
+                           Padding="10"
+                           HasShadow="False">
+                        <Label Text="Aplicaciones de la Química"
+                               FontSize="Large"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center"
+                               Margin="0,10"
+                               TextColor="White"/>
+                    </Frame>
+
+                    <Image Source="https://i.ytimg.com/vi/KBld1zHSu3g/maxresdefault.jpg"
+                           Aspect="AspectFill"
+                           HeightRequest="200"
+                           Margin="0,10"/>
+
+                    <Frame BackgroundColor="#404040"
+                           CornerRadius="10"
+                           Padding="10"
+                           HasShadow="False">
+                        <Label Text="La química tiene aplicaciones en numerosos campos como la medicina, la industria, la agricultura, y el medio ambiente."
+                               FontSize="Large"
+                               HorizontalOptions="Center"
+                               Margin="0,10"
+                               TextColor="White"/>
+                    </Frame>
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>

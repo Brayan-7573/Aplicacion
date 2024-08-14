@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Montanas"
+             BackgroundImageSource="https://www.infobae.com/new-resizer/LtNTxK9yqj1aaoIM3hTNO_EEEKE=/1200x2133/filters:format(webp):quality(85)/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/05/24090651/monte-everest-1920-1.jpg">
+
+    <ContentPage.Content>
+        <ScrollView Padding="10">
+            <StackLayout Spacing="20" VerticalOptions="Start" HorizontalOptions="Center">
+
+                <Label Text="Montañas Famosas"
+                       FontSize="48"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       Margin="0,20,0,30"
+                       TextColor="Black"/>
+
+                <!-- Contenedor para cada montaña -->
+                <StackLayout Spacing="15">
+                    <!-- Elemento 1 -->
+                    <Frame HasShadow="True"
+                           CornerRadius="20"
+                           Padding="0"
+                           Margin="0,0,0,10"
+                           BackgroundColor="Black">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnEverestFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="https://i.ibb.co/8g9WWw6/download.jpg"
+                                   Aspect="AspectFill"
+                                   HeightRequest="150"
+                                   WidthRequest="150"
+                                   VerticalOptions="Center"/>
+                            <Label Text="Everest"
+                                   FontSize="20"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center"
+                                   Padding="10"
+                                   TextColor="#1E88E5"
+                                   BackgroundColor="Black"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Elemento 2 -->
+                    <Frame HasShadow="True"
+                           CornerRadius="20"
+                           Padding="0"
+                           Margin="0,0,0,10"
+                           BackgroundColor="Black">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnK2FrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="https://i.ibb.co/X3YjMFB/download.jpg"
+                                   Aspect="AspectFill"
+                                   HeightRequest="150"
+                                   WidthRequest="150"
+                                   VerticalOptions="Center"/>
+                            <Label Text="K2"
+                                   FontSize="20"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center"
+                                   Padding="10"
+                                   TextColor="#D32F2F"
+                                   BackgroundColor="Black"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Elemento 3 -->
+                    <Frame HasShadow="True"
+                           CornerRadius="20"
+                           Padding="0"
+                           Margin="0,0,0,10"
+                           BackgroundColor="Black">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnKangchenjungaFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="https://i.ibb.co/XVzyP5g/download.jpg"
+                                   Aspect="AspectFill"
+                                   HeightRequest="150"
+                                   WidthRequest="150"
+                                   VerticalOptions="Center"/>
+                            <Label Text="Kangchenjunga"
+                                   FontSize="20"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center"
+                                   Padding="10"
+                                   TextColor="#388E3C"
+                                   BackgroundColor="Black"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Elemento 4 -->
+                    <Frame HasShadow="True"
+                           CornerRadius="20"
+                           Padding="0"
+                           Margin="0,0,0,10"
+                           BackgroundColor="Black">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnMakaluFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="https://i.ibb.co/d47FYcF/download.jpg"
+                                   Aspect="AspectFill"
+                                   HeightRequest="150"
+                                   WidthRequest="150"
+                                   VerticalOptions="Center"/>
+                            <Label Text="Makalu"
+                                   FontSize="20"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center"
+                                   Padding="10"
+                                   TextColor="#C2185B"
+                                   BackgroundColor="Black"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Elemento 5 -->
+                    <Frame HasShadow="True"
+                           CornerRadius="20"
+                           Padding="0"
+                           Margin="0,0,0,10"
+                           BackgroundColor="Black">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnLhotseFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="https://i.ibb.co/Bz4QnKz/download.jpg"
+                                   Aspect="AspectFill"
+                                   HeightRequest="150"
+                                   WidthRequest="150"
+                                   VerticalOptions="Center"/>
+                            <Label Text="Lhotse"
+                                   FontSize="20"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center"
+                                   Padding="10"
+                                   TextColor="#7B1FA2"
+                                   BackgroundColor="Black"/>
+                        </StackLayout>
+                    </Frame>
+
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Comunicacion_Efectiva"
+             BackgroundImageSource="https://i.pinimg.com/736x/bc/bf/19/bcbf19ba8b571b83a3ad615008f3f952.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Comunicación Efectiva"
+                       TextColor="DarkOrange"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción General -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.4" />
+                    <Label Text="La comunicación efectiva es la capacidad de expresar ideas y sentimientos de manera clara, directa y respetuosa. Es una habilidad esencial para el éxito personal y profesional, que permite construir relaciones fuertes y resolver conflictos."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen representativa -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/B67scY3/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="25"
+                               Text="Una buena comunicación es fundamental para el éxito en todas las áreas de la vida."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Claves para la Comunicación Efectiva -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Claves para una Comunicación Efectiva:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Escucha activa: Presta atención completa al interlocutor, mostrando interés y comprensión."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Claridad y concisión: Expresa tus ideas de manera clara y directa, evitando ambigüedades."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Empatía: Comprende y valora los sentimientos y puntos de vista de los demás."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Asertividad: Comunica tus necesidades y deseos de manera respetuosa, sin agredir ni someterte."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Feedback constructivo: Proporciona retroalimentación útil y positiva para fomentar el crecimiento y la mejora continua."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/SXmRNb0/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="25"
+                               Text="La comunicación clara y respetuosa fortalece las relaciones y previene malentendidos."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

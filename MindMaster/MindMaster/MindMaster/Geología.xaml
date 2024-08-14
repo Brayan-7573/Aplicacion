@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Geología"
+             BackgroundColor="#f0f4c3">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20" Spacing="10">
+                <!-- Title -->
+                <Label Text="Geología"
+                       FontSize="36"
+                       FontAttributes="Bold"
+                       TextColor="#3e2723"
+                       HorizontalOptions="Center" />
+
+                <!-- Image -->
+                <Image Source="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMTx18bKixBgIgQnVrkYlp02HY1RRAIC55SGSAG9eA0FYmF_bLKLWD8QYhUl4QJiiPP6rWaxoSRKGX-3ev3Gwre3gIs2viRUA6Zecidtt3DYja9-p76aHC_J5WsIBc4Vblzrk8VMghgM8/s1600/geologia.jpg"
+                       Aspect="AspectFill"
+                       HeightRequest="200"
+                       Margin="0,20,0,20" />
+
+                <!-- Description -->
+                <Label Text="La geología es la ciencia que estudia la composición, estructura, propiedades físicas, historia y los procesos que actúan sobre la Tierra."
+                       FontSize="18"
+                       TextColor="#5d4037"
+                       HorizontalOptions="Center" />
+
+                <!-- More Information Section -->
+                <Label Text="Ramas de la Geología:"
+                       FontSize="24"
+                       FontAttributes="Bold"
+                       TextColor="#3e2723"
+                       HorizontalOptions="Center"
+                       Margin="0,20,0,10" />
+
+                <!-- Geological Branches -->
+                <Label Text="• Geología estructural: estudio de las deformaciones y estructuras de la corteza terrestre."
+                       FontSize="16"
+                       TextColor="#5d4037"
+                       HorizontalOptions="Start" />
+
+                <Label Text="• Petrología: estudio de las rocas y su origen, composición y estructura."
+                       FontSize="16"
+                       TextColor="#5d4037"
+                       HorizontalOptions="Start" />
+
+                <Label Text="• Paleontología: estudio de los fósiles y la vida pasada."
+                       FontSize="16"
+                       TextColor="#5d4037"
+                       HorizontalOptions="Start" />
+
+                <Label Text="• Mineralogía: estudio de los minerales, sus propiedades y procesos de formación."
+                       FontSize="16"
+                       TextColor="#5d4037"
+                       HorizontalOptions="Start" />
+
+                <Label Text="• Geología histórica: estudio de la historia de la Tierra y sus procesos geológicos."
+                       FontSize="16"
+                       TextColor="#5d4037"
+                       HorizontalOptions="Start" />
+
+                <!-- Additional Image -->
+                <Image Source="https://humanidades.com/wp-content/uploads/2017/05/Capas-de-la-Tierra-GEOSFERA2.jpg"
+                       Aspect="AspectFill"
+                       HeightRequest="200"
+                       Margin="0,20,0,20" />
+
+                <!-- Conclusion -->
+                <Label Text="La geología nos permite entender mejor nuestro planeta y sus recursos, ayudándonos a prevenir desastres naturales y a gestionar los recursos de manera sostenible."
+                       FontSize="18"
+                       TextColor="#5d4037"
+                       HorizontalOptions="Center" />
+
+                <Image Source="https://img.freepik.com/fotos-premium/visualizacion-3d-capas-geologicas-geologos-entusiastas-ciencias-tierra_510958-1458.jpg"
+                        Aspect="AspectFill"
+                        HeightRequest="200"
+                        Margin="0,20,0,20" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
+    
+

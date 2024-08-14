@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Tokio"
+             BackgroundImageSource="https://img3.wallspic.com/previews/9/3/7/5/6/165739/165739-calles_de_tokio_cyberpunk-tokio-cyberpunk_2077-cyberpunk-neumatico-500x.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Tokio"
+                       TextColor="DarkRed"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="Tokio es la capital de Japón y una de las ciudades más grandes y avanzadas tecnológicamente del mundo. Es conocida por su mezcla única de tradición y modernidad, con rascacielos impresionantes, templos históricos y una vibrante cultura pop."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="Wheat"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen representativa -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/RzFwzhZ/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Tokio es una ciudad que nunca duerme, con una vida nocturna vibrante y un ritmo urbano acelerado. Es famosa por sus distritos como Shibuya y Shinjuku, que ofrecen una experiencia única de compras, entretenimiento y gastronomía."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre Tokio -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Aspectos Destacados de Tokio:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Tecnología y Modernidad: Tokio es un centro tecnológico global conocido por sus avances en electrónica y robótica. Distritos como Akihabara son famosos por sus tiendas de electrónica y gadgets innovadores."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Cultura y Tradición: A pesar de su modernidad, Tokio mantiene una rica herencia cultural. Templos como el Senso-ji en Asakusa y el Santuario Meiji en Shibuya ofrecen un vistazo a la espiritualidad y la historia japonesa."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Gastronomía: La cocina japonesa es mundialmente conocida, y Tokio ofrece una amplia variedad de opciones gastronómicas, desde sushi fresco y ramen hasta exquisitas experiencias de alta cocina."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Espacios Verdes: A pesar de su carácter urbano, Tokio cuenta con varios parques y jardines, como el Parque Ueno y los Jardines del Palacio Imperial, que proporcionan tranquilidad en medio del bullicio."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Vida Nocturna: La ciudad es conocida por su vibrante vida nocturna, con numerosos bares, clubes y restaurantes que ofrecen entretenimiento hasta altas horas de la madrugada."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/v1Tcgtx/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="El cruce de Shibuya es uno de los lugares más icónicos de Tokio. Conocido por su concurrencia y las enormes pantallas publicitarias, es un símbolo de la energía y la dinámica de la ciudad."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

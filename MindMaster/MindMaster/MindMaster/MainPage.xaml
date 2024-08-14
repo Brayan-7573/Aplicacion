@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MindMaster"
+             x:Class="MindMaster.MainPage"
+             BackgroundColor="Gray">
+
+    <Grid>
+
+        <Image Source="https://i.pinimg.com/474x/b5/72/ac/b572ac4fddb29897bfd8eb0232f4a97f.jpg" 
+               Aspect="AspectFill"
+               HorizontalOptions="FillAndExpand" 
+               VerticalOptions="FillAndExpand" />
+
+      
+        <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Frame AbsoluteLayout.LayoutBounds="0.5, 0.5, 500, 500"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   Padding="20"
+                   BackgroundColor="Transparent"
+                   HasShadow="False"
+                   CornerRadius="100">
+                <Button x:Name="btninicio"
+                        Text="Iniciar"
+                        Clicked="btninicio_Clicked"
+                        BackgroundColor="#1E1E1E"
+                        TextColor="White"
+                        FontSize="30"
+                        FontAttributes="Bold"
+                        HeightRequest="200"
+                        WidthRequest="200"
+                        CornerRadius="100"
+                        BorderColor="White"
+                        BorderWidth="3"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"/>
+            </Frame>
+        </AbsoluteLayout>
+    </Grid>
+</ContentPage>

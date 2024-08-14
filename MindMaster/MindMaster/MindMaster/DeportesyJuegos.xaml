@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.DeportesyJuegos"
+             Title="Deportes y Juegos" 
+             BackgroundImageSource="https://img.lovepik.com/background/20211101/medium/lovepik-sports-mobile-phone-wallpaper-background-image_400529779.jpg">
+    <ScrollView>
+        <StackLayout Padding="10">
+            <!-- Ejercicio 1: Baloncesto -->
+            <Label Text="Ejercicio 1: Baloncesto" 
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   Margin="0,10,0,0" />
+            <Label Text="1. Párate en posición de triple amenaza con el balón en tus manos."
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   Margin="0,5,0,0" />
+            <Image Source="https://concepto.de/wp-content/uploads/2019/12/basquetbol-baloncesto-e1575657099957-800x399.jpg" Aspect="AspectFit" HeightRequest="150"/>
+            <Label Text="2. Realiza dribles, pases y tiros a la canasta."
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   Margin="0,5,0,0" />
+            <Label Text="Duración: Practica durante 15-20 minutos."
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   Margin="0,5,0,10" />
+
+            <!-- Ejercicio 2: Fútbol -->
+            <Label Text="Ejercicio 2: Fútbol" 
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   Margin="0,10,0,0" />
+            <Label Text="1. Párate con el balón a tus pies y realiza ejercicios de control y pase."
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   Margin="0,5,0,0" />
+            <Image Source="https://assets.bridgestonetire.com/content/dam/consumer/bst/la/tips-bridgestone/otros/llantas-bridgestone-tips_otros_balon-futbol1.jpeg" Aspect="AspectFit" HeightRequest="150"/>
+            <Label Text="2. Practica tiros a portería y dribles."
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   Margin="0,5,0,0" />
+            <Label Text="Duración: Practica durante 20-30 minutos."
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   Margin="0,5,0,10" />
+
+            <!-- Ejercicio 3: Voleibol -->
+            <Label Text="Ejercicio 3: Voleibol" 
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   Margin="0,10,0,0" />
+            <Label Text="1. Párate con los pies al ancho de los hombros y las manos listas para recibir el balón."
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   Margin="0,5,0,0" />
+            <Image Source="https://s1.significados.com/foto/voleibol-og.jpg?class=ogImageWide" Aspect="AspectFit" HeightRequest="150"/>
+            <Label Text="2. Realiza saques, recepciones y remates."
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   Margin="0,5,0,0" />
+            <Label Text="Duración: Practica durante 15-20 minutos."
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   Margin="0,5,0,10" />
+
+            <!-- Ejercicio 4: Bádminton -->
+            <Label Text="Ejercicio 4: Bádminton" 
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   Margin="0,10,0,0" />
+            <Label Text="1. Párate con la raqueta en mano y el volante listo para ser golpeado."
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   Margin="0,5,0,0" />
+            <Image Source="https://badmintonclubescolarosalia.es/BadmintonRosalia/wp-content/uploads/2021/01/carolina.jpg" Aspect="AspectFit" HeightRequest="150"/>
+            <Label Text="2. Practica saques, golpes y desplazamientos en la cancha."
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   Margin="0,5,0,0" />
+            <Label Text="Duración: Practica durante 15-20 minutos."
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   Margin="0,5,0,10" />
+
+            <!-- Ejercicio 5: Carreras de Relevos -->
+            <Label Text="Ejercicio 5: Carreras de Relevos" 
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   Margin="0,10,0,0" />
+            <Label Text="1. Forma equipos y designa un recorrido para la carrera."
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   Margin="0,5,0,0" />
+            <Image Source="https://i.ytimg.com/vi/ZbyoHy7n470/maxresdefault.jpg" Aspect="AspectFit" HeightRequest="150"/>
+            <Label Text="2. Realiza la carrera pasando el testigo entre los compañeros de equipo."
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   Margin="0,5,0,0" />
+            <Label Text="Duración: Compite hasta completar el recorrido designado."
+                   FontAttributes="Bold" 
+                   FontSize="Large"
+                   Margin="0,5,0,10" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

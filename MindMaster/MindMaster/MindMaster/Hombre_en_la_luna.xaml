@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Hombre_en_la_luna"
+             BackgroundImageSource="https://i.pinimg.com/236x/e5/9c/47/e59c4760b1174e3b819902e8a0dbbc92.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Grid>
+                    <Label Text="El Primer Hombre en la Luna"
+                           TextColor="White"
+                           FontSize="50"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Descripción -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="El 20 de julio de 1969, Neil Armstrong se convirtió en el primer hombre en caminar sobre la superficie lunar durante la misión Apollo 11. Esta hazaña histórica marcó un hito en la exploración espacial y en la historia de la humanidad."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="24"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen de la Luna -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/wrF2Bbd/download.jpg" Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="20"  
+                           Text="Esta imagen muestra la superficie lunar, con sus características cráteres y polvo. La exploración lunar ha proporcionado valiosa información sobre la composición y formación de la Luna."
+                           VerticalOptions="Center"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Start"
+                           Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Características del Alunizaje -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" FontAttributes="Bold" Text="Características del Alunizaje:"/>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="1. Misión Apollo 11: Fue la primera misión que llevó humanos a la Luna y los trajo de regreso a salvo a la Tierra."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="2. Neil Armstrong: Se convirtió en el primer ser humano en caminar sobre la Luna, seguido por Buzz Aldrin."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="3. Fecha: El alunizaje ocurrió el 20 de julio de 1969, y Armstrong descendió del módulo lunar 'Eagle'."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="4. Frase histórica: Armstrong dijo, 'Es un pequeño paso para el hombre, pero un gran salto para la humanidad'."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="5. Impacto: Este evento representó un enorme logro en la exploración espacial y un avance significativo en la tecnología y la ciencia."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="6. Ciencia: Las muestras traídas de la superficie lunar han permitido estudios detallados sobre la geología lunar y la historia del sistema solar."/>
+                            </StackLayout>
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+                <Image Source="https://i.ibb.co/vdRwVV3/images.jpg" WidthRequest="300" 
+       HeightRequest="300" 
+       Aspect="AspectFit" />
+
+                <!-- Imágenes adicionales -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/BjBkNdk/download.jpg" Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"  
+                               Text="La imagen muestra al astronauta Buzz Aldrin caminando en la superficie lunar durante la misión Apollo 11."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" FontAttributes="Bold" Text="Características de la Exploración Lunar:"/>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="1. Módulo Lunar: El módulo lunar 'Eagle' fue la nave espacial que aterrizó en la Luna y permitió el alunizaje de los astronautas."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="2. Experimentos: Los astronautas realizaron varios experimentos y recolectaron muestras de rocas y suelo lunar."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="3. Bandera: Durante la misión, se colocó una bandera de los Estados Unidos en la superficie lunar."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="4. Herramientas: Los astronautas utilizaron diversas herramientas para recoger muestras y realizar experimentos en la Luna."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="5. Regreso a casa: Los astronautas regresaron a la Tierra el 24 de julio de 1969, después de pasar casi 8 días en el espacio."/>
+                            </StackLayout>
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

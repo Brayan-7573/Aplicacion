@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.USA"
+             BackgroundImageSource="https://wallpapers.com/images/hd/america-iphone-dtoqcucxki8jtgb5.jpg">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Estados Unidos"
+                       TextColor="White"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="Estados Unidos de América es una nación compuesta por 50 estados, ubicada en América del Norte. Es conocida por su influencia global en política, economía, cultura y tecnología. Desde su independencia en 1776, ha jugado un papel crucial en la configuración del orden mundial moderno."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen representativa -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/FYNbMxt/que-celebra-4-julio-cual-origen-69.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="La Estatua de la Libertad en Nueva York es uno de los monumentos más emblemáticos de los Estados Unidos, símbolo de libertad y democracia."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre Estados Unidos -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Aspectos Destacados de Estados Unidos:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Historia: Fundada en 1776, Estados Unidos ha sido un líder en la creación de instituciones democráticas y ha tenido un papel clave en eventos históricos globales como las dos guerras mundiales y la Guerra Fría."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Cultura: La cultura estadounidense es conocida por su diversidad, incluyendo música, cine, gastronomía y deportes. Hollywood, Broadway, y la música pop son influencias globales."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Geografía: Los Estados Unidos cuentan con una gran variedad de paisajes, desde las playas de California hasta las montañas de Colorado y las llanuras del Medio Oeste."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Economía: Con una de las economías más grandes del mundo, Estados Unidos es un líder en innovación tecnológica, comercio y finanzas."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Política: Estados Unidos es una república federal con un sistema presidencial. La Constitución de 1787 establece el marco para el gobierno federal y los derechos individuales."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/99kNqQH/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="El Capitolio en Washington D.C. es el edificio sede del Congreso de los Estados Unidos, un símbolo del gobierno federal estadounidense."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

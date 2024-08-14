@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Historia">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10" BackgroundColor="black">
+                <Label Text="Sucesos Históricos Mundiales" 
+                       FontSize="50"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center" 
+                       TextColor="White"
+                       Margin="0,20,0,20"/>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Primer Hombre en la Luna -->
+                    <Frame Grid.Row="0" Grid.Column="0" BorderColor="#3498db" CornerRadius="10" Padding="0" BackgroundColor="White" Margin="5">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnPrimerHombreEnLaLunaTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/Cw9gm3m/download.jpg" Aspect="AspectFill" HeightRequest="150"/>
+                            <StackLayout Padding="10">
+                                <Label Text="1969 - Primer Hombre en la Luna" FontSize="Medium" FontAttributes="Bold" TextColor="#2c3e50"/>
+                                <Label Text="Neil Armstrong y Buzz Aldrin se convirtieron en los primeros humanos en caminar sobre la Luna durante la misión Apollo 11." FontSize="Small" TextColor="#7f8c8d"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Caída del Muro de Berlín -->
+                    <Frame Grid.Row="0" Grid.Column="1" BorderColor="#e74c3c" CornerRadius="10" Padding="0" BackgroundColor="White" Margin="5">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnCaidaDelMuroDeBerlinTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/QDJKy5Y/download.jpg" Aspect="AspectFill" HeightRequest="150"/>
+                            <StackLayout Padding="10">
+                                <Label Text="1989 - Caída del Muro de Berlín" FontSize="Medium" FontAttributes="Bold" TextColor="#2c3e50"/>
+                                <Label Text="El Muro de Berlín, símbolo de la división de Alemania, fue derribado, marcando el fin de la Guerra Fría." FontSize="Small" TextColor="#7f8c8d"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Descubrimiento de América -->
+                    <Frame Grid.Row="1" Grid.Column="0" BorderColor="#1abc9c" CornerRadius="10" Padding="0" BackgroundColor="White" Margin="5">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnDescubrimientoDeAmericaTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/MM0v0r1/download.jpg" Aspect="AspectFill" HeightRequest="150"/>
+                            <StackLayout Padding="10">
+                                <Label Text="1492 - Descubrimiento de América" FontSize="Medium" FontAttributes="Bold" TextColor="#2c3e50"/>
+                                <Label Text="Cristóbal Colón llegó al continente americano, marcando el inicio de la colonización europea en América." FontSize="Small" TextColor="#7f8c8d"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Revolución Francesa -->
+                    <Frame Grid.Row="1" Grid.Column="1" BorderColor="#f39c12" CornerRadius="10" Padding="0" BackgroundColor="White" Margin="5">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnRevolucionFrancesaTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/gD181hf/download.jpg" Aspect="AspectFill" HeightRequest="150"/>
+                            <StackLayout Padding="10">
+                                <Label Text="1789 - Revolución Francesa" FontSize="Medium" FontAttributes="Bold" TextColor="#2c3e50"/>
+                                <Label Text="Un levantamiento que llevó al fin de la monarquía en Francia y estableció la Primera República Francesa." FontSize="Small" TextColor="#7f8c8d"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Independencia de Estados Unidos -->
+                    <Frame Grid.Row="2" Grid.Column="0" BorderColor="#8e44ad" CornerRadius="10" Padding="0" BackgroundColor="White" Margin="5">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnIndependenciaDeEstadosUnidosTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/pzfTPQg/download.jpg" Aspect="AspectFill" HeightRequest="150"/>
+                            <StackLayout Padding="10">
+                                <Label Text="1776 - Independencia de Estados Unidos" FontSize="Medium" FontAttributes="Bold" TextColor="#2c3e50"/>
+                                <Label Text="Las Trece Colonias en América del Norte declararon su independencia del Reino Unido, formando los Estados Unidos de América." FontSize="Small" TextColor="#7f8c8d"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Revolución Industrial -->
+                    <Frame Grid.Row="2" Grid.Column="1" BorderColor="#e67e22" CornerRadius="10" Padding="0" BackgroundColor="White" Margin="5">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnRevolucionIndustrialTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout>
+                            <Image Source="https://i.ibb.co/yYdtYSK/download.jpg" Aspect="AspectFill" HeightRequest="150"/>
+                            <StackLayout Padding="10">
+                                <Label Text="Siglo XIX - Revolución Industrial" FontSize="Medium" FontAttributes="Bold" TextColor="#2c3e50"/>
+                                <Label Text="Un período de grandes avances tecnológicos y cambios sociales en Europa y América del Norte." FontSize="Small" TextColor="#7f8c8d"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

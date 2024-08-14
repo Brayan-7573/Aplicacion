@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.CírculosdeBrazos"
+             Title="Calentamiento de Brazos">
+
+    <ScrollView>
+        <StackLayout Padding="10">
+            
+            <Label Text="Ejercicio 1: Círculos Pequeños Hacia Adelante" 
+                   FontAttributes="Bold" 
+                   FontSize="Medium"
+                   Margin="0,10,0,0" />
+            <Label Text="1. Levanta los brazos a los lados, formando una T con tu cuerpo."
+                   Margin="0,5,0,0" />
+            <Label Text="2. Realiza círculos pequeños con los brazos hacia adelante."
+                   Margin="0,5,0,0" />
+            <Label Text="Repeticiones: Realiza 15 repeticiones."
+                   Margin="0,5,0,10" />
+
+           
+            <Label Text="Ejercicio 2: Círculos Pequeños Hacia Atrás" 
+                   FontAttributes="Bold" 
+                   FontSize="Medium"
+                   Margin="0,10,0,0" />
+            <Label Text="1. Levanta los brazos a los lados, formando una T con tu cuerpo."
+                   Margin="0,5,0,0" />
+            <Label Text="2. Realiza círculos pequeños con los brazos hacia atrás."
+                   Margin="0,5,0,0" />
+            <Label Text="Repeticiones: Realiza 15 repeticiones."
+                   Margin="0,5,0,10" />
+
+          
+            <Label Text="Ejercicio 3: Círculos Grandes Hacia Adelante" 
+                   FontAttributes="Bold" 
+                   FontSize="Medium"
+                   Margin="0,10,0,0" />
+            <Label Text="1. Levanta los brazos a los lados, formando una T con tu cuerpo."
+                   Margin="0,5,0,0" />
+            <Label Text="2. Realiza círculos grandes con los brazos hacia adelante."
+                   Margin="0,5,0,0" />
+            <Label Text="Repeticiones: Realiza 10 repeticiones."
+                  />
+
+            
+            <Label Text="Ejercicio 4: Círculos Grandes Hacia Atrás" 
+                   FontAttributes="Bold" 
+                   FontSize="Medium"
+                    />
+            <Label Text="1. Levanta los brazos a los lados, formando una T con tu cuerpo."
+                    />
+            <Label Text="2. Realiza círculos grandes con los brazos hacia atrás."
+                    />
+            <Label Text="Repeticiones: Realiza 10 repeticiones."
+                   Margin="0,5,0,10" />
+
+          
+            <Label Text="Ejercicio 5: Círculos Alternados" 
+                   FontAttributes="Bold" 
+                   FontSize="Medium"
+                   Margin="0,10,0,0" />
+            <Label Text="1. Levanta un brazo hacia adelante y el otro hacia atrás, formando una T con tu cuerpo."
+                   Margin="0,5,0,0" />
+            <Label Text="2. Realiza círculos grandes con ambos brazos, uno hacia adelante y el otro hacia atrás, luego alterna."
+                   Margin="0,5,0,0" />
+            <Label Text="Repeticiones: Realiza 10 repeticiones y luego alterna la dirección."
+                   Margin="0,5,0,10" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

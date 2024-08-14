@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Poesia"
+             Title="Poesía"
+             BackgroundImageSource="https://wallpapers.com/images/hd/poem-1hpe9yw9pbod2l2f.jpg">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+
+                <!-- Sección: Amor y Romance -->
+                <StackLayout Margin="0,0,0,20">
+                    <Label Text="Amor y Romance"
+                           FontSize="Large"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           Margin="0,10"/>
+
+                    <Image Source="https://cdn0.bodas.net/article/0824/3_2/1280/jpg/94280-portada.jpeg"
+                           Aspect="AspectFill"
+                           HeightRequest="200"
+                           Margin="0,10"/>
+
+                    <Label Text="El amor es el poema más hermoso que el corazón puede escribir."
+                           FontSize="Medium"
+                           HorizontalOptions="Center"
+                           Margin="0,10"/>
+                </StackLayout>
+
+                <!-- Sección: Naturaleza -->
+                <StackLayout Margin="0,0,0,20">
+                    <Label Text="Naturaleza"
+                           FontSize="Large"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           Margin="0,10"/>
+
+                    <Image Source="https://cdn.culturagenial.com/es/imagenes/jorge-tellier.jpg"
+                           Aspect="AspectFill"
+                           HeightRequest="200"
+                           Margin="0,10"/>
+
+                    <Label Text="En la naturaleza encontramos el ritmo que inspira los versos más serenos."
+                           FontSize="Medium"
+                           HorizontalOptions="Center"
+                           Margin="0,10"/>
+                </StackLayout>
+
+                <!-- Sección: Melancolía y Nostalgia -->
+                <StackLayout Margin="0,0,0,20">
+                    <Label Text="Melancolía y Nostalgia"
+                           FontSize="Large"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           Margin="0,10"/>
+
+                    <Image Source="https://64.media.tumblr.com/162238f1f334cf96077338d87cd65d4a/132c35596100b7be-ed/s1280x1920/b414075724a9b324b0e0613e62f4f80c4f849406.jpg"
+                           Aspect="AspectFill"
+                           HeightRequest="200"
+                           Margin="0,10"/>
+
+                    <Label Text="En la melancolía se encuentran las palabras que el alma susurra al viento."
+                           FontSize="Medium"
+                           HorizontalOptions="Center"
+                           Margin="0,10"/>
+                </StackLayout>
+
+                <!-- Puedes seguir añadiendo más secciones con otros temas -->
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>

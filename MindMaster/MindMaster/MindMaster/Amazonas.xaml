@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Amazonas"
+             BackgroundImageSource="https://i.ibb.co/7XFCzFx/fondo-pantalla-hojas-esteticas-selva-amazonica-amantes-aventura-paraiso-palmeras-patron-hojas-974322.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="La Región del Amazonas"
+                       TextColor="White"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="LightGreen" Opacity="0.2" />
+                    <Label Text="El Amazonas es una vasta región que se extiende por varios países de América del Sur, incluyendo Brasil, Perú, Colombia, Venezuela, Ecuador, Bolivia, Guyana, Surinam y la Guayana Francesa. Es conocida por su densa selva tropical, sus ríos extensos y su increíble biodiversidad."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen de la Región del Amazonas -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/f2vSdBw/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="LightGreen" Opacity="0.2" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="El paisaje del Amazonas muestra su vasta extensión de selva tropical, ríos caudalosos y una rica biodiversidad."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre la biodiversidad -->
+                <Grid>
+                    <BoxView Color="LightGreen" Opacity="0.2"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" FontAttributes="Bold" Text="Biodiversidad del Amazonas:"/>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="1. Fauna: La región alberga una increíble variedad de animales, incluyendo jaguares, pumas, monos, y más de 1,000 especies de aves. Además, es hogar de numerosas especies de reptiles y anfibios."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="2. Flora: El Amazonas es conocido por su biodiversidad vegetal, con una vasta cantidad de árboles y plantas, como la ceiba, el árbol de caucho y una variedad de orquídeas y helechos."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="3. Ecosistemas: La región del Amazonas incluye diversos ecosistemas, como la selva tropical, los pantanos y los bosques inundados, cada uno con su propia fauna y flora especializadas."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="4. Pueblos Indígenas: El Amazonas es hogar de muchas comunidades indígenas que han vivido en armonía con el medio ambiente durante siglos, con conocimientos tradicionales y una profunda conexión con la tierra."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="5. Conservación: La región enfrenta amenazas debido a la deforestación, el cambio climático y otras actividades humanas. Los esfuerzos de conservación son esenciales para preservar su biodiversidad y su papel en el equilibrio ecológico global."/>
+                            </StackLayout>
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/St82H67/download.jpg" 
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="LightGreen" Opacity="0.2" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Una vista de la selva tropical del Amazonas, mostrando la densa vegetación y la riqueza del ecosistema."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

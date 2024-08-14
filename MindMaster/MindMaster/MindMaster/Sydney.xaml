@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Sydney"
+             BackgroundImageSource="https://i.ibb.co/MBHM1mN/Opera-house-on-Harbour-Bridge-in-Sydney-1170x2532.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Sydney"
+                       TextColor="White"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="Sydney es una de las ciudades más emblemáticas de Australia, conocida por su impresionante puerto, la famosa Ópera de Sídney y su vibrante vida urbana. Ofrece una mezcla única de cultura, historia y belleza natural."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="white"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen representativa -->
+                <Grid>
+                    <Image Source="https://i.pinimg.com/474x/ff/b7/c4/ffb7c425ee7be70edd5dde37cb4f6f4a.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="El Puerto de Sídney es famoso por su belleza escénica y su vibrante vida nocturna. El icónico puente y la Ópera de Sídney son dos de los monumentos más reconocibles del mundo."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre Sydney -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Aspectos Destacados de Sydney:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Ópera de Sídney: Un hito arquitectónico reconocido mundialmente, conocido por su diseño innovador y su vibrante programación de eventos culturales."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Puente del Puerto de Sídney: Un puente colgante icónico que ofrece vistas panorámicas espectaculares de la ciudad y el puerto."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Playas: Sydney es famosa por sus hermosas playas, incluyendo Bondi Beach y Manly Beach, que son populares entre locales y turistas."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Vida Nocturna: La ciudad ofrece una vibrante vida nocturna con numerosos bares, restaurantes y eventos culturales."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Parques y Espacios Verdes: Sydney cuenta con una variedad de parques y espacios verdes, como el Jardín Botánico Real y el Parque Centennial."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/qJGBk6j/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Bondi Beach es una de las playas más famosas de Sydney, conocida por su ambiente animado y sus excelentes condiciones para el surf."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.SKorea"
+             BackgroundImageSource="https://i.pinimg.com/originals/a0/ae/45/a0ae45de3e4dd4f03126ad421fafd90a.png">
+    
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Corea del Sur"
+                       TextColor="Black"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="LightGray" Opacity="0.5" />
+                    <Label Text="Corea del Sur es un país situado en el este de Asia, en la península de Corea. Conocida por su vibrante cultura, tecnología avanzada y economías en crecimiento, Corea del Sur es una nación dinámica con una rica historia y una fuerte identidad cultural. Su capital es Seúl, una de las ciudades más grandes y modernas del mundo."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="Black"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen representativa -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/XD7sSnH/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Seúl, la capital de Corea del Sur, es conocida por su arquitectura moderna y su vibrante vida nocturna. La ciudad combina lo antiguo y lo nuevo, ofreciendo una experiencia única a sus visitantes."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre Corea del Sur -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Aspectos Destacados de Corea del Sur:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Cultura: Corea del Sur es famosa por su cultura pop global, incluyendo el K-pop, el cine y la televisión. Los dramas coreanos y las películas han ganado popularidad internacionalmente."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Tecnología: El país es un líder en tecnología y electrónica, con empresas destacadas como Samsung y LG. Seúl es conocida como un centro tecnológico y de innovación."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Historia: Corea del Sur tiene una rica historia que incluye la dinastía Joseon y la Guerra de Corea. El país ha experimentado un rápido crecimiento y modernización en las últimas décadas."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Gastronomía: La cocina coreana es diversa y sabrosa, con platos como el kimchi, el bibimbap y el bulgogi siendo muy populares. Los alimentos coreanos son conocidos por sus sabores únicos y saludables."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Naturaleza: A pesar de su modernización, Corea del Sur también ofrece paisajes naturales impresionantes, como el monte Hallasan en Jeju y el Parque Nacional de Seoraksan."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/vqSJb2z/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="El monte Hallasan en la isla de Jeju es un volcán inactivo y el punto más alto de Corea del Sur, conocido por sus impresionantes paisajes y rutas de senderismo."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

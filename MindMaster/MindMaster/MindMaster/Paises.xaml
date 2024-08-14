@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Paises">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10" >
+
+                <Label Text="Países del Mundo"
+                       FontSize="24"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       TextColor="#2980b9"
+                       Padding="10"
+                       Margin="0,20,0,20"/>
+
+                <StackLayout Orientation="Vertical" Spacing="20">
+                    <Frame BorderColor="#3498db" CornerRadius="10" Padding="10" BackgroundColor="#ecf0f1">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnMexicoFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout Orientation="Horizontal" Spacing="15">
+                            <Image Source="https://i.ibb.co/gPhzBKy/descarga.png" WidthRequest="100" HeightRequest="100"/>
+                            <StackLayout>
+                                <Label Text="México" FontSize="20" FontAttributes="Bold" TextColor="#2c3e50"/>
+                                <Label Text="México es conocido por su rica cultura y tradiciones, su gastronomía variada y su impresionante patrimonio histórico. El país está ubicado en América del Norte y tiene una gran diversidad geográfica y cultural." FontSize="Small" TextColor="#7f8c8d"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame BorderColor="#e74c3c" CornerRadius="10" Padding="10" BackgroundColor="#ecf0f1">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnRusiaFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout Orientation="Horizontal" Spacing="15">
+                            <Image Source="https://i.ibb.co/GJkn0ZQ/download.png" WidthRequest="100" HeightRequest="100"/>
+                            <StackLayout>
+                                <Label Text="Rusia" FontSize="20" FontAttributes="Bold" TextColor="#2c3e50"/>
+                                <Label Text="Rusia es el país más grande del mundo, con una rica historia que abarca desde los zares hasta la era soviética. Su vasto territorio incluye una variedad impresionante de paisajes y climas." FontSize="Small" TextColor="#7f8c8d"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame BorderColor="#e74c" CornerRadius="10" Padding="10" BackgroundColor="#ecf0f1">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnUSAFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout Orientation="Horizontal" Spacing="15">
+                            <Image Source="https://i.ibb.co/sWcN3t5/download.png" WidthRequest="100" HeightRequest="100"/>
+                            <StackLayout>
+                                <Label Text="Estados Unidos" FontSize="20" FontAttributes="Bold" TextColor="#2c3e50"/>
+                                <Label Text="Estados Unidos es conocido por su diversidad cultural y su influencia global en tecnología, economía y entretenimiento. Desde Nueva York hasta California, ofrece una gran variedad de experiencias." FontSize="Small" TextColor="#7f8c8d"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame BorderColor="#e3c" CornerRadius="10" Padding="10" BackgroundColor="#ecf0f1">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnChinaFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout Orientation="Horizontal" Spacing="15">
+                            <Image Source="https://i.ibb.co/gywsVcz/download.png" WidthRequest="100" HeightRequest="100"/>
+                            <StackLayout>
+                                <Label Text="China" FontSize="20" FontAttributes="Bold" TextColor="#2c3e50"/>
+                                <Label Text="China es una nación con una de las civilizaciones más antiguas del mundo. Es famosa por su Gran Muralla, la Ciudad Prohibida y su impacto en la economía global contemporánea." FontSize="Small" TextColor="#7f8c8d"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame BorderColor="#e74c" CornerRadius="10" Padding="10" BackgroundColor="#ecf0f1">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnSKoreaFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout Orientation="Horizontal" Spacing="15">
+                            <Image Source="https://i.ibb.co/j8k23fT/kr.png" WidthRequest="100" HeightRequest="100"/>
+                            <StackLayout>
+                                <Label Text="Corea del Sur" FontSize="20" FontAttributes="Bold" TextColor="#2c3e50"/>
+                                <Label Text="Corea del Sur es conocida por su tecnología avanzada y su vibrante cultura pop. La capital, Seúl, es un centro global de comercio y cultura." FontSize="Small" TextColor="#7f8c8d"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame BorderColor="#e3c" CornerRadius="10" Padding="10" BackgroundColor="#ecf0f1">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnNKoreaFrameTapped" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout Orientation="Horizontal" Spacing="15">
+                            <Image Source="https://i.ibb.co/qdCq6rG/download.png" WidthRequest="100" HeightRequest="100"/>
+                            <StackLayout>
+                                <Label Text="Corea del Norte" FontSize="20" FontAttributes="Bold" TextColor="#2c3e50"/>
+                                <Label Text="Corea del Norte es un país conocido por su régimen político aislacionista y su impacto en la geopolítica de la región. Tiene una historia compleja y una cultura distintiva." FontSize="Small" TextColor="#7f8c8d"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

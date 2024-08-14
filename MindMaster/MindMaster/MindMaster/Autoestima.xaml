@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Autoestima"
+             BackgroundImageSource="https://e1.pxfuel.com/desktop-wallpaper/1000/390/desktop-wallpaper-fondos-de-pantalla-de-color-rosa-pastel-thumbnail.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Autoestima"
+                       TextColor="Black"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción General -->
+                <Grid Margin="0,20">
+                    <BoxView Color="White" Opacity="0.3" />
+                    <Label Text="La autoestima es la valoración que una persona tiene de sí misma. Es un componente clave de la salud mental y emocional, que influye en cómo nos vemos, cómo nos sentimos acerca de nosotros mismos, y cómo nos comportamos."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="Black"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen representativa -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/hgjwn12/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="#FFD700" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="30"
+                               TextColor="Black"
+                               Text="La autoestima es la base para una vida saludable y equilibrada."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Componentes de la Autoestima -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Componentes de la Autoestima:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Autoaceptación: Aceptar y valorar todas las partes de uno mismo, incluyendo las imperfecciones."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Confianza en uno mismo: Creer en nuestras propias capacidades y decisiones."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Respeto propio: Tratarse a uno mismo con dignidad, amabilidad y respeto."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Cuidado personal: Priorizar la salud física, mental y emocional, reconociendo su importancia en nuestra autoestima."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/SmTPnSb/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="#FFD700" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="30"
+                               TextColor="Black"
+                               Text="El cuidado personal es esencial para mantener una autoestima saludable."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

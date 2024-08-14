@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Caida_muro_berlin"
+             BackgroundImageSource="https://i.ibb.co/8xk6tH4/images.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+                <!-- Título -->
+                <Label Text="La Caída del Muro de Berlín"
+                       TextColor="White"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="El 9 de noviembre de 1989, el Muro de Berlín, que había dividido a Alemania Oriental y Occidental durante 28 años, cayó tras una serie de eventos políticos que llevaron a la apertura de las fronteras. Este evento simbolizó el fin de la Guerra Fría y el inicio de la reunificación alemana."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen del Muro de Berlín -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/dPhzNVp/images.jpg" 
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="El Muro de Berlín durante su caída en 1989. Este muro fue una barrera física y simbólica que separó a Berlín y a sus ciudadanos durante décadas."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles Importantes -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" FontAttributes="Bold" Text="Detalles Importantes:"/>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="1. Fecha: La caída del Muro de Berlín ocurrió el 9 de noviembre de 1989."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="2. Contexto: La caída del muro fue un resultado de la presión política y social por parte de los ciudadanos y la creciente demanda de reformas en Alemania Oriental."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="3. Impacto: La caída del muro marcó el inicio de la reunificación alemana, que se completó el 3 de octubre de 1990."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="4. Significado: Representa el fin de la Guerra Fría y la apertura de nuevas posibilidades para la cooperación y la unidad en Europa."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="18" Text="5. Monumentos: Hoy en día, varios tramos del Muro de Berlín han sido preservados como monumentos históricos y se pueden visitar en Berlín."/>
+                            </StackLayout>
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/1MkH5vN/download.jpg" 
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"  
+                               Text="Foto de celebraciones en Berlín tras la caída del muro. La euforia y el alivio fueron evidentes en todo el país."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

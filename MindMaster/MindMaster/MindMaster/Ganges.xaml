@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Ganges"
+             BackgroundImageSource="https://i.ibb.co/5FS2pvx/images.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Río Ganges"
+                       TextColor="Black"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="El río Ganges es uno de los ríos más sagrados y venerados en la India. Se extiende por unos 2,525 kilómetros desde su nacimiento en el Himalaya hasta su desembocadura en el Golfo de Bengala. Es crucial tanto para la religión como para la vida cotidiana de millones de personas."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen del Río Ganges -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/1LSck7j/images.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Vista del río Ganges cerca de la ciudad de Varanasi, mostrando su importancia en la vida cotidiana y en los rituales religiosos."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre el Río Ganges -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Importancia del Río Ganges:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Significado Religioso: El Ganges es considerado sagrado por hindúes y es el centro de numerosos rituales y ceremonias religiosas. Los fieles creen que bañarse en sus aguas purifica el alma y limpia los pecados."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Recursos Hidricos: El río proporciona agua esencial para riego, consumo y otros usos industriales en el norte de India. Es fundamental para la agricultura y el abastecimiento de agua para millones de personas."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Ecología: El Ganges alberga una rica biodiversidad y es hogar de varias especies de peces y otros organismos acuáticos. La conservación de su ecosistema es vital para mantener esta diversidad."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Desafíos Ambientales: El Ganges enfrenta serios problemas de contaminación debido a la descarga de desechos industriales y residuos humanos. Las iniciativas para limpiar y preservar el río son cruciales para su salud a largo plazo."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Turismo y Cultura: El río atrae a millones de turistas cada año que vienen a ver sus ceremonias religiosas, explorar sus ciudades sagradas y disfrutar de su belleza natural. Su influencia en la cultura y la vida india es inmensa."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/K7RZvsV/images.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Otra vista del Ganges en Varanasi, con peregrinos realizando rituales en la orilla del río."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

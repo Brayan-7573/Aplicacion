@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Yangtze"
+             BackgroundImageSource="https://i.ibb.co/M1fM38G/a575c8dbc5b567cdf60157979d4839d1.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Río Yangtsé"
+                       TextColor="White"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="El río Yangtsé, también conocido como Chang Jiang, es el río más largo de Asia y el tercero más largo del mundo, con una longitud de aproximadamente 6,300 kilómetros. Fluye a través de China desde el Tíbet hasta el mar de China Oriental."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen del Río Yangtsé -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/3T2sSB3/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Vista panorámica del río Yangtsé, mostrando su extensión a través de China."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre el Río Yangtsé -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Importancia del Río Yangtsé:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Historia y Cultura: El Yangtsé ha sido un importante eje cultural y económico en China durante miles de años. Ha influido en el desarrollo de las civilizaciones que se han establecido a lo largo de sus orillas."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Agricultura: El río proporciona agua para una gran parte de la agricultura en China. La región del Yangtsé es conocida por sus fértiles tierras agrícolas y su producción de arroz y otros cultivos."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Hidroelectricidad: La presa de las Tres Gargantas, una de las mayores presas del mundo, se encuentra en el Yangtsé. Esta represa juega un papel crucial en la generación de electricidad para China."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Vida Silvestre: El Yangtsé alberga una rica biodiversidad, incluyendo especies en peligro como el delfín del río Yangtsé. La región es vital para la preservación de estos ecosistemas únicos."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Desafíos Ambientales: La contaminación, el cambio climático y la gestión de los recursos hídricos son algunos de los desafíos que enfrenta el río Yangtsé. Estos problemas afectan tanto al ecosistema como a las comunidades que dependen del río."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/zbLNGDv/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Vista del río Yangtsé con las montañas circundantes, destacando su importancia en el paisaje chino."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

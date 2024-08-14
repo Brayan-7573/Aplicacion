@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.NuevaYork"
+             BackgroundImageSource="https://i.pinimg.com/550x/72/7b/ef/727befc47356123957cad795cd6e7686.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Nueva York"
+                       TextColor="White"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="Nueva York, conocida como la 'Gran Manzana', es una de las ciudades más icónicas y dinámicas del mundo. Ofrece una mezcla vibrante de cultura, historia, arte y arquitectura. Es famosa por sus rascacielos, museos y vida nocturna."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen representativa -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/7bSMxGS/8ce90591cdc3c36553d0a3e1247d3cc2.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Nueva York es un centro mundial de cultura, finanzas y moda. Desde la Estatua de la Libertad hasta Times Square, pasando por Central Park, la ciudad ofrece innumerables atracciones y experiencias únicas."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre Nueva York -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Aspectos Destacados de Nueva York:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Monumentos Icónicos: Nueva York es hogar de monumentos famosos como la Estatua de la Libertad, el Empire State Building y el Puente de Brooklyn."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Cultura y Arte: La ciudad cuenta con algunos de los museos más importantes del mundo, como el Museo Metropolitano de Arte y el Museo de Arte Moderno (MoMA)."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Broadway: Conocida por su vibrante escena teatral, Broadway ofrece una gran variedad de musicales y obras de teatro que atraen a visitantes de todo el mundo."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Diversidad Gastronómica: Nueva York es famosa por su diversa oferta gastronómica, desde comidas rápidas en los food trucks hasta restaurantes de alta gama."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Espacios Verdes: A pesar de ser una metrópoli densa, Nueva York tiene grandes espacios verdes como Central Park y el High Line, que ofrecen un respiro en medio del bullicio urbano."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://img2.wallspic.com/previews/3/4/6/8/6/168643/168643-la_ciudad_de_nueva_york-empire_state_building-edificio-ambiente-afterglow-500x.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Central Park es el pulmón verde de Nueva York, ofreciendo un oasis de tranquilidad y numerosas actividades recreativas para residentes y turistas."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

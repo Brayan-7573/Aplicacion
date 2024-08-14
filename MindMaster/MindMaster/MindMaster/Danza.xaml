@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Danza"
+             BackgroundImageSource="https://png.pngtree.com/background/20210711/original/pngtree-purple-cool-dance-background-picture-image_1078040.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Grid>
+                    <Label Text="Danza"
+                           TextColor=" #5fe8ff"
+                           FontSize="70"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.1" />
+                    <Label Text="Es una manifestación cultural y artística que puede tener diversos propósitos, como la expresión emocional, la celebración ritual, la narración de historias, la representación de tradiciones culturales o simplemente la recreación estética."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <Grid>
+                    <Image Source="https://img.freepik.com/foto-gratis/silueta-bailarina-papel-cisne-blanco-sobre-fondo-dack_155003-33772.jpg"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="#971F89" Opacity="0.0" IsVisible="True" />
+
+                        <Label FontSize="20"  
+                           Text="Ballet: Una forma de danza teatral que comenzó durante el Renacimiento italiano y se convirtió en una danza de concierto en Francia y Rusia." 
+                           VerticalOptions="Center"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Start"
+                           Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+
+                <Grid>
+                    <BoxView Color="#971F89" Opacity="0.0"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="25" FontAttributes="Bold" Text="La Mona Lisa Características de la Pintura:"/>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="17" Text="1. Origen: El ballet se originó en las cortes renacentistas de Italia en el siglo XV y se desarrolló en Francia bajo el patrocinio de Luis XIV."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="17" Text="2. Estilo: Es un estilo de danza clásica caracterizado por su precisión técnica, pasos estilizados y posiciones de los pies y las piernas."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="17" Text="3. Técnica: La técnica del ballet incluye movimientos controlados y elegantes, como pliés, relevés, arabesques, pirouettes y grand jetés."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="17" Text="4. Vestuario: Los bailarines de ballet suelen vestir trajes específicos, como tutús para las bailarinas y leotardos y mallas para los bailarines, además de zapatillas de punta para las mujeres."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="17" Text="5. Música: El ballet se realiza a menudo con música clásica, y muchas obras de ballet famosas han sido compuestas por músicos como Tchaikovsky, Prokofiev y Stravinsky."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="17" Text="6. Escenografía: Las producciones de ballet incluyen escenarios elaborados y efectos visuales para crear ambientes mágicos y contar historias."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="17" Text="7. Géneros: Existen varios géneros de ballet, incluyendo el ballet romántico, clásico, neoclásico y contemporáneo, cada uno con sus propias características y estilos."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="17" Text="8. Compagnías: Las compañías de ballet más famosas incluyen el Ballet Bolshoi, el Ballet de la Ópera de París y el Royal Ballet, entre otras."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="17" Text="9. Formación: Los bailarines de ballet se entrenan rigurosamente durante muchos años, a menudo comenzando desde una edad temprana, en escuelas especializadas y academias de danza."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="17" Text="10. Influencia cultural: El ballet ha tenido una gran influencia en otras formas de danza y arte, y continúa siendo una forma de arte respetada y admirada en todo el mundo."/>
+                            </StackLayout>
+
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+                <Label FontSize="90" Text="-------------------" />
+
+                <Grid>
+                    
+                   
+                    <Grid Grid.Column="0" BackgroundColor="Transparent">
+                        <Label Text="Danza contemporánea: Un estilo de danza expresiva que combina elementos de varios géneros de danza, como el ballet moderno, jazz, lírico y clásico. " 
+                               VerticalOptions="Center"
+                               HorizontalOptions="Start"
+                               FontAttributes="Bold"
+                               FontSize="25"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+                <Image Source="https://blog.marti.mx/wp-content/uploads/2023/08/danza_contemporanea_header-jpg.webp"/>
+
+                <Grid>
+                    <BoxView Color="#533501" Opacity="0.5"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="15" FontAttributes="Bold" Text="Mujer con el arete de perlas Características de la Pintura:"/>
+
+                        <StackLayout Margin="10">
+                                <Label FontSize="15" Text="1. Origen: La danza contemporánea surgió a mediados del siglo XX como una reacción contra las formas rígidas del ballet clásico y la danza moderna."/>
+                                </StackLayout>
+
+                                <StackLayout Margin="10">
+                                    <Label FontSize="15" Text="2. Estilo: Es un estilo de danza expresivo y versátil que combina elementos de varios géneros de danza, incluyendo el ballet, la danza moderna y el jazz."/>
+                                </StackLayout>
+
+                                <StackLayout Margin="10">
+                                    <Label FontSize="15" Text="3. Técnica: La técnica de la danza contemporánea incluye movimientos fluidos, uso del peso corporal, trabajo de suelo, y una amplia variedad de dinámicas y ritmos."/>
+                                </StackLayout>
+
+                                <StackLayout Margin="10">
+                                    <Label FontSize="15" Text="4. Expresión: Fomenta la expresión personal y la improvisación, permitiendo a los bailarines explorar sus propias emociones y movimientos únicos."/>
+                                </StackLayout>
+
+                                <StackLayout Margin="10">
+                                    <Label FontSize="15" Text="5. Coreografía: Las coreografías de danza contemporánea suelen ser innovadoras y abstractas, a menudo explorando temas conceptuales y narrativos."/>
+                                </StackLayout>
+
+                                <StackLayout Margin="10">
+                                    <Label FontSize="15" Text="6. Vestuario: El vestuario en la danza contemporánea es generalmente simple y funcional, permitiendo libertad de movimiento y enfatizando la naturalidad del cuerpo."/>
+                                </StackLayout>
+
+                                <StackLayout Margin="10">
+                                    <Label FontSize="15" Text="7. Música: Puede ser realizada con una amplia variedad de música, desde composiciones clásicas hasta música electrónica y sonidos ambientales."/>
+                                </StackLayout>
+
+                                <StackLayout Margin="10">
+                                    <Label FontSize="15" Text="8. Escenografía: Las producciones de danza contemporánea a menudo utilizan escenarios minimalistas y efectos visuales innovadores para crear ambientes sugestivos."/>
+                                </StackLayout>
+
+                                <StackLayout Margin="10">
+                                    <Label FontSize="15" Text="9. Influencias: La danza contemporánea está influenciada por muchas culturas y estilos de danza diferentes, haciendo hincapié en la diversidad y la inclusividad."/>
+                                </StackLayout>
+
+                                <StackLayout Margin="10">
+                                    <Label FontSize="15" Text="10. Formación: Los bailarines de danza contemporánea reciben una formación diversificada, a menudo estudiando múltiples técnicas de danza y participando en talleres de improvisación y creación."/>
+                                </StackLayout>
+
+
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+                <Grid>
+                    <Label Text="Jazz"
+                           TextColor=" #5fe8ff"
+                           FontSize="70"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                
+
+                <Grid>
+                    <Image Source="https://www.cuponerapp.com/mexiconoce/wp-content/uploads/2017/07/1bebe8759e23ab6a1b92e1d46e2e7f12.png"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="#971F89" Opacity="0.0" IsVisible="True" />
+
+                        <Label FontSize="20"  
+                               Text="Jazz: Un estilo de danza que se originó en las comunidades afroamericanas en los Estados Unidos, caracterizado por movimientos rápidos y precisos, y a menudo acompañado de música jazz." 
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+
+                <Grid>
+                    <BoxView Color="#971F89" Opacity="0.0"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="25" FontAttributes="Bold" Text="Jazz Características:"/>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="1. Origen: El jazz surgió a finales del siglo XIX y principios del XX en Nueva Orleans, Estados Unidos, influenciado por la música africana, europea y afroamericana."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="2. Estilo: Es un género musical caracterizado por la improvisación, el ritmo sincopado y la interacción entre los músicos."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="3. Instrumentación: Los instrumentos típicos del jazz incluyen la trompeta, el saxofón, el piano, el contrabajo, la batería y la guitarra, aunque puede incorporar muchos otros instrumentos."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="4. Improvisación: Uno de los elementos clave del jazz es la improvisación, donde los músicos crean melodías y solos espontáneamente sobre la estructura de la pieza."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="5. Ritmo: Utiliza ritmos complejos y sincopados, a menudo con un pulso subyacente conocido como swing."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="6. Escalas y armonía: Emplea escalas y progresiones armónicas específicas, como las escalas de blues y las progresiones de acordes del jazz."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="7. Subgéneros: El jazz ha evolucionado en numerosos subgéneros, incluyendo el bebop, el cool jazz, el jazz fusion, el free jazz, y el smooth jazz, entre otros."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="8. Influencia cultural: Ha influido en muchos otros géneros musicales y ha tenido un impacto significativo en la cultura popular y en la música contemporánea."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="9. Grandes figuras: Algunos de los músicos de jazz más influyentes incluyen a Louis Armstrong, Duke Ellington, Charlie Parker, Miles Davis y John Coltrane."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="10. Interpretación: El jazz se interpreta en una variedad de contextos, desde pequeños clubes y bares hasta grandes festivales y salas de conciertos."/>
+                            </StackLayout>
+
+
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+                <Grid>
+                    <Label Text="Salsa"
+                           TextColor=" #5fe8ff"
+                           FontSize="70"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <Grid>
+                    <Image Source="https://es.salsagoogle.com/wp-content/uploads/2020/12/Dos-personas-bailando-salsa.jpg"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="#971F89" Opacity="0.0" IsVisible="True" />
+
+                        <Label FontSize="20"  
+                                Text="Salsa: Un estilo de danza social que se originó en la comunidad latina de Nueva York, con influencias del mambo, la rumba y la música afro-cubana." 
+                                VerticalOptions="Center"
+                                FontAttributes="Bold"
+                                HorizontalOptions="Start"
+                                Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <Grid>
+                    <BoxView Color="#971F89" Opacity="0.0"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            <Label FontSize="25" FontAttributes="Bold" Text="Salsa Características:"/>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="1. Origen: La salsa es un género de baile y música que se originó en Nueva York en la década de 1970, influenciado por ritmos caribeños y afroamericanos, especialmente la música cubana y el jazz."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="2. Estilo: Es un baile en pareja conocido por sus movimientos rápidos, giros, y un estilo dinámico y enérgico."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="3. Ritmo: La música salsa tiene un ritmo sincopado y utiliza una clave, que es un patrón rítmico que guía la música."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="4. Pasos básicos: Los pasos básicos de salsa incluyen el básico de adelante y atrás, el lateral, el círculo, y el 'cross-body lead'."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="5. Instrumentación: La música salsa típicamente incluye instrumentos como congas, timbales, bongós, maracas, trompetas, trombones, piano, bajo, y a veces saxofones."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="6. Influencias: La salsa ha incorporado elementos de varios estilos de música latina, incluyendo el mambo, el cha-cha-chá, el son cubano, y el guaracha."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="7. Expresión y actitud: El baile de salsa es expresivo y sensual, con movimientos de cadera y torso pronunciados, reflejando la conexión y la comunicación entre los bailarines."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="8. Variaciones: Existen varias versiones de la salsa, incluyendo la salsa cubana (casino), la salsa en línea (estilo Los Ángeles y Nueva York), y la salsa caleña (Colombiana), cada una con sus propias características y estilos de movimiento."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="9. Cultura: La salsa es una parte importante de la cultura latina y se baila en clubes de salsa, fiestas, festivales y competiciones en todo el mundo."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="15" Text="10. Influencia global: La salsa ha tenido una influencia global, con escuelas de baile y comunidades de salsa en casi todos los países, y ha evolucionado para incluir influencias de muchas culturas diferentes."/>
+                            </StackLayout>
+
+
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+                
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Responsabilidad_Social"
+             BackgroundImageSource="https://img.freepik.com/fotos-premium/fondos-pantalla-telefono-que-son-fondos-pantalla-telefonos-moviles_900775-3682.jpg?w=360">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Responsabilidad Social"
+                       TextColor="White"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción General -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="La responsabilidad social es el compromiso y la obligación de actuar en beneficio de la sociedad. Esto implica realizar acciones que promuevan el bienestar común, la sostenibilidad ambiental y la justicia social."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen representativa -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/PT4MxLH/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="25"
+                               Text="El concepto de responsabilidad social abarca desde la ética empresarial hasta el compromiso personal con el entorno."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Ejemplos de Responsabilidad Social -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Ejemplos de Responsabilidad Social:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Voluntariado: Participar en actividades comunitarias que contribuyan al bienestar social."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Sostenibilidad ambiental: Implementar prácticas que reduzcan el impacto ambiental, como el reciclaje y el uso responsable de recursos."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Apoyo a causas sociales: Donar a organizaciones benéficas o apoyar iniciativas que promuevan la equidad y justicia social."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Educación: Fomentar la educación y la concienciación sobre temas sociales y ambientales."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Ética en los negocios: Operar bajo principios éticos que beneficien no solo a la empresa, sino también a la sociedad en general."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/wyStBg5/download.png"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="25"
+                               Text="Cada acción cuenta. La responsabilidad social es un compromiso con el futuro."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

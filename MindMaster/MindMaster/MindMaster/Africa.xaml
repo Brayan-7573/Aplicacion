@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Africa"
+            BackgroundImageSource="https://i.ibb.co/g4qpbqV/cd45f0a6a8454501adb502268ea85121.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="África"
+                       TextColor="White"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="LightGray" Opacity="0.5" />
+                    <Label Text="África es el segundo continente más grande y más poblado del mundo. Es conocido por su rica diversidad cultural, histórica y natural, siendo el hogar de una vasta variedad de pueblos, ecosistemas y paisajes."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen representativa -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/M1x422c/images.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="#C0C0C0" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="África es conocida como la cuna de la humanidad, con una historia que se remonta a los orígenes de la civilización. Su influencia cultural y natural es inmensa y diversa."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre África -->
+                <Grid>
+                    <BoxView Color="#D3D3D3" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Aspectos Destacados de África:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Diversidad Cultural: Con más de 2000 idiomas hablados y cientos de grupos étnicos, África es un continente de una diversidad cultural impresionante."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Patrimonio Natural: África alberga algunos de los ecosistemas más ricos y diversos del mundo, incluyendo el desierto del Sahara, la selva tropical del Congo, y la sabana del Serengeti."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Historia Antigua: Desde las antiguas civilizaciones de Egipto y Nubia hasta los reinos de Mali y Zimbabue, África tiene una historia profunda y compleja."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Flora y Fauna: África es hogar de especies emblemáticas como los elefantes, leones, jirafas y rinocerontes, que habitan en sus vastas reservas y parques nacionales."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Música y Danza: La música y la danza son componentes fundamentales de la cultura africana, con ritmos y estilos que han influenciado géneros musicales en todo el mundo."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional 1 -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/fSYHvD0/images.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="#D3D3D3" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Los elefantes africanos son los animales terrestres más grandes del mundo y son un símbolo icónico de la vida silvestre en África."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Imagen adicional 2 -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/cY3L9W9/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="#D3D3D3" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="La histórica ciudad de Tombuctú en Malí es famosa por sus antiguas universidades e importancia como centro de comercio y aprendizaje islámico en África Occidental."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

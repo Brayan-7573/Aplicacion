@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Londres"
+             BackgroundImageSource="https://e0.pxfuel.com/wallpapers/549/621/desktop-wallpaper-london-iphone-big-city.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <!-- Título -->
+                <Label Text="Londres"
+                       TextColor="Black"
+                       FontSize="60"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+
+                <!-- Descripción -->
+                <Grid Margin="0,20">
+                    <BoxView Color="Black" Opacity="0.5" />
+                    <Label Text="Londres es la capital de Inglaterra y del Reino Unido. Es una ciudad vibrante conocida por su historia rica, su cultura diversa y su arquitectura icónica. Londres alberga algunos de los sitios más famosos del mundo, incluidos el Big Ben, el Museo Británico y el Palacio de Buckingham."
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="White"
+                           FontSize="22"
+                           Margin="0,20,0,10"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap" />
+                </Grid>
+
+                <!-- Imagen representativa -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/V2T7xKr/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="Big Ben es uno de los íconos más reconocibles de Londres y del Reino Unido. Aunque comúnmente se refiere al reloj, el nombre Big Ben originalmente se refería a la gran campana dentro del reloj."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <!-- Detalles sobre Londres -->
+                <Grid>
+                    <BoxView Color="Black" Opacity="0.5"/>
+                    <StackLayout Margin="10">
+                        <Label FontSize="18" FontAttributes="Bold" Text="Aspectos Destacados de Londres:"/>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="1. Monumentos Históricos: Londres está llena de monumentos históricos como el Palacio de Buckingham, la Torre de Londres y la Abadía de Westminster, que atraen a millones de turistas cada año."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="2. Cultura y Arte: La ciudad es un centro cultural de primer nivel con numerosos museos, galerías y teatros. El Museo Británico y la Galería Nacional son solo dos de los muchos lugares destacados."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="3. Diversidad Culinaria: Londres ofrece una amplia variedad de opciones gastronómicas que reflejan su diversidad cultural. Desde mercados callejeros hasta restaurantes de lujo, hay algo para todos los gustos."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="4. Parques y Espacios Verdes: La ciudad cuenta con numerosos parques y espacios verdes, como Hyde Park y Regent's Park, que ofrecen un respiro tranquilo en medio del bullicio urbano."/>
+                        </StackLayout>
+
+                        <StackLayout Margin="10">
+                            <Label FontSize="18" Text="5. Vida Nocturna: Londres tiene una animada vida nocturna con una amplia gama de pubs, bares y clubes nocturnos. Además, hay una rica oferta de entretenimiento en vivo, incluyendo conciertos y teatro."/>
+                        </StackLayout>
+                    </StackLayout>
+                </Grid>
+
+                <!-- Imagen adicional -->
+                <Grid>
+                    <Image Source="https://i.ibb.co/svxXWKy/download.jpg"
+                           Aspect="AspectFill"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="Black" Opacity="0.5" IsVisible="True" />
+                        <Label FontSize="18"
+                               Text="El Palacio de Westminster, también conocido como la Casa del Parlamento, es un emblemático edificio en Londres y sede del parlamento del Reino Unido. Su arquitectura gótica es impresionante y su Torre del Reloj, Big Ben, es uno de los símbolos más reconocibles de la ciudad."
+                               VerticalOptions="Center"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Start"
+                               Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

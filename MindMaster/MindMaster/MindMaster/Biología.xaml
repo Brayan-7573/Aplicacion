@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindMaster.Biología"
+             BackgroundImageSource="https://i.pinimg.com/originals/1a/f1/83/1af1835bdb881b9fb5880e647cf08434.jpg">
+    
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Grid RowSpacing="20" Padding="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0">
+                        <Label Text="Células y Tejidos"
+                       TextColor="White"
+                       FontSize="50"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+                    </Grid>
+                </Grid>
+
+                <Image 
+                    Source="https://concepto.de/wp-content/uploads/2021/02/tejidos-del-cuerpo-e1613325781162-800x400.jpg" 
+                    WidthRequest="300" 
+                    HeightRequest="200" 
+                    Aspect="AspectFit"/>
+
+                <Grid Grid.Row="3" ColumnSpacing="20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Grid Izquierdo -->
+                    <Grid Grid.Column="0">
+                        <BoxView Color="#012103" Opacity="0.5"/>
+                        <StackLayout Margin="10">
+                            <Label FontSize="30" FontAttributes="Bold" Text="Células"/>
+                            <Label FontSize="23" Text="Las células son las unidades básicas de la vida. Todos los organismos vivos están formados por células, que pueden ser unicelulares (formados por una sola célula) 
+                o multicelulares (formados por muchas células)."/>
+                        </StackLayout>
+                    </Grid>
+
+                    <!-- Grid Derecho -->
+                    <Grid Grid.Column="1">
+                        <BoxView Color="#012103" Opacity="0.5"/>
+                        <StackLayout Margin="10">
+                            <Label FontSize="30" FontAttributes="Bold" Text="Tejido"/>
+                            <Label FontSize="23" Text="Un tejido es un conjunto de células similares que trabajan juntas para realizar una función específica en el cuerpo. Los tejidos se organizan en órganos y sistemas, permitiendo el funcionamiento complejo del organismo."/>
+                        </StackLayout>
+                    </Grid>
+                </Grid>
+
+
+                <Grid RowSpacing="20" Padding="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0">
+                        <Label Text="Estructura Celular"
+                       TextColor="White"
+                       FontSize="50"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       LineBreakMode="WordWrap" />
+                    </Grid>
+                </Grid>
+
+
+                <Grid>
+                    <Grid Grid.Column="1">
+                        <Image Source="https://t3.ftcdn.net/jpg/04/43/86/48/360_F_443864861_sc3TNe735eCmXGftYP2fjaekXxyvEnrf.jpg"/>
+                    </Grid>
+
+                    <Grid Grid.Column="0" BackgroundColor="Transparent">
+                        <BoxView Color="#533501" Opacity="0.5" IsVisible="True" />
+                        <Label Text="Las células tienen diversas estructuras llamadas orgánulos, cada una con funciones específicas. Aquí tienes las principales estructuras celulares:" 
+                                VerticalOptions="Center"
+                                HorizontalOptions="Start"
+                                FontSize="23"
+                                Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <Grid>
+                    <BoxView Color="#533501" Opacity="0.5"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                        
+                            <StackLayout Margin="10">
+                                <Label FontSize="20" Text="1. Membrana plasmática: Es una barrera que rodea la célula, controlando el paso de sustancias hacia dentro y fuera de la célula."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="20" Text="2. Núcleo: Contiene el material genético (ADN) y controla las actividades de la célula."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="20" Text="3. Citoplasma: Es el fluido que llena la célula y contiene los orgánulos."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="20" Text="4. Mitocondrias: Producen energía para la célula a través de la respiración celular."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="20" Text="5. Ribosomas: Sintetizan proteínas."/>
+                            </StackLayout>
+
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+                <Grid RowSpacing="20" Padding="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0">
+                        <Label Text="Funciones Celulares"
+                               TextColor="White"
+                               FontSize="50"
+                               FontAttributes="Bold"
+                               HorizontalTextAlignment="Center"
+                               LineBreakMode="WordWrap" />
+                    </Grid>
+                </Grid>
+
+
+                <Grid>
+                    <Image Source="https://cdn.goconqr.com/uploads/media/image/29092012/desktop_454aa54d-2e87-4003-bbc6-3303f4b57323.png"/>
+                    <Grid Grid.Column="1" BackgroundColor="Transparent">
+                        <BoxView Color="#727518" Opacity="0.5" IsVisible="True" />
+
+                        <Label FontSize="22"  
+                                Text="Las funciones celulares son las diversas actividades que las células 
+                               llevan a cabo para mantener la vida y asegurar el correcto funcionamiento del organismo. " 
+                                VerticalOptions="Center"
+                                HorizontalOptions="Start"
+                                Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+
+                <Grid>
+                    <BoxView Color="#727518" Opacity="0.5"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+                            
+                            <StackLayout Margin="10">
+                                <Label FontSize="20" Text="1. Metabolismo: Incluye todas las reacciones químicas que ocurren en la célula, dividiéndose en anabolismo (construcción de moléculas) y catabolismo (descomposición de moléculas)."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="20" Text="2. Reproducción celular: Las células se dividen mediante mitosis (para células somáticas) o meiosis (para células sexuales)."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="20" Text="3. Comunicación celular: Las células se comunican a través de señales químicas para coordinar sus actividades."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="20" Text="4. Transporte de sustancias: La membrana celular regula el transporte de sustancias hacia dentro y fuera de la célula mediante difusión, ósmosis, y transporte activo."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="20" Text="5. Síntesis de proteínas: Los ribosomas traducen el ADN en proteínas, que realizan la mayoría de las funciones celulares."/>
+                            </StackLayout>
+
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+                <Grid RowSpacing="20" Padding="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0">
+                        <Label Text="Tipos de Tejidos"
+                               TextColor="White"
+                               FontSize="50"
+                               FontAttributes="Bold"
+                               HorizontalTextAlignment="Center"
+                               LineBreakMode="WordWrap" />
+                    </Grid>
+                </Grid>
+
+                <Grid>
+                    <Grid Grid.Column="1">
+                        <Image Source="https://www.blogdebiologia.com/wp-content/uploads/2015/12/tejidos.jpg"/>
+                    </Grid>
+
+                    <Grid Grid.Column="0" BackgroundColor="Transparent">
+                        <BoxView Color="#533501" Opacity="0.5" IsVisible="True" />
+                        <Label Text="Los tejidos son conjuntos de células similares que trabajan juntas para llevar a cabo funciones específicas en el cuerpo. " 
+                             VerticalOptions="Center"
+                             HorizontalOptions="Start"
+                             FontSize="23"
+                             Margin="10,0,0,0"/>
+                    </Grid>
+                </Grid>
+
+                <Grid>
+                    <BoxView Color="#533501" Opacity="0.5"/>
+                    <ScrollView>
+                        <StackLayout Margin="10">
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="20" Text="1. Tejido epitelial: Cubre las superficies del cuerpo y órganos, formando barreras protectoras y participando en la absorción y secreción de sustancias."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="20" Text="2. Tejido conectivo: Proporciona soporte y estructura al cuerpo, conectando y sosteniendo otros tejidos."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="20" Text="3. Tejido muscular: Está compuesto por células capaces de contraerse y generar movimiento."/>
+                            </StackLayout>
+
+                            <StackLayout Margin="10">
+                                <Label FontSize="20" Text="4. Tejido nervioso: Forma el sistema nervioso y está compuesto por neuronas y células gliales, responsables de la transmisión de señales eléctricas y soporte del tejido nervioso."/>
+                            </StackLayout>
+
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+
+
+
+
+            </StackLayout>
+       </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
